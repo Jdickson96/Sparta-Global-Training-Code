@@ -257,11 +257,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Desktop\\testCSharp\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting.csproj",
+      "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Time_Of_Day_Unit_Testing\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting.csproj",
       "projectName": "TimeOfDayUnitTesting",
-      "projectPath": "C:\\Users\\James\\Desktop\\testCSharp\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting.csproj",
+      "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Time_Of_Day_Unit_Testing\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting.csproj",
       "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Desktop\\testCSharp\\TimeOfDayUnitTesting\\TimeOfDayUnitTesting\\obj\\",
+      "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Time_Of_Day_Unit_Testing\\TimeOfDayUnitTesting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
