@@ -113,7 +113,7 @@ The main issue with this task is the overlap of every second multiple of 5 and e
             return sum;
 ```
 
-### Check input for "password
+### Check input for "password"
 The code below converts the string into completely lower case in order to remove any issues with uppercase characters not being recognised.
 ```csharp
    if(input.ToLower() == "password") { return true; }
