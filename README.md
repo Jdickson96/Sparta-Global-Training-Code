@@ -1,2 +1,2 @@
 # Sparta-Global-Training-Code
-Code created during the sparta global training exersizes
+Code created during the sparta global training exercises
