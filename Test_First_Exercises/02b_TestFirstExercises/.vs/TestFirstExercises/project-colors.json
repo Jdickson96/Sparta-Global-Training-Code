@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c693ed5f-f841-4b58-bef1-49019f21aa08": {
+      "ProjectGuid": "c693ed5f-f841-4b58-bef1-49019f21aa08",
+      "DisplayName": "TestFirstExercises_Lib",
+      "ColorIndex": 0
+    },
+    "b3d6afcc-c2c5-49a2-baad-0f5a53906fc1": {
+      "ProjectGuid": "b3d6afcc-c2c5-49a2-baad-0f5a53906fc1",
+      "DisplayName": "TestFirstExercises_Tests",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
