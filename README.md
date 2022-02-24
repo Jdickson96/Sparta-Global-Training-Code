@@ -1,5 +1,5 @@
-# Sparta Global Training Code
-Code created during the sparta global training program
+# Sparta Global: Training Code
+Code Created During The Sparta Global Training Program
 
 ## Hello World
 This was a Hello world at one point but I have changed it because I don't think a Hello World file is worth saving. It is currently a piece of code that I am working on in my free time to practice C#. I will add further details when I add more to the code.
