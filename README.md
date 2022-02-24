@@ -1,9 +1,6 @@
 # Sparta Global: Training Code
 Code Created During The Sparta Global Training Program
 
-## Hello World
-This was a Hello world at one point but I have changed it because I don't think a Hello World file is worth saving. It is currently a piece of code that I am working on in my free time to practice C#. I will add further details when I add more to the code.
-
 ## Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
 
@@ -156,3 +153,67 @@ The code below uses two main methods in order to reduce complexity. The foreach 
    foreach (int number in list){   sumOfList += number; }
    return sumOfList;
 ```
+
+## Film Classification Coding and Testing Task
+This task required the changing of some provided code in order to meet the following initial conditions
+> 1. If someone is **Under 12** - U, PG and 12 films are available
+> 2. If someone is **Under 15** - U, PG and 15 Films are available
+> 3. **Over 18** - All films are available
+
+By changing and testing the below provided code
+```csharp
+public static string AvailableClassifications(int ageOfViewer)
+{
+    string result;
+    if (ageOfViewer < 12)
+    {
+        result = "U, PG & 12 films are available.";
+    }
+    else if (ageOfViewer < 15)
+    {
+        result = "U, PG, 12 & 15 films are available.";
+    }
+    else
+    {
+        result = "All films are available.";
+    }
+    return result;
+}
+```
+
+This has issues however with edge cases but more importantly there are issues with the requirements currently in place. This is because the British Board of Film Classification (found at [BBFC](https://www.bbfc.co.uk/)) does not have age classifications as laid out in the current requirements. This means the requirements should change to be:
+> 1. If someone is **Under 12** - U and PG films are available
+> 2. If someone is **Over 12 and Under 15** - U, PG and 12 Films are available
+> > 2. If someone is **Over 15 and Under 18** - U, PG, 12 and 15 Films are available
+> 3. **Over 18** - All films are available
+
+This was then tested by the use of tests on each Edge Case as well as two tests within each age range mentioned above.
+```csharp
+    public class Tests
+    {
+        [Category("In Range cases")]
+        [TestCase(7, "U, PG films are available.")]
+        [TestCase(10, "U, PG films are available.")]
+        [TestCase(13, "U, PG & 12 films are available.")]
+        [TestCase(14, "U, PG & 12 films are available.")]
+        [TestCase(16, "U, PG, 12 & 15 films are available.")]
+        [TestCase(17, "U, PG, 12 & 15 films are available.")]
+        [TestCase(20, "All films are available.")]
+        [TestCase(34, "All films are available.")]
+        public void GivenAnInRangeAge_Rating_ReturnsCorrectMessage(int ageOfViewer, string expected)
+        {
+            Assert.That(expected, Is.EqualTo(Program.AvailableClassifications(ageOfViewer)));
+        }
+
+
+        [Category("Edge cases")]
+        [TestCase(12, "U, PG & 12 films are available.")]
+        [TestCase(15, "U, PG, 12 & 15 films are available.")]
+        [TestCase(18, "All films are available.")]
+        public void GivenAnEdgeAge_Rating_ReturnsCorrectMessage(int ageOfViewer, string expected)
+        {
+            Assert.That(expected, Is.EqualTo(Program.AvailableClassifications(ageOfViewer)));
+        }
+    }
+```
+
