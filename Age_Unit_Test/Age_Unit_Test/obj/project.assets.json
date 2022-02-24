@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\AgeUnitTest.csproj",
-      "projectName": "AgeUnitTest",
-      "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\AgeUnitTest.csproj",
+      "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Age_Unit_Test\\Age_Unit_Test\\Age_Unit_Test.csproj",
+      "projectName": "Age_Unit_Test",
+      "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Age_Unit_Test\\Age_Unit_Test\\Age_Unit_Test.csproj",
       "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\obj\\",
+      "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Age_Unit_Test\\Age_Unit_Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
