@@ -184,8 +184,8 @@ public static string AvailableClassifications(int ageOfViewer)
 This has issues however with edge cases but more importantly there are issues with the requirements currently in place. This is because the British Board of Film Classification (found at [BBFC](https://www.bbfc.co.uk/)) does not have age classifications as laid out in the current requirements. This means the requirements should change to be:
 > 1. If someone is **Under 12** - U and PG films are available
 > 2. If someone is **Over 12 and Under 15** - U, PG and 12 Films are available
-> > 2. If someone is **Over 15 and Under 18** - U, PG, 12 and 15 Films are available
-> 3. **Over 18** - All films are available
+> 3. If someone is **Over 15 and Under 18** - U, PG, 12 and 15 Films are available
+> 4. **Over 18** - All films are available
 
 This was then tested by the use of tests on each Edge Case as well as two tests within each age range mentioned above.
 ```csharp
