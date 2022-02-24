@@ -19,15 +19,14 @@ namespace TestFirstExercises
         {
             double calculatedNumber = Convert.ToDouble(inputNumber);
             calculatedNumber = Math.Round(((((calculatedNumber * calculatedNumber) + 101) / 7) - 4),3);
-
             return calculatedNumber;
         }
 
         // implement this method so that it returns true if num is even, otherwise false
         public static bool EvenOdd(int num)
         {
-            if(num%2 == 0) { return true; }
-                      else { return false;}
+            if(num % 2 == 0) { return true; }
+                        else { return false;}
         }
 
         // implement this method so that it returns 
@@ -35,22 +34,20 @@ namespace TestFirstExercises
         // that are divisible by either 2 or 5
         public static int SumEvenFive(int max)
         {
-            int sum = 0; bool addedFlag = false;
-            for (int i = 1; i <= max; i++)
+            int sum = 0;
+            if (max == 0) { return 0; }
+            else
             {
-                addedFlag = false;
-                if(i % 2 == 0 && addedFlag == false)
+                for (int i = 1; i <= max; i++)
                 {
-                    sum += i;
-                    addedFlag = true;
+                    if (i % 2 == 0 || i % 5 == 0)
+                    {
+                        sum += i;
+
+                    }
                 }
-                if(i % 5 == 0 && addedFlag == false)
-                {
-                    sum += i;
-                    addedFlag = true;
-                }
+                return sum;
             }
-            return sum;
         }
 
         // implement this method so it returns true if input is "password"

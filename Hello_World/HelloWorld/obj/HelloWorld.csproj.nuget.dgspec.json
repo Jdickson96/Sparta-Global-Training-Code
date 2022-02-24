@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\James\\Desktop\\testCSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\James\\Desktop\\testCSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\James\\Desktop\\testCSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\James\\Desktop\\testCSharp\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\James\\Desktop\\testCSharp\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Hello_World\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
