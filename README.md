@@ -76,6 +76,10 @@ Its just:
 if (x >= y)  { return true; }
         else { return false;}
 ```
+This can be simplified down to a single statement as it returns boolean.
+```csharp
+return x>= y;
+```
 
 ### BODMAS
 This section of code is purely about the use of brackets within the equation in order to apply the calculations within the order specified by the task.
@@ -90,6 +94,11 @@ The simplest way to complete this task is by the use of a modulus 2 operator (ch
 ```csharp
     if(num % 2 == 0) { return true; }
                 else { return false;}
+```
+
+This can be simplified down to a single statement as it returns boolean.
+```csharp
+return num % 2 == 0
 ```
 
 ### Sum of Even numbers and Multiples of 5 up to a number
@@ -112,12 +121,32 @@ The main issue with this task is the overlap of every second multiple of 5 and e
             }
             return sum;
 ```
+This code has been changed based upon training session feedback. It has now been simplified down to a single statement with an OR operator with the flag removed.
+```csharp
+int sum = 0;
+if (max == 0) { return 0; }
+else{
+     for (int i = 1; i <= max; i++)
+        {
+        if (i % 2 == 0 || i % 5 == 0)
+          {
+           sum += i;
+          }
+        }
+     return sum;
+    }
+```
 
 ### Check input for "password"
 The code below converts the string into completely lower case in order to remove any issues with uppercase characters not being recognised.
 ```csharp
    if(input.ToLower() == "password") { return true; }
                                 else { return false; }
+```
+
+This can be simplified down to a single statement as it returns boolean.
+```csharp
+return input.ToLower() == "password"
 ```
 
 ### Return the sum of all of the items in a list
