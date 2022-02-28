@@ -228,7 +228,7 @@ This was then tested by the use of tests on each Edge Case as well as two tests 
 
 This task was a lot of explanations of the operators used in coding.
 
-#### Iteration Operators
+### Iteration Operators
 Iterating a number in code by one can be done in two ways.
 ```csharp
 a = x++;
@@ -236,7 +236,7 @@ b = ++y;
 ```
 Having the operator after the value means that the addition is done at the end of the line, whereas having the operator before the value means that the addition is performed before other operations involving the value.
 
-#### Operations assigning types to values
+### Operations assigning types to values
 The value of an equations output is dependent on the data types of those being acted on in the equation. If the numbers have an int datatype then the outputted data will be a whole number. However, if a double is divided by an int then the output will act as a double.
 ```csharp
 var c = 5 / 2;          //c is an int as both equation variables are ints 
@@ -245,7 +245,7 @@ var e = 5 / 3;          //e is an int as both equation variables are ints
 double f = 5 / 2;       //f is a whole number as both equation variables are ints 
 ```
 
-#### Modulus Operator Use
+### Modulus Operator Use
 A modulus operator is used to find the remainder from a division, meaning that it can be used to see if a number is a factor of another (most commonly to find if a number is odd or even).
 ```csharp
     public static int FindSumDiv3And5 (int n)
@@ -284,7 +284,7 @@ while(running)
      }        
 ```
 
-#### Pounds to Stones and Pounds
+### Pounds to Stones and Pounds
 This code has to break a total number of pounds down into a X Stones, Y Pounds value. This makes use of 1 Stone being the equivalent of 14 Pounds, which means that when the total number of pounds is divided by 14, if this value is rounded down then this is the number of Stone needed. The Pounds remainder is then found by using the modulus operator.
 
 ```csharp
@@ -299,7 +299,7 @@ public static int GetPounds(int totalPounds)
         }
 ```
 
-#### Shortcircuiting Operators
+### Shortcircuiting Operators
 Below is a shortcircuiting and (the && operator) as if the left side of the statement is false then the right side is not called. A single and (&) evaluates both arguements but two and operators (&&) looks at them in order from left to right. Which means that the code below will not call the JumpOutOfAirplane function if there is && but it will be called if there is a single & function.
 
 ```csharp
@@ -311,7 +311,7 @@ if (isWearingParachute && JumpOutOfAirplane()) //rather than: if (isWearingParac
   }
 ```
 
-#### Exclusive OR (XOR) Operator
+### Exclusive OR (XOR) Operator
 The XOR operator is used when you want to find a situation where only one of the arguments within the function is true, it's the same as a regular OR but with the both true situation removed. XOR is represented in C# with the ^ symbol.
 ```csharp
 int num1 = 5;
@@ -325,3 +325,122 @@ if (num1 == 5 ^ num2 ==120)  //XOR operator
 
 ## 5) Control Flow
 
+There are multiple different ways to both organise the overall setup of your system as well as methods that can be used to structure your code more effectively.
+
+### Loop Types
+There are multiple different types of loops that can be used in C#. These are:
+#### For Loop
+
+```csharp
+int highestNo = nums[0];
+if (nums.Count > 1)
+{
+        for (int i = 1; i < nums.Count; i++)
+        {
+                if (nums[i] > highestNo)
+                {
+                 highestNo = nums[i];
+                }
+        }
+}
+return highestNo;
+```
+
+#### For Each Loop
+
+```csharp
+internal static int HighestForEachLoop(List<int> nums)
+        {
+            int highestNo = nums[0];
+            foreach(int i in nums)
+            {
+                if (i > highestNo)
+                {
+                    highestNo = i;
+                }
+            }
+            return highestNo;
+        }
+```
+
+#### While Loop
+
+```csharp
+int highestNo = nums[0];
+            int iterator = 0;
+            if (nums.Count > 1)
+            {
+                while (iterator < nums.Count)
+                {
+                    if (nums[iterator] > highestNo)
+                    {
+                        highestNo = nums[iterator];
+                    }
+
+                    iterator++;
+                }
+            }
+            return highestNo;
+```
+
+#### Do While Loop
+
+```csharp
+ int highestNo = int.MinValue;
+            int iterator = 0;
+            if (nums.Count > 1)
+            {
+                do
+                {
+                    if (nums[iterator] > highestNo)
+                    {
+                        highestNo = nums[iterator];
+                    }
+
+                    iterator++;
+                } while (iterator < nums.Count);
+            }
+            return highestNo;
+```
+
+### Switch Statements
+A switch statement is a system for using a single value select between multiple options. This has an advantage over if statements as it doesn't check every single option, it instead moves directly to the matching option. The code below also has empty cases which if they are selected simply drop down to the next section of code within a case.
+```csharp
+switch (level)
+{
+    case 3:
+        return priority + "Red";
+    case 2:
+    case 1:
+        return priority + "Amber";
+    case 0:
+        return priority + "Green";
+    default:
+        return priority + "Error";
+}
+```
+
+Switch statements can also select cases by the use of comparison operators with this working by breaking down sections by having a case selected if it is the only case that matches that value or if it is the first case in the order to. The default statement is a catch-all (the same as a pure else on an if statement).
+```csharp
+switch (age)
+{
+    case < 18:
+        law = "Cannot Legally Drive";
+        break;
+    case < 23:
+        law = "Can legally drive but cannot hire a car";
+        break;
+    default:
+        law = "Can legally drive and rent a car";
+        break;
+}
+```
+
+### Ternary Operators
+A ternary operator uses a question mark to create an argument in order to put a simple if onto a single line.
+> ## Example
+> argument ? (Output if True) : (Output if False)
+This can be shown with actual code below:
+```csharp
+mark >= 65 ? "Pass" : "Fail"; 
+```
