@@ -615,12 +615,13 @@ public void WhenScoreIsEdgeCase_Grade_ReturnsCorrect(int score, string expected)
 The code must meet the requirements in the table below:
 | **Level** | **Max Attendees** |
 |-------|---------------|
-| 4     |       20            |
-| 3     |       50            |
-| 2     |       50            |
-| 1     |       100           |
-| 0     |       200           |
+| 4     | 20            |
+| 3     | 50            |
+| 2     | 50            |
+| 1     | 100           |
+| 0     | 200           |
 
+This is broken down in a simple switch statement below:
 ```csharp
 switch(covidLevel)
 {
