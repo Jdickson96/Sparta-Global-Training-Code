@@ -284,6 +284,21 @@ while(running)
      }        
 ```
 
+#### Pounds to Stones and Pounds
+This code has to break a total number of pounds down into a X Stones, Y Pounds value. This makes use of 1 Stone being the equivalent of 14 Pounds, which means that when the total number of pounds is divided by 14, if this value is rounded down then this is the number of Stone needed. The Pounds remainder is then found by using the modulus operator.
+
+```csharp
+public static int GetStones(int totalPounds)
+        {
+            return totalPounds / 14;
+        }
+
+public static int GetPounds(int totalPounds)
+        {
+            return totalPounds % 14;
+        }
+```
+
 #### Shortcircuiting Operators
 Below is a shortcircuiting and (the && operator) as if the left side of the statement is false then the right side is not called. A single and (&) evaluates both arguements but two and operators (&&) looks at them in order from left to right. Which means that the code below will not call the JumpOutOfAirplane function if there is && but it will be called if there is a single & function.
 
@@ -307,3 +322,6 @@ if (num1 == 5 ^ num2 ==120)  //XOR operator
    Console.WriteLine("Exclusive or satisfied");
   }
 ```
+
+## 5) Control Flow
+
