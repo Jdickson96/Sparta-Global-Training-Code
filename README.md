@@ -6,7 +6,7 @@ Code Created During The Sparta Global Training Program
 > 3) Film Classification Coding and Testing Task
 > 4) Operators
 > 5) Control Flow
-> 6) Operators Control Flow
+> 6) Operators and Control Flow
 
 ## 1) Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
@@ -449,4 +449,192 @@ A ternary operator uses a question mark to create an argument in order to put a 
 This can be shown with actual code below:
 ```csharp
 mark >= 65 ? "Pass" : "Fail"; 
+```
+
+## 6) Operators and Control Flow
+
+### What does the MyMethod Function do?
+The MyMethod function checks if num1 is equal to num2 and then if this is true it returns false. However, if the two numbers are not equal then it is checked if num1 is divisable by num2 and returns true if this is true.
+```csharp
+num1 == num2 ? false : (num1 % num2) == 0; 
+```
+
+This hypothesis is then tested by using the testing code below:
+```csharp
+[Test]
+[TestCase(10,10, false)]
+[TestCase(15, 15, false)]
+[TestCase(20, 20, false)]
+[Category("Both Numbers are Equal")]
+public void WhenNumbersTheSame_MyMethod_ReturnsFalse(int num1, int num2, bool expected)
+{
+ Assert.That(Exercises.MyMethod(num1,num2), Is.EqualTo(expected));
+}
+
+[Test]
+[TestCase(20, 10, true)]
+[TestCase(15, 5, true)]
+[TestCase(200, 20, true)]
+[Category("Number 1 is Divisible by Number 2")]
+public void WhenNum1Divisible_MyMethod_ReturnsTrue(int num1, int num2, bool expected)
+{
+ Assert.That(Exercises.MyMethod(num1, num2), Is.EqualTo(expected));
+}
+
+[Test]
+[TestCase(10, 20, false)]
+[TestCase(5, 15, false)]
+[TestCase(7, 2, false)]
+[Category("Failure Tests")]
+public void WhenNum1IsNotDivisible_MyMethod_ReturnsFalse(int num1, int num2, bool expected)
+{
+ Assert.That(Exercises.MyMethod(num1, num2), Is.EqualTo(expected));
+}
+```
+
+### Average List Value and Tests
+The average value from a list can be calculated by using a variety of different methods. The method below uses a foreach loop to go through each different item in the list, adding them together and then dividing them by the total number of items in the list to get the mean list value.
+```csharp 
+int numsSum = 0;   int listLength = nums.Count;
+if (listLength != 0)
+   {
+    foreach (int num in nums)
+        {
+         numsSum += num;
+        }
+    return Convert.ToDouble(numsSum) / Convert.ToDouble(listLength);
+   }
+    else
+    {
+     return 0;
+    }
+```
+
+The code below tests the function using a test list as well as an empty list to check the results from this input.
+```csharp
+[Test]
+public void Average_ReturnsCorrectAverage()
+{
+ var myList = new List<int>() { 3, 8, 1, 7, 3 };
+ Assert.That(Exercises.Average(myList), Is.EqualTo(4.4));
+}
+
+[Test]
+public void WhenListIsEmpty_Average_ReturnsZero()
+{
+ var myList = new List<int>() {};
+ Assert.That(Exercises.Average(myList), Is.EqualTo(0));
+}
+```
+
+### Ticket Type Code
+The Ticket Type code should fit the following requirements
+> "Standard" if they are between 18 and 59 inclusive
+> "OAP" if they are 60 or over
+> "Student" if they are 13-17 inclusive
+> "Child" if they are 5-12
+> "Free" if they are under 5
+
+The code that meets these requirements is shown below:
+```csharp
+string ticketType = string.Empty;
+if (age >= 60)
+       {
+        ticketType = "OAP";
+       }
+else if(age >= 18 && age <= 59)
+       {
+        ticketType = "Standard";
+       }
+else if (age >= 13 && age <= 17)
+       {
+        ticketType = "Student";
+       }
+else if (age >= 5 && age <= 12)
+       {
+        ticketType = "Child";
+       }
+else if (age < 5)
+       {
+        ticketType = "Free";
+       }
+return ticketType;
+```
+
+### Grade Calculator
+The code below shows grade calculations performed by using a nested if statement (an if statement within an if statement system).
+```csharp
+var grade = "";
+if(mark <= 100)
+{
+        if(mark < 75)
+        {
+                if(mark < 60)
+                {
+                        if(mark < 40)
+                        {
+                         grade = "Fail";
+                        }
+                        else
+                        {
+                         grade = "Pass";
+                        }
+                }
+                 else
+                {
+                 grade = "Pass with Merit";
+                }
+        }
+         else
+        {
+         grade = "Pass with Distinction";
+        }
+}
+return grade;
+```
+
+With this code then tested by using these unit Tests:
+```csharp
+[Test]
+[TestCase(0,  "Fail")]
+[TestCase(39, "Fail")]
+[TestCase(40, "Pass")]
+[TestCase(59, "Pass")]
+[TestCase(60, "Pass with Merit")]
+[TestCase(74, "Pass with Merit")]
+[TestCase(75, "Pass with Distinction")]
+[TestCase(100, "Pass with Distinction")]
+[Category("Edge Cases")]
+public void WhenScoreIsEdgeCase_Grade_ReturnsCorrect(int score, string expected)
+{
+ Assert.That(Exercises.Grade(score), Is.EqualTo(expected));
+}
+```
+
+### Maximum Number of Scottish Covid Wedding Attendees
+The code must meet the requirements in the table below:
+| **Level** | **Max Attendees** |
+|-------|---------------|
+| 4     | 20            |
+| 3     | 50            |
+| 2     | 50            |
+| 1     | 100           |
+| 0     | 200           |
+
+```csharp
+switch(covidLevel)
+{
+case 0:
+    return 200;
+case 1:
+    return 100;
+case 2: 
+    return 50;   
+case 3: 
+    return 50;   
+case 4:
+    return 20;
+default:
+    return -1;
+}
 ```
