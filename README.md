@@ -5,7 +5,7 @@ Code Created During The Sparta Global Training Program
 > 2) Test First Programming Excersize
 > 3) Film Classification Coding and Testing Task
 > 4) Operators
-> 5) Control Flow Application
+> 5) Control Flow
 > 6) Operators Control Flow
 
 ## 1) Time Of Day NUnit Testing
