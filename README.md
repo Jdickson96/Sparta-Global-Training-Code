@@ -1,7 +1,11 @@
 # Sparta Global: Training Code
 Code Created During The Sparta Global Training Program
+>> fdf
+>> dfdf
+>> fdff
+>> dfdf
 
-## Time Of Day NUnit Testing
+## 1) Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
 
 ```csharp
@@ -58,7 +62,7 @@ The NUit testing code I used is shown below. I decided to break down the testing
         }
 ```
 
-## Test First Programming Excersize
+## 2) Test First Programming Excersize
 This code was a list of short coding tests:
 * Greater than or equal to code
 * BODMAS Test (number treated with a series of maths operators)
@@ -154,7 +158,7 @@ The code below uses two main methods in order to reduce complexity. The foreach 
    return sumOfList;
 ```
 
-## Film Classification Coding and Testing Task
+## 3) Film Classification Coding and Testing Task
 This task required the changing of some provided code in order to meet the following initial conditions
 > 1. If someone is **Under 12** - U, PG and 12 films are available
 > 2. If someone is **Under 15** - U, PG and 15 Films are available
