@@ -1,6 +1,6 @@
 # Sparta Global: Training Code
 Code Created During The Sparta Global Training Program
->               #### Index
+> #### Index
 > 1) Time Of Day NUnit Testing
 > 2) Test First Programming Excersize
 > 3) Film Classification Coding and Testing Task
@@ -224,3 +224,46 @@ This was then tested by the use of tests on each Edge Case as well as two tests 
     }
 ```
 
+## 4) Operators
+
+This task was a lot of explanations of the operators used in coding.
+
+#### Iteration Operators
+Iterating a number in code by one can be done in two ways.
+```csharp
+a = x++;
+b = ++y;
+```
+Having the operator after the value means that the addition is done at the end of the line, whereas having the operator before the value means that the addition is performed before other operations involving the value.
+
+#### Operations assigning types to values
+The value of an equations output is dependent on the data types of those being acted on in the equation. If the numbers have an int datatype then the outputted data will be a whole number. However, if a double is divided by an int then the output will act as a double.
+```csharp
+var c = 5 / 2;          //c is an int as both equation variables are ints 
+var d = 5.0 / 2;        //d is an double as the number being divided is a double 
+var e = 5 / 3;          //e is an int as both equation variables are ints 
+double f = 5 / 2;       //f is a whole number as both equation variables are ints 
+```
+
+#### Modulus Operator Use
+A modulus operator is used to find the remainder from a division, meaning that it can be used to see if a number is a factor of another (most commonly to find if a number is odd or even).
+```csharp
+    public static int FindSumDiv3And5 (int n)
+    {
+        int sum = 0;
+        if (n != 0)
+        {
+            for (int i = 0; i < n; i++)
+            {
+                if (i % 3 == 0 || i % 5 == 0)
+                {
+                    sum += i;
+                }
+            }
+            return sum;
+        } else
+        {
+            return 0;
+        }
+    }
+```
