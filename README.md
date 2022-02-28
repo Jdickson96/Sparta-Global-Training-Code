@@ -267,3 +267,43 @@ A modulus operator is used to find the remainder from a division, meaning that i
         }
     }
 ```
+
+The below code is used to move through a sequence of animations. The modulus operator is used here to move along the row with the divide operator being used to move up and down the column. This means that a single value can be used to reference a position in 2 dimensions.
+```csharp
+const int NUM_ROWS = 2;
+const int NUM_COLS = 5;
+bool running = true;
+int row = 0;
+int col = 0;
+int spriteNo = -1;
+while(running)
+     {
+      spriteNo = ++spriteNo % (NUM_COLS * NUM_ROWS);  //This makes the code cycle through 0-9
+      row = spriteNo / NUM_COLS;  //This makes the code switch between 0-1
+      col = spriteNo % NUM_COLS;  //This makes the code cycle through 0-4
+     }        
+```
+
+#### Shortcircuiting Operators
+Below is a shortcircuiting and (the && operator) as if the left side of the statement is false then the right side is not called. A single and (&) evaluates both arguements but two and operators (&&) looks at them in order from left to right. Which means that the code below will not call the JumpOutOfAirplane function if there is && but it will be called if there is a single & function.
+
+```csharp
+bool isWearingParachute = false;
+
+if (isWearingParachute && JumpOutOfAirplane()) //rather than: if (isWearingParachute && JumpOutOfAirplane()) 
+  {
+   Console.WriteLine("Congrats, you have made a successful jump!");
+  }
+```
+
+#### Exclusive OR (XOR) Operator
+The XOR operator is used when you want to find a situation where only one of the arguments within the function is true, it's the same as a regular OR but with the both true situation removed. XOR is represented in C# with the ^ symbol.
+```csharp
+int num1 = 5;
+int num2 = 10;
+
+if (num1 == 5 ^ num2 ==120)  //XOR operator
+  {
+   Console.WriteLine("Exclusive or satisfied");
+  }
+```
