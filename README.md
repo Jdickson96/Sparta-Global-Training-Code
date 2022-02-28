@@ -330,7 +330,9 @@ There are multiple different ways to both organise the overall setup of your sys
 ### Loop Types
 There are multiple different types of loops that can be used in C#. These are:
 #### For Loop
-
+This is the most simple loop format, with the for statement taking the structure of:
+> for(initialising iterator; max iterator value; iteration)
+As shown in the code below:
 ```csharp
 int highestNo = nums[0];
 if (nums.Count > 1)
@@ -347,60 +349,64 @@ return highestNo;
 ```
 
 #### For Each Loop
-
+This is a C# loop format not available in C, with the for each statement taking the structure of:
+> foreach(datatype value in list)
+As shown in the code below:
 ```csharp
-internal static int HighestForEachLoop(List<int> nums)
+int highestNo = nums[0];
+foreach(int i in nums)
+{
+        if (i > highestNo)
         {
-            int highestNo = nums[0];
-            foreach(int i in nums)
-            {
-                if (i > highestNo)
-                {
-                    highestNo = i;
-                }
-            }
-            return highestNo;
+         highestNo = i;
         }
+}
+return highestNo;
 ```
 
 #### While Loop
-
+This is the main C# loop format, with the while statement taking the structure of:
+> initialize iterator outside of loop
+> while(iterator < max value)
+> in loop have iterator++ code
+As shown in the code below:
 ```csharp
 int highestNo = nums[0];
-            int iterator = 0;
-            if (nums.Count > 1)
-            {
-                while (iterator < nums.Count)
+int iterator = 0;
+if (nums.Count > 1)
+{
+        while (iterator < nums.Count)
+        {
+                if (nums[iterator] > highestNo)
                 {
-                    if (nums[iterator] > highestNo)
-                    {
-                        highestNo = nums[iterator];
-                    }
-
-                    iterator++;
+                 highestNo = nums[iterator];
                 }
-            }
-            return highestNo;
+         iterator++;
+        }
+}
+return highestNo;
 ```
 
 #### Do While Loop
-
+This is an alternate while loop used to initialize systems within the repeated code, with the do while statement taking the structure of:
+> initialize iterator outside of loop
+> in loop have iterator++ code
+> > while(iterator < max value)
 ```csharp
- int highestNo = int.MinValue;
-            int iterator = 0;
-            if (nums.Count > 1)
-            {
-                do
+int highestNo = int.MinValue;
+int iterator = 0;
+if (nums.Count > 1)
+{
+        do
+        {
+                if (nums[iterator] > highestNo)
                 {
-                    if (nums[iterator] > highestNo)
-                    {
-                        highestNo = nums[iterator];
-                    }
-
-                    iterator++;
-                } while (iterator < nums.Count);
-            }
-            return highestNo;
+                 highestNo = nums[iterator];
+                }
+         iterator++;
+        } while (iterator < nums.Count);
+}
+return highestNo;
 ```
 
 ### Switch Statements
