@@ -1,0 +1,69 @@
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.exe
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.deps.json
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.runtimeconfig.json
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.pdb
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.AssemblyInfo.cs
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.CopyComplete
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\refint\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.pdb
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.genruntimeconfig.cache
+C:\Users\James\Desktop\testCSharp\TimeOfDayUnitTesting\TimeOfDayUnitTesting\obj\Debug\net6.0\ref\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.exe
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.deps.json
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.runtimeconfig.json
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.AssemblyInfo.cs
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.CopyComplete
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\refint\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.genruntimeconfig.cache
+C:\Users\James\Desktop\Sparta Global Training Code\Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\ref\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.exe
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.deps.json
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.runtimeconfig.json
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\TimeOfDayUnitTesting.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.AssemblyInfo.cs
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.csproj.CopyComplete
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\refint\TimeOfDayUnitTesting.dll
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\TimeOfDayUnitTesting.genruntimeconfig.cache
+C:\Users\James\Desktop\Sparta Global Training Code\1_Time_Of_Day_Unit_Testing\TimeOfDayUnitTesting\obj\Debug\net6.0\ref\TimeOfDayUnitTesting.dll
