@@ -1,9 +1,12 @@
 # Sparta Global: Training Code
 Code Created During The Sparta Global Training Program
 > #### Index
-> dfdf
-> fdff
-> dfdf
+> 1) Time Of Day NUnit Testing
+> 2) Test First Programming Excersize
+> 3) Film Classification Coding and Testing Task
+> 4) Operators
+> 5) Control Flow Application
+> 6) Operators Control Flow
 
 ## 1) Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
