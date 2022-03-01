@@ -502,7 +502,7 @@ if (listLength != 0)
         {
          numsSum += num;
         }
-    return Convert.ToDouble(numsSum) / Convert.ToDouble(listLength);
+    return Convert.ToDouble(numsSum) / listLength;
    }
     else
     {
