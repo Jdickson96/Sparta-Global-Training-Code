@@ -8,6 +8,7 @@ Code Created During The Sparta Global Training Program
 > 5) Control Flow
 > 6) Operators and Control Flow
 > 7) Exceptions
+> 8) Datatypes
 
 ## 1) Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
@@ -716,4 +717,6 @@ public class GradeException : ArgumentOutOfRangeException
 
 C# is strongly and statically typed (so type is known at compile time), so data must have its type declared when it is initialized. The language is also typesafe, where as datas types are defined before use they cannot change type and cause errors (~~Excluding using Dynamic type~~). C# is also memory safe as areas of memory are predefined for data. 
 
+#### Var
 `var x = "Ghost";`    The var keyword can be used to declare variable if it's type can be determined at compile time.
+However it poses issues as it's not clear what datatype it is acting as, it also assigns memory not based on the data being held and so may lead to wasted memory space.
