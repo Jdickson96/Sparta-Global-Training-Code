@@ -796,6 +796,6 @@ The checked operator is used by simply surrounding the code you wish to check wi
 
 ```csharp
 check{
-int x = 255;
+byte x = 256;
 }
 ```
