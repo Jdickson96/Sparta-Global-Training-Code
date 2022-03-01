@@ -756,3 +756,11 @@ The following diagram shows the order of  which data can be **Implicitly Cast**
 
 Along with data which must be manually or **Explicitly cast**
 > `double` -> `float` -> `long` -> `int` -> `char`
+
+### Data Under/OverFlow
+Data under and overflow happens when a datatype is changed in a way that would cause its value to become out of range for the datatype being used. This then causes the datatype to loop around either to the minimum or maximum value and add or subtract the remainder from the new value.
+
+This underflow error is most well known for its effect on the Ghandi NPC in the Civilisation series. The character began the game with the lowest possible warmongering value stored as a byte datatype (0 to 255). The act of trading with the NPC then led to a subtraction of 10 from the warmongering stat (as per the games code), with this action causing the warmonging stat to underflow and lead to Ghandi becoming incredibly aggressive towards other factions in the game.
+
+
+
