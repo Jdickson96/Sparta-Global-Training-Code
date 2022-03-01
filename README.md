@@ -684,3 +684,30 @@ throw new ArgumentOutOfRangeException("Mark: " + mark + " Allowed Range: 0-100")
 ```
 
 This provides information about the issue that is causing the code to fail while also allowing the code to respond to common errors.
+
+#### Exception Testing
+In NUint testing you can test if a piece of code has thrown the desired error in certain situations by using this code:
+
+```csharp
+public class GradeTests
+{
+    [TestCase(-34)]
+    [TestCase(-1)]
+    [Category("Less Than Zero")]
+    public void WhenMarkLessThanZero_Grade_ThrowsArgumentOutOfRangeException(int mark)
+    {
+     Assert.That(() => Program.Grade(mark), Throws.TypeOf<GradeException>()
+           .With.Message.Contain("Allowed range 0-100"));
+    }
+}
+```
+
+#### Exception Definition
+In certain scenarios it may be beneficial to create your own exceptions in order to more accurately outline an issue. In these cases you can define a new exception name using  the class code below:
+
+```csharp
+public class GradeException : ArgumentOutOfRangeException
+{
+ public GradeException(string message) : base(message) { }
+}
+```
