@@ -723,11 +723,11 @@ However it poses issues as it's not clear what datatype it is acting as, it also
 
 #### Int
 There are multiple different versions of an int (with the default `int` refering to `int32` specifically) with some of these values being shown below:
-`sbyte`  -128 to 127
-`byte`   0 to 255
-`short`  -32,768 to 32,767
-`ushort` 0 to 65,535
-`int`  	 -2,147,483,648 to 2,147,483,647
-`uint`   0 to 4,294,967,295
-`long`   -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
-`ulong`  0 to 18,446,744,073,709,551,615
+* `sbyte`  -128 to 127
+* `byte`   0 to 255
+* `short`  -32,768 to 32,767
+* `ushort` 0 to 65,535
+* `int`  	 -2,147,483,648 to 2,147,483,647
+* `uint`   0 to 4,294,967,295
+* `long`   -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+* `ulong`  0 to 18,446,744,073,709,551,615
