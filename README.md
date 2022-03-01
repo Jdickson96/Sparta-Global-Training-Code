@@ -739,3 +739,5 @@ This is a numeric data type which is used to store data that requires precision 
 * `float`   	~6-9 digits   (4 bytes)
 * `double`  	~15-17 digits (8 bytes)
 * `decimal`     28-29 digits (16 bytes)
+
+This is useful in scenarios where a high level of precision is required (for example during distance calculations for moving a robot).
