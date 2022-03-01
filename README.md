@@ -721,13 +721,21 @@ C# is strongly and statically typed (so type is known at compile time), so data 
 `var x = "Ghost";`    The var keyword can be used to declare variable if it's type can be determined at compile time.
 However it poses issues as it's not clear what datatype it is acting as, it also assigns memory not based on the data being held and so may lead to wasted memory space.
 
+If `var` is passed a digit it assigns it the data value of `int` by default with the type chosen for numbers too large for this being the smallest that will allow the number to fit.
+
 #### Int
-There are multiple different versions of an int (with the default `int` refering to `int32` specifically) with some of these values being shown below:
+There are multiple different versions of an int (with the default `int` refering to `int32` specifically) with these types and the number ranges they can store being shown below:
 * `sbyte`  -128 to 127
 * `byte`   0 to 255
 * `short`  -32,768 to 32,767
 * `ushort` 0 to 65,535
-* `int`  	 -2,147,483,648 to 2,147,483,647
+* `int`    -2,147,483,648 to 2,147,483,647
 * `uint`   0 to 4,294,967,295
 * `long`   -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 * `ulong`  0 to 18,446,744,073,709,551,615
+
+#### Floating Point
+This is a numeric data type which is used to store data that requires precision as it accurately stores decimal places:
+* `float`   	~6-9 digits   (4 bytes)
+* `double`  	~15-17 digits (8 bytes)
+* `decimal`     28-29 digits (16 bytes)
