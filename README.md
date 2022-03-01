@@ -759,6 +759,12 @@ The following diagram shows the order of  which data can be **Implicitly Cast**
 Along with data which must be manually or **Explicitly cast**
 > `double` -> `float` -> `long` -> `int` -> `char`
 
+An example of **Explicit casting** is shown below:
+```csharp
+double x = 2.0;
+int intx = (int)x;
+```
+
 ### Data Under/OverFlow
 Data under and overflow happens when a datatype is changed in a way that would cause its value to become out of range for the datatype being used. This then causes the datatype to loop around either to the minimum or maximum value and add or subtract the remainder from the new value.
 
