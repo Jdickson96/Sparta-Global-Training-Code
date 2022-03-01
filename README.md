@@ -740,4 +740,4 @@ This is a numeric data type which is used to store data that requires precision 
 * `double`  	~15-17 digits (8 bytes)
 * `decimal`     28-29 digits (16 bytes)
 
-This is useful in scenarios where a high level of precision is required (for example during distance calculations for moving a robot).
+This is useful in scenarios where a high level of precision is required (for example during distance calculations for moving a robot). Banks use Decimals to represent money rather than a float or a double due to the small rounding error that occurs in binary which will lead to noticable errors if done on a large enough scale.
