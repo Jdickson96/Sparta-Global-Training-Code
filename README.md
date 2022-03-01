@@ -752,7 +752,7 @@ var x = 5.50 / 5;
 This converts the double data type on the right into the var datatype on the left. This can be done easily if the number being cast is of a smaller datatype than that which it is being cast to. However, when going from a larger datatype to a smaller datatype, explicit casting must be used due to the danger of data loss.
 
 The following diagram shows the order of  which data can be **Implicitly Cast**
-`char`->`int`->`long`->`float`->`double`
+> `char`->`int`->`long`->`float`->`double`
 
 Along with data which mus be **Explicitly cast**(or manually cast)
-`double` -> `float` -> `long` -> `int` -> `char`
+> `double` -> `float` -> `long` -> `int` -> `char`
