@@ -717,13 +717,13 @@ public class GradeException : ArgumentOutOfRangeException
 
 C# is strongly and statically typed (so type is known at compile time), so data must have its type declared when it is initialized. The language is also typesafe, where as datas types are defined before use they cannot change type and cause errors (~~Excluding using Dynamic type~~). C# is also memory safe as areas of memory are predefined for data. 
 
-#### Var
+### Var
 `var x = "Ghost";`    The var keyword can be used to declare variable if it's type can be determined at compile time.
 However it poses issues as it's not clear what datatype it is acting as, it also assigns memory not based on the data being held and so may lead to wasted memory space.
 
 If `var` is passed a digit it assigns it the data value of `int` by default with the type chosen for numbers too large for this being the smallest that will allow the number to fit.
 
-#### Int
+### Int
 There are multiple different versions of an int (with the default `int` refering to `int32` specifically) with these types and the number ranges they can store being shown below:
 * `sbyte`  -128 to 127
 * `byte`   0 to 255 (the byte type is unsigned by default)
@@ -734,10 +734,25 @@ There are multiple different versions of an int (with the default `int` refering
 * `long`   -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 * `ulong`  0 to 18,446,744,073,709,551,615
 
-#### Floating Point
+Unsigned integers means that the value of the data can only be positive.
+
+### Floating Point
 This is a numeric data type which is used to store data that requires precision as it accurately stores decimal places:
 * `float`   	~6-9 digits   (4 bytes)
 * `double`  	~15-17 digits (8 bytes)
 * `decimal`     28-29 digits (16 bytes)
 
 This is useful in scenarios where a high level of precision is required (for example during distance calculations for moving a robot). Banks use Decimals to represent money rather than a float or a double due to the small rounding error that occurs in binary which will lead to noticable errors if done on a large enough scale.
+
+### Datatype Casting
+Datatypes can be changed by being acted on by differing operators.For example:
+```csharp
+var x = 5.50 / 5;
+```
+This converts the double data type on the right into the var datatype on the left. This can be done easily if the number being cast is of a smaller datatype than that which it is being cast to. However, when going from a larger datatype to a smaller datatype, explicit casting must be used due to the danger of data loss.
+
+The following diagram shows the order of  which data can be **Implicitly Cast**
+`char`->`int`->`long`->`float`->`double`
+
+Along with data which mus be **Explicitly cast**(or manually cast)
+`double` -> `float` -> `long` -> `int` -> `char`
