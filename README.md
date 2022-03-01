@@ -495,14 +495,14 @@ public void WhenNum1IsNotDivisible_MyMethod_ReturnsFalse(int num1, int num2, boo
 ### Average List Value and Tests
 The average value from a list can be calculated by using a variety of different methods. The method below uses a foreach loop to go through each different item in the list, adding them together and then dividing them by the total number of items in the list to get the mean list value.
 ```csharp 
-int numsSum = 0;   int listLength = nums.Count;
+double numsSum = 0;   int listLength = nums.Count;
 if (listLength != 0)
    {
     foreach (int num in nums)
         {
          numsSum += num;
         }
-    return Convert.ToDouble(numsSum) / listLength;
+    return numsSum / listLength;
    }
     else
     {
