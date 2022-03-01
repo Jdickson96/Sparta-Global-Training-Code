@@ -768,7 +768,6 @@ int intx = (int)x;
 ### Data Under/OverFlow
 Data under and overflow happens when a datatype is changed in a way that would cause its value to become out of range for the datatype being used. This then causes the datatype to loop around either to the minimum or maximum value and add or subtract the remainder from the new value.
 
-This underflow error is most well known for its effect on the Ghandi NPC in the Civilisation series. The character began the game with the lowest possible aggression value stored as a value from 0 to 10. The act of trading with the NPC then led to a subtraction of 1 from the aggression stat (as per the games code), with this action causing the aggression stat to underflow and lead to Ghandi becoming incredibly aggressive towards other factions in the game.
+> This underflow error is most well known for its effect on the Ghandi NPC in the Civilisation series. The character began the game with the lowest possible aggression value > > stored as a value from 0 to 10. The act of trading with the NPC then led to a subtraction of 1 from the aggression stat (as per the games code), with this action causing the > aggression stat to underflow and lead to Ghandi becoming incredibly aggressive towards other factions in the game.
 
-
-
+If a number is explicitly cast to a value that cannot fit it in memory, this can lead to under or overflow depending on the value being cast.
