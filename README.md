@@ -641,3 +641,10 @@ default:
 
 ### Static Keyword
 Static means that the item using the keyword doesn't need to be instanced. Along with this Static classes can only contain static members.
+
+### Exceptions
+Exceptions are objects which are thrown when an issue occurs at runtime. 
+There are differences between
+* Syntax Error (Won't compile due to spelling or written issue)
+* Logic Errors (Code will compile but there is an issue with the operators)
+* Exceptions (Code will compile but returns unexpected output)
