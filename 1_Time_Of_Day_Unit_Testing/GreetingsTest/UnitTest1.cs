@@ -1,5 +1,6 @@
 using CodeToTest;
 using NUnit.Framework;
+using System;
 
 namespace Tests
 {
@@ -38,5 +39,14 @@ namespace Tests
         {
             Assert.That(expected, Is.EqualTo(Program.Greeting(time)));
         }
-    }
+
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        [TestCase(25)]
+        public void GivenATime_Greeting_ReturnsException(int time)
+        {
+            Assert.That(() => Program.Greeting(time), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("TimeOfDay: " + time + " " + "Allowed range 0-24"));
+        }
+}
 }

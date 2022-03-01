@@ -14,17 +14,17 @@ namespace Op_CtrlFlow
         public static double Average(List<int> nums)
         {   
             double numsSum = 0;   int listLength = nums.Count;
-            if (listLength != 0)
-            {
-                foreach (int num in nums)
+                if (listLength == 0)
+                {
+                    throw new NullReferenceException("Average Cannot Be Calculated From Empty Array");
+                }
+                else
+                {
+                    foreach (int num in nums)
                 {
                     numsSum += num;
                 }
                 return numsSum / listLength;
-            }
-            else
-            {
-                return 0;
             }
         }
 
@@ -37,27 +37,34 @@ namespace Op_CtrlFlow
         public static string TicketType(int age)
         {
             string ticketType = string.Empty;
-            if (age >= 60)
+            if (age < 0 || age > 150)
             {
-              ticketType = "OAP";
+                throw new ArgumentOutOfRangeException("age: " + age + " Allowed range 0-150");
             }
-            else if(age >= 18 && age <= 59)
+            else
             {
-                ticketType = "Standard";
-            }
-            else if (age >= 13 && age <= 17)
-            {
-                ticketType = "Student";
-            }
-            else if (age >= 5 && age <= 12)
-            {
-                ticketType = "Child";
-            }
-            else if (age < 5)
-            {
-                ticketType = "Free";
-            }
+                if (age >= 60)
+                {
+                    ticketType = "OAP";
+                }
+                else if (age >= 18 && age <= 59)
+                {
+                    ticketType = "Standard";
+                }
+                else if (age >= 13 && age <= 17)
+                {
+                    ticketType = "Student";
+                }
+                else if (age >= 5 && age <= 12)
+                {
+                    ticketType = "Child";
+                }
+                else if (age < 5)
+                {
+                    ticketType = "Free";
+                }
                 return ticketType;
+            }
         }
 
         /*
@@ -86,29 +93,37 @@ namespace Op_CtrlFlow
         public static string Grade(int mark)
         {
             var grade = "";
-           if(mark <= 100)
+
+            if (mark < 0 || mark > 100)
             {
-                if(mark < 75)
+                throw new ArgumentOutOfRangeException("mark: " + mark + " Allowed range 0-100");
+            }
+            else
+            {
+                if (mark <= 100)
                 {
-                    if(mark < 60)
+                    if (mark < 75)
                     {
-                        if(mark < 40)
+                        if (mark < 60)
                         {
-                            grade = "Fail";
+                            if (mark < 40)
+                            {
+                                grade = "Fail";
+                            }
+                            else
+                            {
+                                grade = "Pass";
+                            }
                         }
                         else
                         {
-                            grade = "Pass";
+                            grade = "Pass with Merit";
                         }
                     }
                     else
                     {
-                        grade = "Pass with Merit";
+                        grade = "Pass with Distinction";
                     }
-                }
-                else
-                {
-                    grade = "Pass with Distinction";
                 }
             }
             return grade;
@@ -116,19 +131,26 @@ namespace Op_CtrlFlow
 
         public static int GetScottishMaxWeddingNumbers(int covidLevel)
         {
-            switch(covidLevel)
+            if (covidLevel < 0 || covidLevel > 4)
             {
-                case 0:
-                    return 200;
-                case 1:
-                    return 100;
-                case 2:  
-                case 3: 
-                    return 50;   
-                case 4:
-                    return 20;
-                default:
-                    return -1;
+                throw new ArgumentOutOfRangeException("level: " + covidLevel + " Allowed range 0-4");
+            }
+            else
+            {
+                switch (covidLevel)
+                {
+                    case 0:
+                        return 200;
+                    case 1:
+                        return 100;
+                    case 2:
+                    case 3:
+                        return 50;
+                    case 4:
+                        return 20;
+                    default:
+                        return -1;
+                }
             }
         }
     }

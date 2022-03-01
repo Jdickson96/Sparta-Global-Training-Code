@@ -1,6 +1,7 @@
 ﻿using NUnit.Framework;
 using Op_CtrlFlow;
 using System.Collections.Generic;
+using System;
 
 namespace Op_CtrlFlow_Tests
 {
@@ -47,10 +48,11 @@ namespace Op_CtrlFlow_Tests
         }
 
         [Test]
-        public void WhenListIsEmpty_Average_ReturnsZero()
+        public void WhenListIsEmpty_Average_ReturnsException()
         {
             var myList = new List<int>() {};
-            Assert.That(Exercises.Average(myList), Is.EqualTo(0));
+            Assert.That(() => Exercises.Average(myList), Throws.TypeOf<NullReferenceException>()
+                .With.Message.Contain("Average Cannot Be Calculated From Empty Array"));
         }
 
         // Unit test(s) for TicketType
@@ -65,10 +67,19 @@ namespace Op_CtrlFlow_Tests
         [TestCase(5, "Child")]
         [TestCase(4, "Free")]
         [TestCase(0, "Free")]
-        public void TicketTypeTest(int age, string expected)
+        public void GivenAnAge_TicketType_ReturnsCorrect(int age, string expected)
         {
             var result = Exercises.TicketType(age);
             Assert.That(result, Is.EqualTo(expected));
+        }
+
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        [TestCase(175)]
+        public void GivenAnAge_TicketType_ReturnsException(int age)
+        {
+            Assert.That(() => Exercises.TicketType(age), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("age: " + age + " Allowed range 0-150"));
         }
 
         // Unit test(s) for Grade
@@ -88,6 +99,15 @@ namespace Op_CtrlFlow_Tests
             Assert.That(Exercises.Grade(score), Is.EqualTo(expected));
         }
 
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        [TestCase(101)]
+        public void GivenAScore_Grade_ReturnsException(int score)
+        {
+            Assert.That(() => Exercises.Grade(score), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("mark: " + score + " Allowed range 0-100"));
+        }
+
         // Unit test(s) for Scottish Weddings
 
         [Test]
@@ -101,5 +121,15 @@ namespace Op_CtrlFlow_Tests
         {
             Assert.That(Exercises.GetScottishMaxWeddingNumbers(level), Is.EqualTo(expected));
         }
+
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        [TestCase(5)]
+        public void WhenLevel_Attendees_ReturnsException(int level)
+        {
+            Assert.That(() => Exercises.GetScottishMaxWeddingNumbers(level), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("level: " + level + " Allowed range 0-4"));
+        }
+
     }
 }

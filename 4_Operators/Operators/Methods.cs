@@ -10,12 +10,26 @@ namespace Operators
     {
         public static int GetStones(int totalPounds)
         {
-            return totalPounds / 14;
+            if (totalPounds < 0)
+            {
+                throw new ArgumentOutOfRangeException("totalPounds: " + totalPounds + " Value Must Be Greater than Zero");
+            }
+            else
+            {
+                return totalPounds / 14;
+            }
         }
 
         public static int GetPounds(int totalPounds)
         {
-            return totalPounds % 14;
+            if (totalPounds < 0)
+            {
+                throw new ArgumentOutOfRangeException("totalPounds: " + totalPounds + " Value Must Be Greater than Zero");
+            }
+            else
+            {
+                return totalPounds % 14;
+            }
         }
     }
 }

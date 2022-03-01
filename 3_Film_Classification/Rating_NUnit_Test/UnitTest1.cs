@@ -1,5 +1,6 @@
 using CodeToTest;
 using NUnit.Framework;
+using System;
 
 namespace Tests
 {
@@ -27,6 +28,15 @@ namespace Tests
         public void GivenAnEdgeAge_Rating_ReturnsCorrectMessage(int ageOfViewer, string expected)
         {
             Assert.That(expected, Is.EqualTo(Program.AvailableClassifications(ageOfViewer)));
+        }
+
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        [TestCase(175)]
+        public void GivenAnOutOfRangeAge_Rating_ReturnsException(int ageOfViewer)
+        {
+            Assert.That(() => Program.AvailableClassifications(ageOfViewer), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("ageOfViewer: " + ageOfViewer + " " + "Allowed range 0-150"));
         }
     }
 }

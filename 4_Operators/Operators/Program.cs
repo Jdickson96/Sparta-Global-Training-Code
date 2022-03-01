@@ -1,4 +1,5 @@
 ﻿using System;
+using Operators;
 
 namespace Operator;
 
@@ -6,17 +7,25 @@ public class Ops
 {
     public static void Main(string[] args)
 {
-        //int x = 5;
-        //int y = 5;
+        /*
+         * iterator order test
+        int x = 5;
+        int y = 5;
 
-        //int a = x++;
-        //int b = ++y;
+        int a = x++;
+        int b = ++y;
+        */
 
-        //for (int i = 1; i<= 5; ++i)
-        //{
-        //      Console.WriteLine(i);
-        //}
+        /*
+         * For loop before iterator test
+        for (int i = 1; i<= 5; ++i)
+        {
+              Console.WriteLine(i);
+        }
+        */
 
+        /*  
+         *  Double and int assignment testing 
         var c = 5 / 2; 
         var d = 5.0 / 2;
         var e = 5 / 3;
@@ -27,6 +36,7 @@ public class Ops
         Console.WriteLine("d is:" + d);
         Console.WriteLine("e is:" + e);
         Console.WriteLine("f is:" + f);
+        */
 
         //Console.WriteLine(FindSumDiv3And5(6));
         /*
@@ -65,6 +75,9 @@ public class Ops
         //  {
         //      Console.WriteLine("Exclusive or satisfied");
         //  }
+
+       // Methods.GetStones(15);
+       // Methods.GetPounds(15);
     }
 
     private static bool JumpOutOfAirplane()

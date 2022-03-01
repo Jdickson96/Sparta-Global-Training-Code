@@ -1,12 +1,14 @@
 using Operators;
 using NUnit.Framework;
+using System;
 
 
 namespace StoneTests
 {
     public class OperatorTests
     {
-        [TestCase(-1, 0)]
+        //Stone No Test
+
         [TestCase(0, 0)]
         [TestCase(13, 0)]
         [TestCase(14, 1)]
@@ -18,7 +20,16 @@ namespace StoneTests
             Assert.That(expected, Is.EqualTo(Methods.GetStones(totalPounds)));
         }
 
-        [TestCase(-1, -1)]
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        public void GivenPounds_GetStones_ReturnsException(int totalPounds)
+        {
+            Assert.That(() => Methods.GetStones(totalPounds), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("totalPounds: " + totalPounds + " Value Must Be Greater than Zero"));
+        }
+
+        //Pound No Test
+
         [TestCase(0, 0)]
         [TestCase(1, 1)]
         [TestCase(13, 13)]
@@ -29,6 +40,14 @@ namespace StoneTests
         public void GivenPounds_GetPounds_ReturnsCorrectValue(int totalPounds, int expected)
         {
             Assert.That(expected, Is.EqualTo(Methods.GetPounds(totalPounds)));
+        }
+
+        [Category("Exception Tests")]
+        [TestCase(-1)]
+        public void GivenPounds_GetPounds_ReturnsException(int totalPounds)
+        {
+            Assert.That(() => Methods.GetPounds(totalPounds), Throws.TypeOf<ArgumentOutOfRangeException>()
+                .With.Message.Contain("totalPounds: " + totalPounds + " Value Must Be Greater than Zero"));
         }
 
     }

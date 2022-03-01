@@ -1,0 +1,44 @@
+﻿using System;
+
+namespace DataTypes_Lib
+{
+    public static class IntegerCalc
+    {
+        public static long Add(int num1, int num2)
+        {
+             return checked(num1 + num2);
+        }
+
+        public static int Subtract(int num1, int num2)
+        {
+            return checked(num1 - num2);
+        }
+
+        public static int Multiply(int num1, int num2)
+        {
+            return checked(num1 * num2);
+        }
+
+        public static int Divide(int num1, int num2)
+        {
+            if (num2 == 0) {
+                throw new ArgumentOutOfRangeException("Can't divide by zero");
+            }
+            else {
+                return checked(num1 / num2);
+            }
+        }
+
+        public static int Modulus(int num1, int num2)
+        {
+            if (num2 == 0)
+            {
+                throw new ArgumentOutOfRangeException("Can't modulo by zero");
+            }
+            else
+            {
+                return checked(num1 % num2);
+            }
+        }
+    }
+}

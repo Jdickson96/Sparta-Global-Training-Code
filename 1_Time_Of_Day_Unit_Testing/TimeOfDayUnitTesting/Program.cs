@@ -6,8 +6,17 @@ public class Program
     static void Main(string[] args)
     {
         int timeOfDay = 21;
+        try
+        {
         var greeting = Greeting(timeOfDay);
-        Console.WriteLine(greeting);
+            Console.WriteLine(greeting);
+        }
+        catch (ArgumentOutOfRangeException ex)
+        {
+            Console.WriteLine("Invalid data, please try again");
+            Console.WriteLine(ex.Message);
+        }
+        
 
     }
 
@@ -15,17 +24,24 @@ public class Program
     {
 
         string greeting;
-        if (timeOfDay >= 5 && timeOfDay <= 12)
+        if (timeOfDay < 0 || timeOfDay > 24)
         {
-            greeting = "Good morning!";
-        }
-        else if (timeOfDay > 12 && timeOfDay <= 18)
-        {
-            greeting = "Good afternoon!";
+            throw new ArgumentOutOfRangeException("TimeOfDay: " + timeOfDay + " " + "Allowed range 0-24");
         }
         else
         {
-            greeting = "Good evening!";
+            if (timeOfDay >= 5 && timeOfDay <= 12)
+            {
+                greeting = "Good morning!";
+            }
+            else if (timeOfDay > 12 && timeOfDay <= 18)
+            {
+                greeting = "Good afternoon!";
+            }
+            else
+            {
+                greeting = "Good evening!";
+            }
         }
         return greeting;
     }
