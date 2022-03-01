@@ -711,3 +711,7 @@ public class GradeException : ArgumentOutOfRangeException
  public GradeException(string message) : base(message) { }
 }
 ```
+
+## 8) Datatypes
+
+C# is strongly and statically typed (so type is known at compile time), so data must have its type declared when it is initialized. The language is also typesafe, where as datas types are defined before use they cannot change type and cause errors (~~Excluding using Dynamic type~~). C# is also memory safe as areas of memory are predefined for data. 
