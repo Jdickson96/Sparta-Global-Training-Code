@@ -746,6 +746,8 @@ This is a numeric data type which is used to store data that requires precision 
 
 This is useful in scenarios where a high level of precision is required (for example during distance calculations for moving a robot). Banks use Decimals to represent money rather than a float or a double due to the small rounding error that occurs in binary which will lead to noticable errors if done on a large enough scale.
 
+This rounding error can also lead to issues in testing as it leads to small indescrepancies between two calculations performed by the same function and so a tolerance may need to be added.
+
 ### Datatype Casting
 Datatypes can be changed by being acted on by differing operators.For example:
 ```csharp
