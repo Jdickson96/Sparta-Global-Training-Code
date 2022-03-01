@@ -648,3 +648,5 @@ There are differences between
 * Syntax Error (Won't compile due to spelling or written issue)
 * Logic Errors (Code will compile but there is an issue with the operators)
 * Exceptions (Code will compile but returns unexpected output)
+
+Exceptions are used in order to locate where the issue occurs within the code and remove the need for a root cause analysis.
