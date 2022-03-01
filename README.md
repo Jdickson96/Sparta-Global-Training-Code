@@ -726,7 +726,7 @@ If `var` is passed a digit it assigns it the data value of `int` by default with
 #### Int
 There are multiple different versions of an int (with the default `int` refering to `int32` specifically) with these types and the number ranges they can store being shown below:
 * `sbyte`  -128 to 127
-* `byte`   0 to 255
+* `byte`   0 to 255 (the byte type is unsigned by default)
 * `short`  -32,768 to 32,767
 * `ushort` 0 to 65,535
 * `int`    -2,147,483,648 to 2,147,483,647
