@@ -734,7 +734,9 @@ There are multiple different versions of an int (with the default `int` refering
 * `long`   -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
 * `ulong`  0 to 18,446,744,073,709,551,615
 
-Unsigned integers means that the value of the data can only be positive.
+Unsigned integers means that the value of the data can only be positive. 
+
+For an unsigned int in binary an all 1's value is the maximum, however on a signed int all 1's in binary is -1.
 
 ### Floating Point
 This is a numeric data type which is used to store data that requires precision as it accurately stores decimal places:
