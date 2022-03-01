@@ -650,7 +650,7 @@ There are differences between
 * Logic Errors (Code will compile but there is an issue with the operators)
 * Exceptions (Code will compile but returns unexpected output)
 
-Exceptions are used in order to locate where the issue occurs within the code and remove the need for a root cause analysis.
+Exceptions are used in order to locate where the issue occurs within the code and remove the need for a root cause analysis. The C# librarys exceptions are all subclasses of `SystemException`, which is a subclass of `Exception`
 
 ### Try-Catch Method
 This is a method to catch exceptions at runtime and then run a piece of code in response. The code example below shows an example where strings are printed to the console when an exception is caused. With the finally keyword used to always run a piece of code regardless of exceptions hit.
