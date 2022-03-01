@@ -17,11 +17,16 @@ public class Ops
         //      Console.WriteLine(i);
         //}
 
-        //var c = 5 / 2; 
-        //var d = 5.0 / 2;
-        //var e = 5 / 3;
+        var c = 5 / 2; 
+        var d = 5.0 / 2;
+        var e = 5 / 3;
 
-        // double f = 5 / 2;
+        double f = 5 / 2;
+
+        Console.WriteLine("c is:" + c);
+        Console.WriteLine("d is:" + d);
+        Console.WriteLine("e is:" + e);
+        Console.WriteLine("f is:" + f);
 
         //Console.WriteLine(FindSumDiv3And5(6));
         /*
@@ -53,14 +58,14 @@ public class Ops
                 }
         */
 
-        int num1 = 5;
-        int num2 = 10;
+        //  int num1 = 5;
+        //  int num2 = 10;
 
-        if (num1 == 5 ^ num2 ==120)  //XOR operator
-        {
-            Console.WriteLine("Exclusive or satisfied")
-        }
-}
+        //  if (num1 == 5 ^ num2 ==120)  //XOR operator
+        //  {
+        //      Console.WriteLine("Exclusive or satisfied");
+        //  }
+    }
 
     private static bool JumpOutOfAirplane()
     {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators\\Operators\\Operators.csproj": {}
+    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\4_Operators\\Operators\\Operators.csproj": {}
   },
   "projects": {
-    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators\\Operators\\Operators.csproj": {
+    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\4_Operators\\Operators\\Operators.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators\\Operators\\Operators.csproj",
+        "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\4_Operators\\Operators\\Operators.csproj",
         "projectName": "Operators",
-        "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators\\Operators\\Operators.csproj",
+        "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\4_Operators\\Operators\\Operators.csproj",
         "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators\\Operators\\obj\\",
+        "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\4_Operators\\Operators\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",

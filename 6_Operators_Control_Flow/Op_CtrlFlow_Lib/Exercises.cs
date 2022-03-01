@@ -13,14 +13,14 @@ namespace Op_CtrlFlow
         // returns the average of the array nums
         public static double Average(List<int> nums)
         {   
-            int numsSum = 0;   int listLength = nums.Count;
+            double numsSum = 0;   int listLength = nums.Count;
             if (listLength != 0)
             {
                 foreach (int num in nums)
                 {
                     numsSum += num;
                 }
-                return Convert.ToDouble(numsSum) / Convert.ToDouble(listLength);
+                return numsSum / listLength;
             }
             else
             {
@@ -59,6 +59,29 @@ namespace Op_CtrlFlow
             }
                 return ticketType;
         }
+
+        /*
+                switch (age)
+                {
+                    case >= 60:
+                        ticketType = "OAP";
+                        break;
+                    case >= 18:
+                        ticketType = "Standard";
+                        break;
+                    case >= 13:
+                        ticketType = "Student";
+                        break;
+                    case >= 5:
+                        ticketType = "Child";
+                        break;
+                    case < 5:
+                        ticketType = "Free";
+                        break;
+                    default:
+                        ticketType = "Error";
+                        break;
+         */
 
         public static string Grade(int mark)
         {
@@ -99,8 +122,7 @@ namespace Op_CtrlFlow
                     return 200;
                 case 1:
                     return 100;
-                case 2: 
-                    return 50;   
+                case 2:  
                 case 3: 
                     return 50;   
                 case 4:

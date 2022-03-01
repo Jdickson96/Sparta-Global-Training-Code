@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj": {}
+    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\5_ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj": {
+    "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\5_ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj",
+        "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\5_ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj",
         "projectName": "ControlFlowApp",
-        "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj",
+        "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\5_ControlFlowApp\\ControlFlowApp\\ControlFlowApp.csproj",
         "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\ControlFlowApp\\ControlFlowApp\\obj\\",
+        "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\5_ControlFlowApp\\ControlFlowApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",

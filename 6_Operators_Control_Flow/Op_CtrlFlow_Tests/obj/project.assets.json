@@ -3818,11 +3818,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators_ControlFlow_Lab_Starter\\Op_CtrlFlow_Tests\\Op_CtrlFlow_Tests.csproj",
+      "projectUniqueName": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\6_Operators_Control_Flow\\Op_CtrlFlow_Tests\\Op_CtrlFlow_Tests.csproj",
       "projectName": "Op_CtrlFlow_Tests",
-      "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators_ControlFlow_Lab_Starter\\Op_CtrlFlow_Tests\\Op_CtrlFlow_Tests.csproj",
+      "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\6_Operators_Control_Flow\\Op_CtrlFlow_Tests\\Op_CtrlFlow_Tests.csproj",
       "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators_ControlFlow_Lab_Starter\\Op_CtrlFlow_Tests\\obj\\",
+      "outputPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\6_Operators_Control_Flow\\Op_CtrlFlow_Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3839,8 +3839,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators_ControlFlow_Lab_Starter\\Op_CtrlFlow_Lib\\Op_CtrlFlow.csproj": {
-              "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators_ControlFlow_Lab_Starter\\Op_CtrlFlow_Lib\\Op_CtrlFlow.csproj"
+            "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\6_Operators_Control_Flow\\Op_CtrlFlow_Lib\\Op_CtrlFlow.csproj": {
+              "projectPath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\6_Operators_Control_Flow\\Op_CtrlFlow_Lib\\Op_CtrlFlow.csproj"
             }
           }
         }

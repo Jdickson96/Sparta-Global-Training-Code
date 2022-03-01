@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zk4npVZGcp/ukB/bhCwsFza5jsLv2369d5SjSkOl3ZEjrE8dM8cPIiroUM6TYrXuP6/cIRwpnjimYOM1XjN/Eg==",
+  "dgSpecHash": "IriBebkh8a1WuEYZU9jpNTtjWyzoF2rs304BEEHlDltENJbhN5y6TErBCej+v7SAEkx388iqlF14lsmxocD2Pg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\Operators\\StoneTests\\StoneTests.csproj",
+  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\4_Operators\\StoneTests\\StoneTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\James\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",
