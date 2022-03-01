@@ -754,5 +754,5 @@ This converts the double data type on the right into the var datatype on the lef
 The following diagram shows the order of  which data can be **Implicitly Cast**
 > `char`->`int`->`long`->`float`->`double`
 
-Along with data which mus be **Explicitly cast**(or manually cast)
+Along with data which must be manually or **Explicitly cast**
 > `double` -> `float` -> `long` -> `int` -> `char`
