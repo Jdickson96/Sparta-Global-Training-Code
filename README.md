@@ -764,6 +764,20 @@ An example of **Explicit casting** is shown below:
 double x = 2.0;
 int intx = (int)x;
 ```
+#### Convert
+This is a method used in order to **Explicitly Cast** a datatype to another, with demonstration code shown below:
+```csharp
+var theInt = 5;
+//No Conversion
+var anotherInt = Convert.ToInt32(theInt);
+//safe - widening
+var myDouble = Convert.ToDouble(theInt);
+//unsafe - Narrowing
+var myShort = Convert.ToIn16(theInt);
+//InvalidCastException
+var pi = 3.142;
+DateTime piDay = Convert.ToDateTime(pi);
+```
 
 ### Data Under/OverFlow
 Data under and overflow happens when a datatype is changed in a way that would cause its value to become out of range for the datatype being used. This then causes the datatype to loop around either to the minimum or maximum value and add or subtract the remainder from the new value.
