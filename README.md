@@ -630,7 +630,6 @@ case 0:
 case 1:
     return 100;
 case 2: 
-    return 50;   
 case 3: 
     return 50;   
 case 4:
