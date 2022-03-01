@@ -638,3 +638,6 @@ default:
     return -1;
 }
 ```
+
+### Static Keyword
+Static means that the item using the keyword doesn't need to be instanced. Along with this Static classes can only contain static members.
