@@ -676,3 +676,11 @@ finally
   Console.WriteLine("Always Run No Matter What Happens");
  }
 ```
+
+Exceptions can also be used in the code to trigger when the code has an error caused by an exception to its inputs:
+
+```csharp
+throw new ArgumentOutOfRangeException("Mark: " + mark + " Allowed Range: 0-100");
+```
+
+This provides information about the issue that is causing the code to fail while also allowing the code to respond to common errors.
