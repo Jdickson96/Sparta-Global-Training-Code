@@ -7,6 +7,7 @@ Code Created During The Sparta Global Training Program
 > 4) Operators
 > 5) Control Flow
 > 6) Operators and Control Flow
+> 7) Exceptions
 
 ## 1) Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
@@ -642,7 +643,7 @@ default:
 ### Static Keyword
 Static means that the item using the keyword doesn't need to be instanced. Along with this Static classes can only contain static members.
 
-### Exceptions
+## 7) Exceptions
 Exceptions are objects which are thrown when an issue occurs at runtime. 
 There are differences between
 * Syntax Error (Won't compile due to spelling or written issue)
@@ -650,3 +651,28 @@ There are differences between
 * Exceptions (Code will compile but returns unexpected output)
 
 Exceptions are used in order to locate where the issue occurs within the code and remove the need for a root cause analysis.
+
+### Try-Catch Method
+This is a method to catch exceptions at runtime and then run a piece of code in response. The code example below shows an example where strings are printed to the console when an exception is caused. With the finally keyword used to always run a piece of code regardless of exceptions hit.
+```csharp
+string text;
+string fileName = "HelloWorld.txt";
+
+try 
+ { 
+  text = File.ReadAllText(fileName); 
+  Console.WriteLine(text);
+ }
+catch (FileNotFoundException ex)        //Exception stored in variable ex
+ {
+  Console.WriteLine("Sorry I can't find: " + fileName);
+ }
+catch (ArgumentException ex)            //Exception where no fileName entered
+ {
+  Console.WriteLine("You Gave Me an Empty fileName");
+ }
+finally
+ {
+  Console.WriteLine("Always Run No Matter What Happens");
+ }
+```
