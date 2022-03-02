@@ -824,14 +824,15 @@ This operation is used to split a string into an array of strings and is useful 
 
 ```csharp
 string names = "Jab,James,Guarav,Goncalo";
-String[] namesToArray = names.Split(',');
+String[] namesToArray = names.Split(',');       //returns {"Jab","James","Guarav","Goncalo"}
 ```
 
 #### Trim
 This operator removes any blank space at the beginning or end of a string in order to clean up any used data:
 
 ```csharp
-string trimmedData = data.Trim();
+string data = " blank bits gone ";
+string trimmedData = data.Trim();       // returns "blank bits gone"
 ```
 
 #### Letter Case Operations
@@ -863,4 +864,7 @@ This operator removes a section of the string after a designated character locat
 ```csharp
 data.Remove(location);
 ```
+
+### StringBuilder Class
+This class simply presents a mutable version of strings for manipulation, it does however, have fewer methods. The basic methods that can be used are: update, read, modify and delete.
 
