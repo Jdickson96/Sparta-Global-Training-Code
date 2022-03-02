@@ -1037,3 +1037,8 @@ public enum suits
     HEARTS, CLUBS, DIAMONDS, SPADES
 }
 ```
+
+You can cast other types to an enum using the `Parse` operator, if it matches.
+```csharp
+var anotherSuit = Enum.Parse(typrof(suits), "CLUBS");
+```
