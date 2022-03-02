@@ -890,6 +890,19 @@ private static string StringBuilderVersion(string input)
 }
 ```
 **If a string needs to be changed in a loop, use a stringbuilder class instead to reduce the amount of data being used**
+ This can be seen in the below example:
+ ```csharp
+ public static string ManipulateString(string input, int num) //a piece of code to manipulate and return a string
+        {
+            input = input.ToUpper().Trim();
+            StringBuilder sb = new StringBuilder (input);
+            for(int i = 0; i < num; i++)
+            {
+                sb.Append(i);
+            }
+            return   sb.ToString();
+        }
+ ```
 
 ### String Interpolation
 This is a simplified method for combining strings rather than using the Concat function as this simplifies the overall code format. For Example:
