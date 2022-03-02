@@ -944,4 +944,17 @@ Arrays are immutable, along with strings and constants. An array of type `var` c
 ```csharp
 var traineesArray = new string[]{"David","Marian","Stanni"};
 ```
+Arrays are of a fixed size that is defined when they are created and trying to add past this point will throw a `OutOfRangeException`
 
+**They also have a large amounts of methods that can be applied to them, with some shown here**
+
+#### Reverse
+This method simply reverses the order of the elements in the array, so the first index item becomes the last and visa versa.
+
+#### ForEach
+This method applies defined code to each part of the array referenced. So for example the code below prints out every item in the array
+```csharp
+Array.ForEach(myArray, x => Console.WriteLine(x);
+```
+#### OrderBy
+This method is used to organise the data within an array and can be used in the form of `OrderByDescending` to sort integer values by their numerical value.
