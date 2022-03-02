@@ -984,3 +984,25 @@ int[][] intJArray = new int[2][];
 
         intJArray[0][2] = 3; //This sets a single cell in the array
 ```
+
+### Date and Time
+This presents an issue due to the presence of leap years, leap seconds as well as other calendar formats. This has led to coding systems having calendar management built into their systems with many different cultures calendars provided for.
+
+In computing the method of ticks is often used, there are 10 million ticks in a second.
+
+The minimum value for datetime in C# is 00:00:00 00/00/0000 with the max value being the end of the year 9999.
+
+The Unix timecode is the start of 1970, and this is the base time for a large amount of computers as they count from this moment. This poses an issue however if a system uses a 32 bit system, as this will overflow in 2038 but can be fixed by switching to a 64 bit number which is magnitudes larger.
+
+To get the time when the code is run:
+```csharp
+var now = DateTime.Now;
+
+var tomorrow = now.AddDays(1);                  //this calculates tomorrows date (any time segment can be refered to here)
+Console.WriteLine(tomorrow.ToString("y-M-d"));  //the ToString Method specifies the format of the date wanted
+
+TimeSpan myAge = DateTime.Now - birthDay;       //Timespan is simply the length of time between 2 dates
+```
+
+
+
