@@ -9,6 +9,7 @@ Code Created During The Sparta Global Training Program
 > 6) Operators and Control Flow
 > 7) Exceptions
 > 8) Datatypes
+> 9) More Datatypes
 
 ## 1) Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
@@ -801,3 +802,15 @@ check{
 byte x = 256;
 }
 ```
+
+## 9) More Datatypes
+
+### Strings
+
+Strings are stored in continuous memory blocks (In the same way as arrays) ending with an end of range characters. Strings look like primitive data types which are stored on the stack, but are in fact objects and so are stored in the heap (in the string pool). As a string is an object it has a constructor. 
+
+`string` is an alias for `String` 
+
+There are many 
+
+
