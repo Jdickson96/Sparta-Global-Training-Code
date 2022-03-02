@@ -938,3 +938,10 @@ bool isSuccess = true;
             cki = Console.ReadKey();    //reading a single keypress
         } while (cki.Key != ConsoleKey.Escape);
 ```
+
+### Arrays
+Arrays are immutable, along with strings and constants. An array of type `var` cannot be directly created, however an array of a know type can be cast to it. For example
+```csharp
+var traineesArray = new string[]{"David","Marian","Stanni"};
+```
+
