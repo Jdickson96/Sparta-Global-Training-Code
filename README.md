@@ -890,6 +890,7 @@ private static string StringBuilderVersion(string input)
 }
 ```
 **If a string needs to be changed in a loop, use a stringbuilder class instead to reduce the amount of data being used**
+ 
  This can be seen in the below example:
  ```csharp
  public static string ManipulateString(string input, int num) //a piece of code to manipulate and return a string
