@@ -1028,3 +1028,12 @@ var stopwatch = new Stopwatch();
         Console.WriteLine(stopwatch.ElapsedTicks);
 ```
 
+### Enums (Enumerators)
+This is used to display a fixed constant as it provides type safety. In the example below the enumerated data is the suits in a pack of cards, this is because they are fixed values. These can be best sorted with the use of `switch` cases.
+
+```csharp
+public enum suits
+{
+    HEARTS, CLUBS, DIAMONDS, SPADES
+}
+```
