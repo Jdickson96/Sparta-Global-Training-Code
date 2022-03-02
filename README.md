@@ -958,3 +958,17 @@ Array.ForEach(myArray, x => Console.WriteLine(x);
 ```
 #### OrderBy
 This method is used to organise the data within an array and can be used in the form of `OrderByDescending` to sort integer values by their numerical value.
+
+### Multi-Dimensional Arrays
+These are simply arrays but they operate in more than one direction (either 2 or 3 dimensions, with 2 being more prominant). The data within these arrays can be accessed in a similar way to using a graph, so `array[column,row]`
+
+With a 2 dimensional array able to be defined as below:
+```csharp
+char[,] gridTwo =
+{
+{'a','b'},
+{'c','d'},
+{'e','f'},
+{'g','h'}
+};
+```
