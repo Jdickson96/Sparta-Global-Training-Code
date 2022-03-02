@@ -1,7 +1,7 @@
 # Sparta Global: Training Code
 Code Created During The Sparta Global Training Program
 > #### Index
-> 1) [Time Of Day NUnit Testing](#1.-Time-Of-Day-NUnit-Testing)
+> 1) [Time Of Day NUnit Testing](#1-Time-Of-Day-NUnit-Testing)
 > 2) [Test First Programming Excersize](#2.-test-first-programming-excersize)
 > 3) [Film Classification Coding and Testing Task](#3.-film-classification-coding-and-testing-task)
 > 4) [Operators](#4.-operators)
@@ -11,7 +11,7 @@ Code Created During The Sparta Global Training Program
 > 8) [Datatypes](#8.-datatypes)
 > 9) [More Datatypes](#9.-more-datatypes)
 
-## 1. Time Of Day NUnit Testing
+## 1 Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
 
 ```csharp
