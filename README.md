@@ -1,7 +1,7 @@
 # Sparta Global: Training Code
 Code Created During The Sparta Global Training Program
 > #### Index
-> 1) [Time Of Day NUnit Testing](#1.-time-of-day-nunit-testing)
+> 1) [Time Of Day NUnit Testing](#1.-Time-Of-Day-NUnit-Testing)
 > 2) [Test First Programming Excersize](#2.-test-first-programming-excersize)
 > 3) [Film Classification Coding and Testing Task](#3.-film-classification-coding-and-testing-task)
 > 4) [Operators](#4.-operators)
