@@ -1004,5 +1004,12 @@ Console.WriteLine(tomorrow.ToString("y-M-d"));  //the ToString Method specifies 
 TimeSpan myAge = DateTime.Now - birthDay;       //Timespan is simply the length of time between 2 dates
 ```
 
+**.net 6.0 added some new date features**
+Such as `DateOnly`, which is shown below, this simply formats dates to a usable format for most cases.
+```csharp
+var myDate = DateOnly(1989,11,2);
+```
+
+
 
 
