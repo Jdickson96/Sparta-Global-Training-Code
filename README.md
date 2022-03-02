@@ -819,6 +819,48 @@ string nish3 = "Nish Kumar";
 
 There are many different operations that can be performed on a string to allow for additional functionality, this includes:
 
+#### Split
+This operation is used to split a string into an array of strings and is useful for breaking up lists (such as the comma seperated lists in a csv file) into useable data.
 
+```csharp
+string names = "Jab,James,Guarav,Goncalo";
+String[] namesToArray = names.Split(',');
+```
 
+#### Trim
+This operator removes any blank space at the beginning or end of a string in order to clean up any used data:
+
+```csharp
+string trimmedData = data.Trim();
+```
+
+#### Letter Case Operations
+The case of the letters in a string can be changed simply by either using the ToUpper or ToLower operators:
+
+```csharp
+string data = "LoAdS oF dIfFeReNt CaSeS";
+string dataLower = data.ToLower();      //returns "loads of different cases"
+string dataUpper = data.ToUpper();      //returns "LOADS OF DIFFERENT CASES"
+```
+
+#### Replace
+This operator works to replace characters in the string with a different selected character
+
+```csharp
+string changedData2 = changedData1.Replace('T', '*');   // this will replace any T's in the string with *'s
+```
+
+#### IndexOf
+By using this operator you get the location of a designated character within a string as the string can be treated as an array of characters:
+
+```csharp
+var nPos = changedData2.IndexOf('N');
+```
+
+#### Remove
+This operator removes a section of the string after a designated character location:
+
+```csharp
+data.Remove(location);
+```
 
