@@ -890,3 +890,36 @@ private static string StringBuilderVersion(string input)
 }
 ```
 
+### String Interpolation
+This is a simplified method for combining strings rather than using the Concat function as this simplifies the overall code format. For Example:
+
+```csharp
+var spartaString = String.Concat("This", "Is", "Sparta");       //This is the concaternation method
+
+Console.WriteLine("My name is : " + str + " using +");                          //the interpolation method can use the '+' operator
+Console.WriteLine($"My name is {str} using interpolation");                     //the interpolation method can also use curled brackets to add data
+var fString = $"{num1} to the power of {num2} is {Math.Pow(num1, num2)}";       // with the ability to perform code within these brackets
+
+var fString2 = $"That will be {num1 / 3.0:C}, please";  //This would output num1/3 in GBP because of the C (culture operator)
+                                                        //This can also use N (to give decimal places, 2 by default) and P (to give it as a percentage) 
+```
+
+### Parsing Strings
+Parsing a string is converting it into a different datatype from its original, and can be done via the use of the Parse or TryParse operator. Below is a demonstration for the TryParse operator, the Parse method works the same way except it does not produce a boolean statement based upon whether the parsing is possible.
+
+```csharp
+bool isSuccess = true;
+        ConsoleKeyInfo cki;     //stores key press data
+        do {
+            Console.WriteLine("How Many Apples?");
+            string input = Console.ReadLine();          //simply reading the keyboard
+            isSuccess = Int32.TryParse(input, out int numApples);       //the method is equal to a boolean statement while the out method produces the output of the Parsing
+            Console.WriteLine($"{numApples} apples");                   //by default the output int is 0
+            if (!isSuccess)
+            {
+                Console.WriteLine("Please enter a valid number");
+            }
+            Console.WriteLine("Continue or Leave? Press Esc to leave");
+            cki = Console.ReadKey();    //reading a single keypress
+        } while (cki.Key != ConsoleKey.Escape);
+```
