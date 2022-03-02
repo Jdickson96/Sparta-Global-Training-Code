@@ -807,10 +807,18 @@ byte x = 256;
 
 ### Strings
 
-Strings are stored in continuous memory blocks (In the same way as arrays) ending with an end of range characters. Strings look like primitive data types which are stored on the stack, but are in fact objects and so are stored in the heap (in the string pool). As a string is an object it has a constructor. 
+Strings are stored in continuous memory blocks (In the same way as arrays) ending with an end of range characters. Strings look like primitive data types which are stored on the stack, but are in fact objects and so are stored in the heap (in the string pool). As a string is an object it has a constructor, they are also immutable and as such redefined data still exists it is just not referenced. 
 
-`string` is an alias for `String` 
+`string` is an alias for `String` this means that there is a multitude of ways to initialize a string which are all equivalent:
 
-There are many 
+```csharp
+String nish = "Nish Kumar";
+String nish2 = new String("Nish Kumar");
+string nish3 = "Nish Kumar";
+```
+
+There are many different operations that can be performed on a string to allow for additional functionality, this includes:
+
+
 
 
