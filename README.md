@@ -866,5 +866,27 @@ data.Remove(location);
 ```
 
 ### StringBuilder Class
-This class simply presents a mutable version of strings for manipulation, it does however, have fewer methods. The basic methods that can be used are: update, read, modify and delete.
+This class simply presents a mutable version of strings for manipulation, it does however, have fewer methods. The basic methods that can be used are: update, read, modify and delete. This is used mainly to reduce the amount of memory used by strings in a system but does still require the use of strings for certain operations. The code below show a string based operation along with its stringBuilder equivalent for reference.
+
+```csharp
+private string StringVersion(string input)
+{
+ string trimmedUpperString = input.Trim().ToUpper();
+ string changedData1 = trimmedUpperString.Replace('L', '*');
+ string changedData2 = changedData1.Replace('T', '*');
+ var nPos = changedData2.IndexOf('N');
+ return changedData2.Remove(nPos + 1);
+}
+    
+private static string StringBuilderVersion(string input)
+{
+ var trimmedUpperString = input.Trim().ToUpper();
+ var nPos = trimmedUpperString.IndexOf('n');
+ StringBuilder sb = new StringBuilder(trimmedUpperString);
+ sb.Replace('L', '*').Replace('T','*');
+ sb.Remove(nPos + 1, sb.Length - nPos - 1);
+ sb.Append(" and is better than c++ and Java");
+ return sb.ToString();
+}
+```
 
