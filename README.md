@@ -1005,6 +1005,7 @@ TimeSpan myAge = DateTime.Now - birthDay;       //Timespan is simply the length 
 ```
 
 **.net 6.0 added some new date features**
+
 Such as `DateOnly`, which is shown below, this simply formats dates to a usable format for most cases.
 ```csharp
 var myDate = DateOnly(1989,11,2);
