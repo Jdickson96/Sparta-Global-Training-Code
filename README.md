@@ -2,14 +2,14 @@
 Code Created During The Sparta Global Training Program
 > #### Index
 > 1) [Time Of Day NUnit Testing](#1-Time-Of-Day-NUnit-Testing)
-> 2) [Test First Programming Excersize](#2.-test-first-programming-excersize)
-> 3) [Film Classification Coding and Testing Task](#3.-film-classification-coding-and-testing-task)
-> 4) [Operators](#4.-operators)
-> 5) [Control Flow](#5.-control-flow)
-> 6) [Operators and Control Flow](#6.-operators-and-control-flow)
-> 7) [Exceptions](#7.-exceptions)
-> 8) [Datatypes](#8.-datatypes)
-> 9) [More Datatypes](#9.-more-datatypes)
+> 2) [Test First Programming Excersize](#2-Test-First-Programming-Excersize)
+> 3) [Film Classification Coding and Testing Task](#3-Film-Classification-Coding-and-Testing-Task)
+> 4) [Operators](#4-Operators)
+> 5) [Control Flow](#5-Control-Flow)
+> 6) [Operators and Control Flow](#6-Operators-and-Control-Flow)
+> 7) [Exceptions](#7-Exceptions)
+> 8) [Datatypes](#8-Datatypes)
+> 9) [More Datatypes](#9-More-Datatypes)
 
 ## 1 Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
@@ -68,7 +68,7 @@ The NUit testing code I used is shown below. I decided to break down the testing
         }
 ```
 
-## 2. Test First Programming Excersize
+## 2 Test First Programming Excersize
 This code was a list of short coding tests:
 * Greater than or equal to code
 * BODMAS Test (number treated with a series of maths operators)
@@ -164,7 +164,7 @@ The code below uses two main methods in order to reduce complexity. The foreach 
    return sumOfList;
 ```
 
-## 3. Film Classification Coding and Testing Task
+## 3 Film Classification Coding and Testing Task
 This task required the changing of some provided code in order to meet the following initial conditions
 > 1. If someone is **Under 12** - U, PG and 12 films are available
 > 2. If someone is **Under 15** - U, PG and 15 Films are available
@@ -227,7 +227,7 @@ This was then tested by the use of tests on each Edge Case as well as two tests 
     }
 ```
 
-## 4. Operators
+## 4 Operators
 
 This task was a lot of explanations of the operators used in coding.
 
@@ -326,7 +326,7 @@ if (num1 == 5 ^ num2 ==120)  //XOR operator
   }
 ```
 
-## 5. Control Flow
+## 5 Control Flow
 
 There are multiple different ways to both organise the overall setup of your system as well as methods that can be used to structure your code more effectively.
 
@@ -454,7 +454,7 @@ This can be shown with actual code below:
 mark >= 65 ? "Pass" : "Fail"; 
 ```
 
-## 6. Operators and Control Flow
+## 6 Operators and Control Flow
 
 ### What does the MyMethod Function do?
 The MyMethod function checks if num1 is equal to num2 and then if this is true it returns false. However, if the two numbers are not equal then it is checked if num1 is divisable by num2 and returns true if this is true.
@@ -645,7 +645,7 @@ default:
 ### Static Keyword
 Static means that the item using the keyword doesn't need to be instanced. Along with this Static classes can only contain static members.
 
-## 7. Exceptions
+## 7 Exceptions
 Exceptions are objects which are thrown when an issue occurs at runtime. 
 There are differences between
 * Syntax Error (Won't compile due to spelling or written issue)
@@ -714,7 +714,7 @@ public class GradeException : ArgumentOutOfRangeException
 }
 ```
 
-## 8. Datatypes
+## 8 Datatypes
 
 C# is strongly and statically typed (so type is known at compile time), so data must have its type declared when it is initialized. The language is also typesafe, where as datas types are defined before use they cannot change type and cause errors (~~Excluding using Dynamic type~~). C# is also memory safe as areas of memory are predefined for data. 
 
@@ -803,7 +803,7 @@ byte x = 256;
 }
 ```
 
-## 9. More Datatypes
+## 9 More Datatypes
 
 ### Strings
 
