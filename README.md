@@ -889,7 +889,7 @@ private static string StringBuilderVersion(string input)
  return sb.ToString();
 }
 ```
-**If a string needs to be changed in a loop, use a stringbuilder class instead to reduce the amount of data being used**
+**If a string needs to be changed in a loop, use a StringBuilder class instead to reduce the amount of data being used**
  
  This can be seen in the below example:
  ```csharp
