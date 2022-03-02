@@ -889,6 +889,7 @@ private static string StringBuilderVersion(string input)
  return sb.ToString();
 }
 ```
+**If a string needs to be changed in a loop, use a stringbuilder class instead to reduce the amount of data being used**
 
 ### String Interpolation
 This is a simplified method for combining strings rather than using the Concat function as this simplifies the overall code format. For Example:
