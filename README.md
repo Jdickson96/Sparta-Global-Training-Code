@@ -1034,7 +1034,7 @@ This is used to display a fixed constant as it provides type safety. In the exam
 ```csharp
 public enum suits
 {
-    HEARTS, CLUBS, DIAMONDS, SPADES
+    HEARTS, CLUBS, DIAMONDS, SPADES     //these can be assigned integer values but by default they start from zero and iterate
 }
 ```
 
@@ -1042,3 +1042,19 @@ You can cast other types to an enum using the `Parse` operator, if it matches.
 ```csharp
 var anotherSuit = Enum.Parse(typrof(suits), "CLUBS");
 ```
+
+### Const
+This keyword means once the variable has been initialized it cannot be changed. So once it has been assigned a value in the code it cannot be reassigned, meaning that provided it is set correctly you should always know its value.
+
+### Readonly
+Readonly is used to make the variables for a class read only (and as such unable to be overwritten by sections of code). This is used for `private member variables` but for `methods` the `sealed` command is used.
+
+```csharp
+private readonly string _name;
+public Trainee(string name)
+{
+_name = name;
+}
+```
+
+**If a value is a private member then the convention is to name it `_variable` with an underscore at the start to show this behaviour.**
