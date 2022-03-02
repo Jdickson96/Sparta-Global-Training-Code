@@ -1011,6 +1011,20 @@ Such as `DateOnly`, which is shown below, this simply formats dates to a usable 
 var myDate = DateOnly(1989,11,2);
 ```
 
+### Stopwatch
+There is a stopwatch datatype which can be used to record periods of time within the code. This can be used as seen in the code below:
 
-
+```csharp
+var stopwatch = new Stopwatch();
+        stopwatch.Start();
+        long total = 0;
+        for (int i = 0; i < int.MaxValue; i++)
+        {
+            total += i;
+        }
+        stopwatch.Stop();
+        Console.WriteLine(stopwatch.Elapsed);
+        Console.WriteLine(stopwatch.ElapsedMilliseconds);
+        Console.WriteLine(stopwatch.ElapsedTicks);
+```
 
