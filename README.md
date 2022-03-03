@@ -1153,19 +1153,23 @@ return (st, lb); //Or it can be stored as a var result = (st, lb); and have this
 
 ### The Stack
 
-The stack is an area of memory where variables are stored when they are declared. It is a last in, first out form of data storage. Variables in the stack are either:
-* Values
-* References to the heap
+The stack is an area of memory where variables are stored when they are declared. It is a last in, first out form of data storage. 
+> Variables in the stack are either:
+> * Values
+> * References to the heap
 
-The Stack stores `value types` which store their data directly, these include `enums`, `int` and `structs`
+The Stack stores `value types` which store their data directly, these include `enums`, `int` and `structs`. These are small and have a fixed size, where copying the address would take the same amount of time as copying the actual data.
 
 Local variables are **Popped** off the Stack when they go out of scope (for example when a variable is declared in a method and you leave that method).
 
 ### The Heap
 
-The Heap is a larger memory area and it holds what is being referenced in the stack. When a new type is referenced the system makes space for it in the Heap. These are known as `reference types` which reference a location in memory such as `string` `array` `list`
+The Heap is a larger memory area and it holds what is being referenced in the stack. When a new type is referenced the system makes space for it in the Heap. These are known as `reference types` which reference a location in memory such as `string` `array` `list`. These types are referenced due to their size meaning this saves a considerable amount of space as well as allowing for these objects to have increased complexity.
+
+**Beware when using a `reference` type as a method argument it can be changed by the method**
 
 ### Garbage Collector
 
 This runs to clean up any data on the Heap when a memory threshold is met, when the memory is full or in most cases periodically. This is the equivalent of defragmenting a hard-drive. This is because it works to empty any non-referenced (dead) data as well as to combine any data that may have been broken up within the heap to make it take up the least space in memory.
 
+If objects were left in memory this would eventually fill up the heap memory which can lead to memory leaks.
