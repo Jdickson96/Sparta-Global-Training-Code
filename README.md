@@ -1177,3 +1177,8 @@ The Heap is a larger memory area and it holds what is being referenced in the st
 This runs to clean up any data on the Heap when a memory threshold is met, when the memory is full or in most cases periodically. This is the equivalent of defragmenting a hard-drive. This is because it works to empty any non-referenced (dead) data as well as to combine any data that may have been broken up within the heap to make it take up the least space in memory.
 
 If objects were left in memory this would eventually fill up the heap memory which can lead to memory leaks.
+
+The garbage collectors job is broken down into 3 main areas:
+* Find  (Locate any dead references)
+* Free  (Clear the memory in these areas)
+* Compact (Move the data that exists in the heap together to optimize memory)
