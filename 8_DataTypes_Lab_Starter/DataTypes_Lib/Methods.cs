@@ -7,12 +7,19 @@ namespace DataTypes_Lib
         // write a method to return the product of all numbers from 1 to n inclusive
         public static long Factorial(int n)
         {
-            long result = 1;
-            for(int i = 1; i <= n; i++)
+            if (n <= 0)
             {
-                result *= i;
+                throw new ArgumentOutOfRangeException("Input is below allowed values");
             }
-            return result;
+            else
+            {
+                long result = 1;
+                for (int i = 1; i <= n; i++)
+                {
+                    result *= i;
+                }
+                return result;
+            }
         }
 
         public static float Mult(float num1, float num2)
