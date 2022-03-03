@@ -1131,6 +1131,10 @@ public static int DoThis(int x, string y, out bool z)
 #### In Keyword
 The same as a reference but it's read only input reference and so the referenced value being passed cannot have its value in memory changed.
 
+```csharp
+public static int DoThis(in int x, string y)
+```
+
 ### Tuples
 A tuple is a format of multiple datatypes in a single data structure
 
