@@ -1095,4 +1095,31 @@ var myPizza = OrderPizza(anchovies: true, pineapple: false);
 ```
 This makes the codee far easier to read, especially in longer sections of code.
 
+### Ref Keyword
+This is to not pass a copy of a variable but instead send a reference to its location in memory. For example in the method below y is unchanged by the operation on num within the method as its location in memory is not accessed (due to the use of a copy of it's value). However, in the z example no copy is made, with the location of z passed and so it is altered directly rather than having a temporary variable (that exists only in the method) changed.
 
+```csharp
+int y = 10;
+        int z = 10;
+        Add(y);
+        Console.WriteLine(y);
+        Add(ref z);
+        Console.WriteLine(z);
+    }
+
+    public static void Add(int num)
+    {
+        num++;
+    }
+
+    public static void Add(ref int num)
+    {
+        num++;
+    }
+```
+
+### Out keyword
+This is a reference keyword that returns the output of a method to a specific location in memory (overwriting a previously stored variable there).
+
+### In Keyword
+The same as a reference but it's read only input reference and so the referenced value being passed cannot have its value in memory changed.
