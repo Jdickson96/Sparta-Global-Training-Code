@@ -10,6 +10,7 @@ Code Created During The Sparta Global Training Program as well as notes from the
 > 7) [Exceptions](#Exceptions)
 > 8) [Datatypes](#Datatypes)
 > 9) [More Datatypes](#More-Datatypes)
+> 10) [Methods](#Methods)
 
 ## Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
@@ -1058,3 +1059,16 @@ _name = name;
 ```
 
 **If a value is a private member then the convention is to name it `_variable` with an underscore at the start to show this behaviour.**
+
+### Random
+These can be created with or without a seed value (a starting point for random values), as they are psuedo random. If no seed value is provided then the computers time in ticks is used.
+```csharp
+        var rng = new Random();         //unseeded random
+        var rngSeeded = new Random(42); //seeded random
+        var between1And10 = rngSeeded.Next(1,11);       // The .Next method provides an upper and lower bound for the random number
+        Console.WriteLine(between1And10);
+```
+
+## Methods
+
+A method is made up of it's `visibility`, `Return type`, `name`, `parameters` (within the `signature`) and then its `body`
