@@ -1,4 +1,4 @@
-# Sparta Global: Training Code
+# Sparta Global: C# Core Training Code
 Code Created During The Sparta Global Training Program as well as notes from the coding lessons taught during the course.
 > #### Index
 > 1) [Time Of Day NUnit Testing](#Time-Of-Day-NUnit-Testing)
