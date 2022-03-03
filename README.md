@@ -1,16 +1,19 @@
-# Sparta Global: Training Code
-Code Created During The Sparta Global Training Program
+# Sparta Global: C# Core Training Code
+Code Created During The Sparta Global Training Program as well as notes from the coding lessons taught during the course.
 > #### Index
-> 1) Time Of Day NUnit Testing
-> 2) Test First Programming Excersize
-> 3) Film Classification Coding and Testing Task
-> 4) Operators
-> 5) Control Flow
-> 6) Operators and Control Flow
-> 7) Exceptions
-> 8) Datatypes
+> 1) [Time Of Day NUnit Testing](#Time-Of-Day-NUnit-Testing)
+> 2) [Test First Programming Excersize](#Test-First-Programming-Excersize)
+> 3) [Film Classification Coding and Testing Task](#Film-Classification-Coding-and-Testing-Task)
+> 4) [Operators](#Operators)
+> 5) [Control Flow](#Control-Flow)
+> 6) [Operators and Control Flow](#Operators-and-Control-Flow)
+> 7) [Exceptions](#Exceptions)
+> 8) [Datatypes](#Datatypes)
+> 9) [More Datatypes](#More-Datatypes)
+> 10) [Methods](#Methods)
+> 11) [Memory Model](#Memory-Model)
 
-## 1) Time Of Day NUnit Testing
+## Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
 
 ```csharp
@@ -67,7 +70,7 @@ The NUit testing code I used is shown below. I decided to break down the testing
         }
 ```
 
-## 2) Test First Programming Excersize
+## Test First Programming Excersize
 This code was a list of short coding tests:
 * Greater than or equal to code
 * BODMAS Test (number treated with a series of maths operators)
@@ -163,7 +166,7 @@ The code below uses two main methods in order to reduce complexity. The foreach 
    return sumOfList;
 ```
 
-## 3) Film Classification Coding and Testing Task
+## Film Classification Coding and Testing Task
 This task required the changing of some provided code in order to meet the following initial conditions
 > 1. If someone is **Under 12** - U, PG and 12 films are available
 > 2. If someone is **Under 15** - U, PG and 15 Films are available
@@ -226,7 +229,7 @@ This was then tested by the use of tests on each Edge Case as well as two tests 
     }
 ```
 
-## 4) Operators
+## Operators
 
 This task was a lot of explanations of the operators used in coding.
 
@@ -325,7 +328,7 @@ if (num1 == 5 ^ num2 ==120)  //XOR operator
   }
 ```
 
-## 5) Control Flow
+## Control Flow
 
 There are multiple different ways to both organise the overall setup of your system as well as methods that can be used to structure your code more effectively.
 
@@ -453,7 +456,7 @@ This can be shown with actual code below:
 mark >= 65 ? "Pass" : "Fail"; 
 ```
 
-## 6) Operators and Control Flow
+## Operators and Control Flow
 
 ### What does the MyMethod Function do?
 The MyMethod function checks if num1 is equal to num2 and then if this is true it returns false. However, if the two numbers are not equal then it is checked if num1 is divisable by num2 and returns true if this is true.
@@ -644,7 +647,7 @@ default:
 ### Static Keyword
 Static means that the item using the keyword doesn't need to be instanced. Along with this Static classes can only contain static members.
 
-## 7) Exceptions
+## Exceptions
 Exceptions are objects which are thrown when an issue occurs at runtime. 
 There are differences between
 * Syntax Error (Won't compile due to spelling or written issue)
@@ -713,7 +716,7 @@ public class GradeException : ArgumentOutOfRangeException
 }
 ```
 
-## 8) Datatypes
+## Datatypes
 
 C# is strongly and statically typed (so type is known at compile time), so data must have its type declared when it is initialized. The language is also typesafe, where as datas types are defined before use they cannot change type and cause errors (~~Excluding using Dynamic type~~). C# is also memory safe as areas of memory are predefined for data. 
 
@@ -801,3 +804,381 @@ check{
 byte x = 256;
 }
 ```
+
+## More Datatypes
+
+### Strings
+
+Strings are stored in continuous memory blocks (In the same way as arrays) ending with an end of range characters. Strings look like primitive data types which are stored on the stack, but are in fact objects and so are stored in the heap (in the string pool). As a string is an object it has a constructor, they are also immutable and as such redefined data still exists it is just not referenced. 
+
+`string` is an alias for `String` this means that there is a multitude of ways to initialize a string which are all equivalent:
+
+```csharp
+String nish = "Nish Kumar";
+String nish2 = new String("Nish Kumar");
+string nish3 = "Nish Kumar";
+```
+
+There are many different operations that can be performed on a string to allow for additional functionality, this includes:
+
+#### Split
+This operation is used to split a string into an array of strings and is useful for breaking up lists (such as the comma seperated lists in a csv file) into useable data.
+
+```csharp
+string names = "Jab,James,Guarav,Goncalo";
+String[] namesToArray = names.Split(',');       //returns {"Jab","James","Guarav","Goncalo"}
+```
+
+#### Trim
+This operator removes any blank space at the beginning or end of a string in order to clean up any used data:
+
+```csharp
+string data = " blank bits gone ";
+string trimmedData = data.Trim();       // returns "blank bits gone"
+```
+
+#### Letter Case Operations
+The case of the letters in a string can be changed simply by either using the ToUpper or ToLower operators:
+
+```csharp
+string data = "LoAdS oF dIfFeReNt CaSeS";
+string dataLower = data.ToLower();      //returns "loads of different cases"
+string dataUpper = data.ToUpper();      //returns "LOADS OF DIFFERENT CASES"
+```
+
+#### Replace
+This operator works to replace characters in the string with a different selected character
+
+```csharp
+string changedData2 = changedData1.Replace('T', '*');   // this will replace any T's in the string with *'s
+```
+
+#### IndexOf
+By using this operator you get the location of a designated character within a string as the string can be treated as an array of characters:
+
+```csharp
+var nPos = changedData2.IndexOf('N');
+```
+
+#### Remove
+This operator removes a section of the string after a designated character location:
+
+```csharp
+data.Remove(location);
+```
+
+### StringBuilder Class
+This class simply presents a mutable version of strings for manipulation, it does however, have fewer methods. The basic methods that can be used are: update, read, modify and delete. This is used mainly to reduce the amount of memory used by strings in a system but does still require the use of strings for certain operations. The code below show a string based operation along with its stringBuilder equivalent for reference.
+
+```csharp
+private string StringVersion(string input)
+{
+ string trimmedUpperString = input.Trim().ToUpper();
+ string changedData1 = trimmedUpperString.Replace('L', '*');
+ string changedData2 = changedData1.Replace('T', '*');
+ var nPos = changedData2.IndexOf('N');
+ return changedData2.Remove(nPos + 1);
+}
+    
+private static string StringBuilderVersion(string input)
+{
+ var trimmedUpperString = input.Trim().ToUpper();
+ var nPos = trimmedUpperString.IndexOf('n');
+ StringBuilder sb = new StringBuilder(trimmedUpperString);
+ sb.Replace('L', '*').Replace('T','*');
+ sb.Remove(nPos + 1, sb.Length - nPos - 1);
+ sb.Append(" and is better than c++ and Java");
+ return sb.ToString();
+}
+```
+**If a string needs to be changed in a loop, use a StringBuilder class instead to reduce the amount of data being used**
+ 
+ This can be seen in the below example:
+ ```csharp
+ public static string ManipulateString(string input, int num) //a piece of code to manipulate and return a string
+        {
+            input = input.ToUpper().Trim();
+            StringBuilder sb = new StringBuilder (input);
+            for(int i = 0; i < num; i++)
+            {
+                sb.Append(i);
+            }
+            return   sb.ToString();
+        }
+ ```
+
+### String Interpolation
+This is a simplified method for combining strings rather than using the Concat function as this simplifies the overall code format. For Example:
+
+```csharp
+var spartaString = String.Concat("This", "Is", "Sparta");       //This is the concaternation method
+
+Console.WriteLine("My name is : " + str + " using +");                          //the interpolation method can use the '+' operator
+Console.WriteLine($"My name is {str} using interpolation");                     //the interpolation method can also use curled brackets to add data
+var fString = $"{num1} to the power of {num2} is {Math.Pow(num1, num2)}";       // with the ability to perform code within these brackets
+
+var fString2 = $"That will be {num1 / 3.0:C}, please";  //This would output num1/3 in GBP because of the C (culture operator)
+                                                        //This can also use N (to give decimal places, 2 by default) and P (to give it as a percentage) 
+```
+
+### Parsing Strings
+Parsing a string is converting it into a different datatype from its original, and can be done via the use of the Parse or TryParse operator. Below is a demonstration for the TryParse operator, the Parse method works the same way except it does not produce a boolean statement based upon whether the parsing is possible.
+
+```csharp
+bool isSuccess = true;
+        ConsoleKeyInfo cki;     //stores key press data
+        do {
+            Console.WriteLine("How Many Apples?");
+            string input = Console.ReadLine();          //simply reading the keyboard
+            isSuccess = Int32.TryParse(input, out int numApples);       //the method is equal to a boolean statement while the out method produces the output of the Parsing
+            Console.WriteLine($"{numApples} apples");                   //by default the output int is 0
+            if (!isSuccess)
+            {
+                Console.WriteLine("Please enter a valid number");
+            }
+            Console.WriteLine("Continue or Leave? Press Esc to leave");
+            cki = Console.ReadKey();    //reading a single keypress
+        } while (cki.Key != ConsoleKey.Escape);
+```
+
+### Arrays
+Arrays are immutable, along with strings and constants. An array of type `var` cannot be directly created, however an array of a know type can be cast to it. For example
+```csharp
+var traineesArray = new string[]{"David","Marian","Stanni"};
+```
+Arrays are of a fixed size that is defined when they are created and trying to add past this point will throw a `OutOfRangeException`
+
+**They also have a large amounts of methods that can be applied to them, with some shown here**
+
+#### Reverse
+This method simply reverses the order of the elements in the array, so the first index item becomes the last and visa versa.
+
+#### ForEach
+This method applies defined code to each part of the array referenced. So for example the code below prints out every item in the array
+```csharp
+Array.ForEach(myArray, x => Console.WriteLine(x);
+```
+#### OrderBy
+This method is used to organise the data within an array and can be used in the form of `OrderByDescending` to sort integer values by their numerical value.
+
+### Multi-Dimensional Arrays
+These are simply arrays but they operate in more than one direction (either 2 or 3 dimensions, with 2 being more prominant). The data within these arrays can be accessed in a similar way to using a graph, so `array[row,column]`. They work in a grid or cube format.
+
+With a 2 dimensional array able to be defined as below:
+```csharp
+char[,] gridTwo =
+{
+{'a','b'},
+{'c','d'},
+{'e','f'},
+{'g','h'}
+};
+```
+If a foreach loop is used to iterate through a multidimensional array, it simply flattens it and treats it as a single dimension array.
+
+### Jagged Arrays
+These are arrays of arrays (nested arrays), with them able to contain arrays of different lengths (hence the name jagged). So in an example, there is one array where each indexed data point within it is, itself, and array (think of it like a spine and ribs system).
+
+```csharp
+int[][] intJArray = new int[2][];
+        intJArray[0] = new int[4];
+        intJArray[1] = new int[2];
+
+        intJArray[0][2] = 3; //This sets a single cell in the array
+```
+
+### Date and Time
+This presents an issue due to the presence of leap years, leap seconds as well as other calendar formats. This has led to coding systems having calendar management built into their systems with many different cultures calendars provided for.
+
+In computing the method of ticks is often used, there are 10 million ticks in a second.
+
+The minimum value for datetime in C# is 00:00:00 00/00/0000 with the max value being the end of the year 9999.
+
+The Unix timecode is the start of 1970, and this is the base time for a large amount of computers as they count from this moment. This poses an issue however if a system uses a 32 bit system, as this will overflow in 2038 but can be fixed by switching to a 64 bit number which is magnitudes larger.
+
+To get the time when the code is run:
+```csharp
+var now = DateTime.Now;
+
+var tomorrow = now.AddDays(1);                  //this calculates tomorrows date (any time segment can be refered to here)
+Console.WriteLine(tomorrow.ToString("y-M-d"));  //the ToString Method specifies the format of the date wanted
+
+TimeSpan myAge = DateTime.Now - birthDay;       //Timespan is simply the length of time between 2 dates
+```
+
+**.net 6.0 added some new date features**
+
+Such as `DateOnly`, which is shown below, this simply formats dates to a usable format for most cases.
+```csharp
+var myDate = DateOnly(1989,11,2);
+```
+
+### Stopwatch
+There is a stopwatch datatype which can be used to record periods of time within the code. This can be used as seen in the code below:
+
+```csharp
+var stopwatch = new Stopwatch();
+        stopwatch.Start();
+        long total = 0;
+        for (int i = 0; i < int.MaxValue; i++)
+        {
+            total += i;
+        }
+        stopwatch.Stop();
+        Console.WriteLine(stopwatch.Elapsed);
+        Console.WriteLine(stopwatch.ElapsedMilliseconds);
+        Console.WriteLine(stopwatch.ElapsedTicks);
+```
+
+### Enums (Enumerators)
+This is used to display a fixed constant as it provides type safety. In the example below the enumerated data is the suits in a pack of cards, this is because they are fixed values. These can be best sorted with the use of `switch` cases.
+
+```csharp
+public enum suits
+{
+    HEARTS, CLUBS, DIAMONDS, SPADES     //these can be assigned integer values but by default they start from zero and iterate
+}
+```
+
+You can cast other types to an enum using the `Parse` operator, if it matches.
+```csharp
+var anotherSuit = Enum.Parse(typrof(suits), "CLUBS");
+```
+
+### Const
+This keyword means once the variable has been initialized it cannot be changed. So once it has been assigned a value in the code it cannot be reassigned, meaning that provided it is set correctly you should always know its value.
+
+### Readonly
+Readonly is used to make the variables for a class read only (and as such unable to be overwritten by sections of code). This is used for `private member variables` but for `methods` the `sealed` command is used.
+
+```csharp
+private readonly string _name;
+public Trainee(string name)
+{
+_name = name;
+}
+```
+
+**If a value is a private member then the convention is to name it `_variable` with an underscore at the start to show this behaviour.**
+
+### Random
+These can be created with or without a seed value (a starting point for random values), as they are psuedo random. If no seed value is provided then the computers time in ticks is used.
+```csharp
+        var rng = new Random();         //unseeded random
+        var rngSeeded = new Random(42); //seeded random
+        var between1And10 = rngSeeded.Next(1,11);       // The .Next method provides an upper and lower bound for the random number
+        Console.WriteLine(between1And10);
+```
+
+## Methods
+
+A method is made up of it's `visibility`, `Return type`, `name`, `parameters` (within the `signature`) and then its `body`
+
+**Method Overloading** is providing a method with too many `parameters`
+
+### Optional Parameters
+These are a methods parameters that are not required for the method to run. The code below achieves this via the use of a default value for the input of the variable.
+
+```csharp
+public static int DoThis(int x, string y = "Happy") //y is the optional parameter 
+{
+Console.WriteLine($"I am feeling {y}");
+return x * x;
+}
+```
+
+**The optional parameter must be the last parameter to be entered (furthest right)**
+
+### Method input description
+When inputting to a method in c# you can define which inputs you are refering to:
+```csharp
+var myPizza = OrderPizza(anchovies: true, pineapple: false);
+```
+This makes the codee far easier to read, especially in longer sections of code.
+
+### Ref Keyword
+This is to not pass a copy of a variable but instead send a reference to its location in memory. For example in the method below y is unchanged by the operation on num within the method as its location in memory is not accessed (due to the use of a copy of it's value). However, in the z example no copy is made, with the location of z passed and so it is altered directly rather than having a temporary variable (that exists only in the method) changed.
+
+```csharp
+int y = 10;
+        int z = 10;
+        Add(y);
+        Console.WriteLine(y);
+        Add(ref z);
+        Console.WriteLine(z);
+    }
+
+    public static void Add(int num)
+    {
+        num++;
+    }
+
+    public static void Add(ref int num)
+    {
+        num++;
+    }
+```
+
+**The In and Out Keywords are used instead of Ref now in most use cases** 
+
+#### Out keyword
+This is a reference keyword that returns another output of a method to from a specific location in memory. It is defined in the signature of the method.
+
+```csharp
+public static int DoThis(int x, string y, out bool z)
+```
+
+#### In Keyword
+The same as a reference but it's read only input reference and so the referenced value being passed cannot have its value in memory changed.
+
+```csharp
+public static int DoThis(in int x, string y)
+```
+
+### Tuples
+A tuple is a format of multiple datatypes in a single data structure
+
+```csharp
+var myTuple = (fName: "Liam", lName: "Gallagher", age: 49);
+
+(string fName, string lName, int age) myTuple2 = ("Noel","Gallagher", 55);      //This is a more typesafe version of the same tuple
+```
+
+To have a method return a tuple its datatypes must be defined in the signature of the method
+```csharp
+public static (int stones, int pounds) ConvertPoundsToStones(int pounds)
+```
+Then when it is returned it is simply:
+```csharp
+return (st, lb); //Or it can be stored as a var result = (st, lb); and have this result returned
+```
+
+## Memory Model
+
+### The Stack
+
+The stack is an area of memory where variables are stored when they are declared. It is a last in, first out form of data storage. 
+> Variables in the stack are either:
+> * Values
+> * References to the heap
+
+The Stack stores `value types` which store their data directly, these include `enums`, `int` and `structs`. These are small and have a fixed size, where copying the address would take the same amount of time as copying the actual data. These are called `primative types` and have default values.
+
+Local variables are **Popped** off the Stack when they go out of scope (for example when a variable is declared in a method and you leave that method).
+
+### The Heap
+
+The Heap is a larger memory area and it holds what is being referenced in the stack. When a new type is referenced the system makes space for it in the Heap. These are known as `reference types` which reference a location in memory such as `string` `array` `list`. These types are referenced due to their size meaning this saves a considerable amount of space as well as allowing for these objects to have increased complexity.
+
+**Beware when using a `reference` type as a method argument it can be changed by the method**
+
+### Garbage Collector
+
+This runs to clean up any data on the Heap when a memory threshold is met, when the memory is full or in most cases periodically. This is the equivalent of defragmenting a hard-drive. This is because it works to empty any non-referenced (dead) data as well as to combine any data that may have been broken up within the heap to make it take up the least space in memory.
+
+If objects were left in memory this would eventually fill up the heap memory which can lead to memory leaks.
+
+The garbage collectors job is broken down into 3 main areas:
+* Find  (Locate any dead references)
+* Free  (Clear the memory in these areas)
+* Compact (Move the data that exists in the heap together to optimize memory)
