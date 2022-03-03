@@ -1158,7 +1158,7 @@ The stack is an area of memory where variables are stored when they are declared
 > * Values
 > * References to the heap
 
-The Stack stores `value types` which store their data directly, these include `enums`, `int` and `structs`. These are small and have a fixed size, where copying the address would take the same amount of time as copying the actual data.
+The Stack stores `value types` which store their data directly, these include `enums`, `int` and `structs`. These are small and have a fixed size, where copying the address would take the same amount of time as copying the actual data. These are called `primative types` and have default values.
 
 Local variables are **Popped** off the Stack when they go out of scope (for example when a variable is declared in a method and you leave that method).
 
