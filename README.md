@@ -11,6 +11,7 @@ Code Created During The Sparta Global Training Program as well as notes from the
 > 8) [Datatypes](#Datatypes)
 > 9) [More Datatypes](#More-Datatypes)
 > 10) [Methods](#Methods)
+> 11) [Memory Model](#Memory-Model)
 
 ## Time Of Day NUnit Testing
 The code below takes an int that represents the current time and based on its value returns a message in the console. This code doesn't account for any value out of the 0-24 number range, including negative values. With the way the code is written, there are multiple different edge conditions (dealt with here via the use of a sequence of operators as well as a catch all else condition.
