@@ -1119,7 +1119,11 @@ int y = 10;
 ```
 
 ### Out keyword
-This is a reference keyword that returns the output of a method to a specific location in memory (overwriting a previously stored variable there).
+This is a reference keyword that returns another output of a method to from a specific location in memory. It is defined in the signature of the method.
+
+```csharp
+public static int DoThis(int x, string y, out bool z)
+```
 
 ### In Keyword
 The same as a reference but it's read only input reference and so the referenced value being passed cannot have its value in memory changed.
