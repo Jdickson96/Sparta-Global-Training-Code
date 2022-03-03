@@ -1118,12 +1118,32 @@ int y = 10;
     }
 ```
 
-### Out keyword
+**The In and Out Keywords are used instead of Ref now in most use cases** 
+
+#### Out keyword
 This is a reference keyword that returns another output of a method to from a specific location in memory. It is defined in the signature of the method.
 
 ```csharp
 public static int DoThis(int x, string y, out bool z)
 ```
 
-### In Keyword
+#### In Keyword
 The same as a reference but it's read only input reference and so the referenced value being passed cannot have its value in memory changed.
+
+### Tuples
+A tuple is a format of multiple datatypes in a single data structure
+
+```csharp
+var myTuple = (fName: "Liam", lName: "Gallagher", age: 49);
+
+(string fName, string lName, int age) myTuple2 = ("Noel","Gallagher", 55);      //This is a more typesafe version of the same tuple
+```
+
+To have a method return a tuple its datatypes must be defined in the signature of the method
+```csharp
+public static (int stones, int pounds) ConvertPoundsToStones(int pounds)
+```
+Then when it is returned it is simply:
+```csharp
+return (st, lb); //Or it can be stored as a var result = (st, lb); and have this result returned
+```
