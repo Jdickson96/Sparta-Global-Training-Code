@@ -1072,3 +1072,27 @@ These can be created with or without a seed value (a starting point for random v
 ## Methods
 
 A method is made up of it's `visibility`, `Return type`, `name`, `parameters` (within the `signature`) and then its `body`
+
+**Method Overloading** is providing a method with too many `parameters`
+
+### Optional Parameters
+These are a methods parameters that are not required for the method to run. The code below achieves this via the use of a default value for the input of the variable.
+
+```csharp
+public static int DoThis(int x, string y = "Happy") //y is the optional parameter 
+{
+Console.WriteLine($"I am feeling {y}");
+return x * x;
+}
+```
+
+**The optional parameter must be the last parameter to be entered (furthest right)**
+
+### Method input description
+When inputting to a method in c# you can define which inputs you are refering to:
+```csharp
+var myPizza = OrderPizza(anchovies: true, pineapple: false);
+```
+This makes the codee far easier to read, especially in longer sections of code.
+
+
