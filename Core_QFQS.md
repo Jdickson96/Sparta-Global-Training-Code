@@ -4,7 +4,7 @@ These are the quickfire questions that can be asked any day on the course and le
 
 #### What's compile time and run time?
 
-Compile time is at the point that the compiler puts the code together to form a package whereas runtime is when this package of data itself is used.
+Compile time is at the point that the compiler puts the code together to form a excecutable package whereas runtime is when this package of data itself is used.
 
 #### What is meant by a "Strongly Typed Language"?
 
@@ -75,6 +75,8 @@ StringBuilder is a class builder method used to reduce the effect on memory of s
 #### What is the difference between a multidimensional array and a jagged array?
 
 #### Why is representing Dates and Times complicated?
+
+Representing Dates and Times is complicated as it is culture dependent (as differing cultures use different calendar systems) as well as issues from the differing global time zones. The final issue is the presence of leap years and leap seconds within the gregorian calendar system.
 
 #### What is string parsing?
 
