@@ -8,7 +8,11 @@ Compile time is at the point that the compiler puts the code together to form a 
 
 #### What is meant by a "Strongly Typed Language"?
 
+Every variable and constant has a memory type assossiated with it.
+
 #### Why is C# described as memory safe?
+
+This is due to each variable and constant being typed, meaning that the memory size of each item is known and so it is memory safe.
 
 #### What is .NET?
 
