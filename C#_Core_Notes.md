@@ -1,5 +1,5 @@
-# Sparta Global: C# Core Training Code
-Code Created During The Sparta Global Training Program as well as notes from the coding lessons taught during the course.
+# Sparta Global: C# Core Notes
+Code and Notes Created During The Core Section of the Sparta Global Training Program.
 > #### Index
 > 1) [Time Of Day NUnit Testing](#Time-Of-Day-NUnit-Testing)
 > 2) [Test First Programming Excersize](#Test-First-Programming-Excersize)
