@@ -78,11 +78,15 @@ StringBuilder is a class builder method used to reduce the effect on memory of s
 
 #### What is the difference between a multidimensional array and a jagged array?
 
+A multidimensional array is an array in a square format where the lengths of the arrays refer to the size of a dimension. Jagged arrays are having multiple arrays lying on top of each other and as such its shape varies upon the arrays used.
+
 #### Why is representing Dates and Times complicated?
 
 Representing Dates and Times is complicated as it is culture dependent (as differing cultures use different calendar systems) as well as issues from the differing global time zones. The final issue is the presence of leap years and leap seconds within the gregorian calendar system.
 
 #### What is string parsing?
+
+When the string is read and it is converted to a numerical value.
 
 #### What is an enum and why would you use it?
 
