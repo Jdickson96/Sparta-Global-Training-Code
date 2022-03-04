@@ -28,6 +28,8 @@ A git ignore file is a file used on the PC uploading to github within the reposi
 
 #### What does the using keyword do?
 
+This initializes the libraries being used within the code beneath it, meaning that definitions from the libraries defines can be used.
+
 #### Give an example of a ternary operator
 
 #### What does the modulus operator do?
@@ -69,6 +71,8 @@ If you add 3 to the largest int then you will overflow the number and it will be
 #### What is casting?
 
 #### How can you prevent silent overflow of integers?
+
+Via the use of the checked method within code.
 
 #### What is StringBuilder and why is it used?
 
