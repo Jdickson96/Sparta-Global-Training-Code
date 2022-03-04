@@ -54,6 +54,8 @@ A postfix operator (for example `x++`) occurs at the end of the line, whereas a 
 
 #### What happens if you add 3 to the largest int?  To the largest unsigned int?
 
+If you add 3 to the largest int then you will overflow the number and it will become a negative version of the largest int with two integers added to it. The largest unsigned int will also overflow however, as the number cannot be negative it will become 2.
+
 #### What is the smallest floating point number type?  How many bytes?
 
 #### What data types can int be safely converted to?
@@ -66,6 +68,8 @@ A postfix operator (for example `x++`) occurs at the end of the line, whereas a 
 
 #### What is StringBuilder and why is it used?
 
+StringBuilder is a class builder method used to reduce the effect on memory of string manipulation as StringBuilders are not immutable and as such changing them does not take up additional space by duplicating them.
+
 #### What is the difference between an array and a List?  What are the advantages and disadvantages of each?
 
 #### What is the difference between a multidimensional array and a jagged array?
@@ -76,17 +80,44 @@ A postfix operator (for example `x++`) occurs at the end of the line, whereas a 
 
 #### What is an enum and why would you use it?
 
+`enum` is a constant that your code values can indicate for example the months of the year can be assigned as enums, as they are constant and refer to digit values.
+
 #### What makes up a method signature?
+
+A method signature is made up of:
+* An access level (eg `public`,`private`)
+* Optional Modifiers (eg `sealed` or `abstract`)
+* Return Value (the datatype of the output)
+* Name of Method
+* Method Parameters
+
+For Example:
+```csharp
+public sealed int ExampleMethod(int example, string demo)
+```
 
 #### What is a method body?
 
+The method body is the section of the method within the curled brackets and as such is where the code is written.
+
 #### In a method signature, what does the void keyword mean?
+
+The void keyword refers to the output of the system and means that the system does not output anything.
 
 #### What is method overloading?
 
+Method overloading is a way to use the same method name for multiple operations. This can be done in multiple ways:
+* Changing the number of parameters in a method
+* Changing the order of parameters in a method
+* Using different datatypes for the parameters
+
 #### What is an out parameter?
 
+An out parameter is a further output to the system defined along with the inputs to the system. This parameter is a reference to a point in memory, and can be written to (as opposed to an in paramater).
+
 #### What are named parameters and why are they useful?
+
+Named parameters are useful as they label the inputs for a method are and so make it easier for a user to use methods within code and see how they operate.
  
 #### What is a tuple, and why is it useful?
 
