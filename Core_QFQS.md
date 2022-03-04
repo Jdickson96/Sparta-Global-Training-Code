@@ -18,6 +18,8 @@ This is due to each variable and constant being typed, meaning that the memory s
 
 #### What is the difference between .NET Framework, NET Core, and .NET5/.NET6?
 
+.NET framework is windows only (this is not being developed further), .NET Core is cross platform, .NET5/.NET6 is updated versions of .NET core
+
 #### What is a conditional breakpoint?
 
 #### What is the difference between compiling to debug and release formats?
