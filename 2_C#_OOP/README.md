@@ -2,7 +2,7 @@
 Code and notes created during the OOP section of the Sparta Global Training Course.
 > **OOP Sections**
 > * [Introduction](#Introduction)
-> * 
+> * [Safari Park System](#Safari-Park-System)
 
 ## Introduction
 Object Oriented Programming was developed to replace the previous procedural programming structure that had been in place. This is due to weaknesses in this coding setup steming from the practice of having code and data in seperate locations within the program. By having these seperate, it leads to several key issues:
@@ -90,7 +90,56 @@ cust.Print();
 emp.Print();
 ```
 
+## Safari Park System
+
+This is a demonstration project for OOP programming
+
 ### UML Class Diagrams
 
-A way of representing classes and the relationships between them can be shown at varying levels of detail.
+A way of representing classes and the relationships between them can be shown at varying levels of detail. Their main benefit is the ability to use them to explain code to non-specialists.
+
+### Basic Class Setup
+
+In the main method of a system the class is instanced using the following code: 
+
+```csharp
+public static void Main()
+    {
+        Person james = new Person("James", "Dickson", 26);  //new generates a new instance of an object by calling constructor
+        Console.WriteLine(james.GetFullName());
+        james.Age = 1;
+    }
+```
+
+Which refers to the following code in a class file:
+
+```csharp
+    internal class Person
+    {
+        private string _firstName;
+        private string _lastName;
+        public int Age { get; set; }  //The get set setup
+        public Person(string firstName, string lastName, int age = 0) //Default age is 0 if unspecified
+        {
+            _firstName = firstName;
+            _lastName = lastName;
+            Age = age;
+        }
+        
+        public Person(string firstName)
+        {
+            _firstName = firstName;
+        }
+
+        public string GetFullName()
+        {
+            return $"{_firstName} {_lastName}";
+        }
+    }
+```
+
+Due to polymorphism the constructor in the code above is selected by the amount of input arguments, however while more constructors can be added as needed it is best practice to reduce the number of these. This is because it reduces the repetition of code and reduces the chance of syntax or input errors.
+
+A `get set` system can be easily created in code by typing "prop" 'tab' 'tab' while the constructor can be easily created using ptor 'tab' 'tab'. 
+The default values for unfilled reference types is 0 with 'bool' being false by default.
 
