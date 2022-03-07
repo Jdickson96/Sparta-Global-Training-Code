@@ -29,9 +29,9 @@ Instead of this procedural method OOP systems combine the data with the code act
 > * Polymorphism
 
 #### Abstraction
-Abstraction is the process of defining an item by a name, its key attributes and operation. For example a car can be broken down into its constituent physical parts as well as its use (drive, open door, etc).
+Abstraction is the process of defining an item by a name, its key attributes and operation. For example a car can be broken down into its constituent physical parts as well as its use (drive, open door, etc). The unit of abstraction is the `class` - `blueprint`
 
-The `class` identifier represents abstraction with instances of a class being objects.
+The `class` identifier represents abstraction with instances of a class being objects. These instances then can interact with each other via the use of methods and can be combined to make more things.
 
 ```csharp
 public class Customer
