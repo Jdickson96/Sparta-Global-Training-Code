@@ -90,4 +90,7 @@ cust.Print();
 emp.Print();
 ```
 
+### UML Class Diagrams
+
+A way of representing classes and the relationships between them can be shown at varying levels of detail.
 
