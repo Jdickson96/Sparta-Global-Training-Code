@@ -195,6 +195,8 @@ These are used in place of set boilerplate code in order to reduce the length of
 
 ```csharp
 public int Age { get; init; }
+
+public int Age { get; init; } = 10; //this sets the default value of age to 10
 ```
 
 ### Structs
