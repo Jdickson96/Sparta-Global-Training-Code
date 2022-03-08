@@ -226,12 +226,35 @@ The base class has no knowledge of its derived classes.
 var fullname = $"{base._firstName} {base._lastName}";
 ```
 
-### Overriding methods
-This means that the superclasses methods can be reassigned by a subclass. However, this can only be done if the base class methods are assigned as `virtual` and is achieved by using the `override` identifier
+### Overriding Methods
+This means that the superclasses methods can be reassigned by a subclass. However, this can only be done if the base class methods are assigned as `virtual` and is achieved by using the `override` identifier.
 
 ```csharp
 public override string ToString()
 {
-return $"{base.toString()} Name: {FullName} Age: {Age}";
+return $"{base.ToString()} Name: {FullName} Age: {Age}"; //The base.ToString() method calls the method in the superclass of this class
 }
 ```
+
+### Virtual Methods
+
+This means the method can be overwritten in derived classes with each of these methods providing a default implementation. These methods can be called in derived classes but overwritten with `override`
+
+### Abstract Methods and Abstract Classes
+
+Somethimes, there is no sensible implementation of a base class method, so there is no point in providing a method body so we want derived classes to provide their own. A good example of this is the `CalculateArea` method in a `shape` class. In this case the `abstract` keyword is used.
+
+**If a class has one or more `abstract` methods then it must also be declared as `abstract`**
+
+Both abstract classes can have a mix of both concrete and abstract methods but concrete classes cannot have abstract methods. But abstract methods **MUST** be implemented in their derived classes.
+
+An abstract method has a method signature but **NO** method body.
+
+#### Abstract and Sealed Methods
+
+These keywords can be applied to either individual methods, or whole classes.
+> Abstract Method - Not Implemented here, must be overwritten in a derived class
+> Abstract Class - Can't be instantiated
+> > A Class Can be abstract even if it doesn't include any Abstract methods
+> Sealed Method - Prevents a method that overrides a base class virtual or abstract method from being overwritten in a derived class
+> Sealed class - prevents the entire class being derived from (no children allowed)
