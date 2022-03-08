@@ -158,8 +158,7 @@ public Vehicle() { }
         }
 ```
 
-A `get set` system can be easily created in code by typing "prop" 'tab' 'tab' while the constructor can be easily created using ptor 'tab' 'tab'. 
-The default values for unfilled reference types is 0 with 'bool' being false by default.
+> A `get set` system can be easily created in code by typing "prop" 'tab' 'tab' while the constructor can be easily created using ptor 'tab' 'tab'. 
 
 The `get set` system can be expanded to look like this, with checks in place to ensure only valid inputs are taken:
 
@@ -188,6 +187,8 @@ public string GetFullName => $"{_firstName} {_lastName}";
 ### Object Initializers
 
 These have been used previously in the course when an array of data is initialized and are used to set the values for each of the inputs in a single command. 
+
+**The default values for unfilled reference types is 0 with 'bool' being false by default.**
 
 #### Init only setters
 
