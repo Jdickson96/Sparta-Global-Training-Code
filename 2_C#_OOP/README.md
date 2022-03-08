@@ -228,7 +228,7 @@ var fullname = $"{base._firstName} {base._lastName}";
 ```
 
 ### Overriding Methods
-This means that the superclasses methods can be reassigned by a subclass. However, this can only be done if the base class methods are assigned as `virtual` and is achieved by using the `override` identifier.
+This means that the superclasses methods can be reassigned by a subclass. However, this can only be done if the base class methods are assigned as `virtual` and is achieved by using the `override` identifier. The `ToString()` method can be overwritten in each class written in order to provide more useful information.
 
 ```csharp
 public override string ToString()
@@ -239,7 +239,15 @@ return $"{base.ToString()} Name: {FullName} Age: {Age}"; //The base.ToString() m
 
 ### Virtual Methods
 
-This means the method can be overwritten in derived classes with each of these methods providing a default implementation. These methods can be called in derived classes but overwritten with `override`
+This means the method can be overwritten in derived classes with each of these methods providing a default implementation. These methods can be called in derived classes but overwritten with `override`. Some example implementation is:
+
+```csharp
+public virtual bool Equals(object obj)
+public virtual int GetHashCode()
+public virtual string ToString()
+```
+
+With each of these implementations providing a default implementation. We can call the implementation of the base class method in the body of the derived class.
 
 ### Abstract Methods and Abstract Classes
 
