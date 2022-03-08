@@ -3,6 +3,7 @@ Code and notes created during the OOP section of the Sparta Global Training Cour
 > **OOP Sections**
 > * [Introduction](#Introduction)
 > * [Safari Park System](#Safari-Park-System)
+> * [Derived Classes](#Derived-Classes)
 
 ## Introduction
 Object Oriented Programming was developed to replace the previous procedural programming structure that had been in place. This is due to weaknesses in this coding setup steming from the practice of having code and data in seperate locations within the program. By having these seperate, it leads to several key issues:
