@@ -144,7 +144,9 @@ Which refers to the following code in a class file:
     }
 ```
 
-Due to polymorphism the constructor in the code above is selected by the amount of input arguments, however while more constructors can be added as needed it is best practice to reduce the number of these. This is because it reduces the repetition of code and reduces the chance of syntax or input errors. The constructor should also have the same name as the class it is constructing.
+Due to polymorphism the constructor in the code above is selected by the amount of input arguments, however while more constructors can be added as needed it is best practice to reduce the number of these. This is because it reduces the repetition of code and reduces the chance of syntax or input errors. 
+
+**The constructor must have the same name as the class it is constructing and it does not have a return type (Including Void)**
 
 **If a constructor with parameter is used then a parameterless constructor must be written if needed as the compiler will no longer create one for you**
 
