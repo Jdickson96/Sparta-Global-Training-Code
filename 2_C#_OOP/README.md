@@ -103,6 +103,8 @@ A way of representing classes and the relationships between them can be shown at
 
 ### Basic Class Setup
 
+The simple makeup of a class is: `Fields`, `Properties` and `Methods`.
+
 In the main method of a system the class is instanced using the following code: 
 
 ```csharp
