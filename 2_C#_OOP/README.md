@@ -69,6 +69,10 @@ We can chose to create various different versions of an overall type, with these
 
 These relationships are often described as an item higher up the hierarchy would be a `superclass` or `base class` of a `subclass` or `derived class` item beneath it with this referred to as an `inheritance hierarchy`. The subclass has code specialized to that use case.
 
+This avoids repeating code to describe the same thing and has a buisness value as it reduces the amount of time spent on a project. 
+
+The relationship between a class and an inherited class is a **B extends A** relationship. 
+
 ```csharp
 class Customer : Person //this is defined in the subclass to show it belongs to a superclass
   public Customer(string FName, string LName) : base(Fname,Lname) //superclass constructor is called after the colons
@@ -207,3 +211,27 @@ public int Age { get; init; } = 10; //this sets the default value of age to 10
 ### Structs
 
 These are similar to classes (but `structs` are value types and `classes` are reference types, they can be declared without the `new` keyword (for example `DateTime` is a `struct`. 
+
+They combine multiple pieces of data into a single unit, for example 3 axis coordinates can go into a single Coordinate `struct` value. It is unlikely that these will be used by a developer due to the presence of `classes` (Excluding premade `structs` such as `DateTime`)
+
+## Derived Classes
+
+When the derived class constructor is called, it immediately calls the base class constructor and then once this has completed the body of the derived class constructor runs.
+
+The derived class can access public fields, 
+
+The base class has no knowledge of its derived classes.
+
+```csharp
+var fullname = $"{base._firstName} {base._lastName}";
+```
+
+### Overriding methods
+This means that the superclasses methods can be reassigned by a subclass. However, this can only be done if the base class methods are assigned as `virtual` and is achieved by using the `override` identifier
+
+```csharp
+public override string ToString()
+{
+return $"{base.toString()} Name: {FullName} Age: {Age}";
+}
+```
