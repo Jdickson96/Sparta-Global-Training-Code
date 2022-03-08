@@ -107,7 +107,8 @@ public static void Main()
     {
         Person james = new Person("James", "Dickson", 26);  //new generates a new instance of an object by calling constructor
         Console.WriteLine(james.GetFullName());
-        james.Age = 1;
+        james.Age = 1;  //calls Setter
+        var jamesAge = james.Age; //calls getter
     }
 ```
 
@@ -143,3 +144,42 @@ Due to polymorphism the constructor in the code above is selected by the amount 
 A `get set` system can be easily created in code by typing "prop" 'tab' 'tab' while the constructor can be easily created using ptor 'tab' 'tab'. 
 The default values for unfilled reference types is 0 with 'bool' being false by default.
 
+The `get set` system can be expanded to look like this, with checks in place to ensure only valid inputs are taken:
+
+```csharp
+ public int Age {
+            get { return _age; }
+            set 
+            { 
+                if (value < 0)
+                {
+                    throw new ArgumentException("Age must be 0 or greater");
+                }
+                else
+                {
+                    _age = value; //value is the input to the getter-setter function
+                }
+            } 
+        }
+```
+
+The GetFullName method can be simplified down to a property (without a set as it has no directly corresponding field):
+```csharp
+public string GetFullName => $"{_firstName} {_lastName}";
+```
+
+### Object Initializers
+
+These have been used previously in the course when an array of data is initialized and are used to set the values for each of the inputs in a single command. 
+
+#### Init only setters
+
+These are used in place of set boilerplate code in order to reduce the length of code for each readonly class being initialized. 
+
+```csharp
+public int Age { get; init; }
+```
+
+### Structs
+
+These are similar to classes (but `structs` are value types and `classes` are reference types, they can be declared without the `new` keyword (for example `DateTime` is a `struct`. 
