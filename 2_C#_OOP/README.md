@@ -96,7 +96,10 @@ This is a demonstration project for OOP programming
 
 ### UML Class Diagrams
 
-A way of representing classes and the relationships between them can be shown at varying levels of detail. Their main benefit is the ability to use them to explain code to non-specialists.
+A way of representing classes and the relationships between them can be shown at varying levels of detail. Their main benefit is the ability to use them to explain code to non-specialists. They break a class code block down into its simple constituent parts: 
+* `Fields`
+* `Properties`
+* `Methods`
 
 ### Basic Class Setup
 
@@ -139,7 +142,21 @@ Which refers to the following code in a class file:
     }
 ```
 
-Due to polymorphism the constructor in the code above is selected by the amount of input arguments, however while more constructors can be added as needed it is best practice to reduce the number of these. This is because it reduces the repetition of code and reduces the chance of syntax or input errors.
+Due to polymorphism the constructor in the code above is selected by the amount of input arguments, however while more constructors can be added as needed it is best practice to reduce the number of these. This is because it reduces the repetition of code and reduces the chance of syntax or input errors. The constructor should also have the same name as the class it is constructing.
+
+**If a constructor with parameter is used then a parameterless constructor must be written if needed as the compiler will no longer create one for you**
+
+For example, in the code below, without the parameterless constructor the code assumes the only constructor we want is the one we have supplied:
+
+```csharp
+public Vehicle() { }
+
+        public Vehicle(int numPassengers, int speed = 10)
+        {
+            NumPassengers = numPassengers;
+            Speed = Math.Abs(speed);    
+        }
+```
 
 A `get set` system can be easily created in code by typing "prop" 'tab' 'tab' while the constructor can be easily created using ptor 'tab' 'tab'. 
 The default values for unfilled reference types is 0 with 'bool' being false by default.
@@ -174,7 +191,7 @@ These have been used previously in the course when an array of data is initializ
 
 #### Init only setters
 
-These are used in place of set boilerplate code in order to reduce the length of code for each readonly class being initialized. 
+These are used in place of set boilerplate code in order to reduce the length of code for each readonly class being initialized. The code below demonstrates this method, with this variable only being able to be read after initialization.
 
 ```csharp
 public int Age { get; init; }
