@@ -130,12 +130,12 @@ Which refers to the following code in a class file:
             Age = age;
         }
         
-        public Person(string firstName)
+        public Person(string firstName) //this is a constructor
         {
             _firstName = firstName;
         }
 
-        public string GetFullName()
+        public string GetFullName() //This is a simple method
         {
             return $"{_firstName} {_lastName}";
         }
