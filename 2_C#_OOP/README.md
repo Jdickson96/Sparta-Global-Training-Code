@@ -256,5 +256,6 @@ These keywords can be applied to either individual methods, or whole classes.
 > Abstract Method - Not Implemented here, must be overwritten in a derived class
 > Abstract Class - Can't be instantiated
 > * A Class Can be abstract even if it doesn't include any Abstract methods
+> 
 > Sealed Method - Prevents a method that overrides a base class virtual or abstract method from being overwritten in a derived class
 > Sealed class - prevents the entire class being derived from (no children allowed)
