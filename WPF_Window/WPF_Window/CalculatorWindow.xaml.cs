@@ -42,12 +42,20 @@ namespace WPF_Window
 
         private void btnAdd_Click(object sender, RoutedEventArgs e)
         {
-            lblResult.Content = _calculator.Add();
+            MessageBoxResult confirm = MessageBox.Show("You sure you wanna add that stuff?", "Confirmation", MessageBoxButton.YesNo);
+            if (confirm == MessageBoxResult.Yes)
+            {
+                lblResult.Content = _calculator.Add();
+            }
+            else if (confirm == MessageBoxResult.No)
+            {
+                lblResult.Content = "No adding";
+            }
         }
 
         private void tbxNum2_TextChanged(object sender, TextChangedEventArgs e)
         {
-            var success = double.TryParse(tbxNum2.Text, out double num1);
+            var success = double.TryParse(tbxNum2.Text, out double num2);
             if (success)
             {
                 _calculator.Num1 = num2;
@@ -58,5 +66,5 @@ namespace WPF_Window
             }
         }
     }
-    }
+
 }
