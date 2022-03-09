@@ -342,4 +342,11 @@ public interface IMovable
 
 ## SOLID Principles
 
+> The Solid Principles are as follows:
+> * Single Responsibility
+> * Open Closed
+> * Liskov Substituion
+> * Interface segregation
+> * Dependency Inversion
+
 
