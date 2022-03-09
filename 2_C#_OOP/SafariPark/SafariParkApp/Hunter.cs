@@ -11,19 +11,11 @@ namespace SafariParkApp
         //private string _camera;
 
         private IShootable _shooter;
-        public IShootable Shooter { get => _shooter; set => _shooter = value; }
+        public IShootable Shooter { get => _shooter; set => _shooter = value is Hunter ? throw new ArgumentException("You cannot use the Hunter to shoot") : value; }
         
         public Hunter(string fName, string lName, IShootable shooter) : base (fName,lName) //inherits from Person class
-        {
-            if (shooter is Hunter)
-            {
-                throw new ArgumentException("You cannot use the Hunter to shoot");
-            }
-            else 
-            {
-             Shooter = shooter;  
-            }
-            
+        { 
+             Shooter = shooter;          
            // _camera = camera;
         }
 
