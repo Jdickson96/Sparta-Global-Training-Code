@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public class Person
+    public class Person : IMoveable
     {
         private int myVar;
 
@@ -14,6 +14,16 @@ namespace SafariParkApp
         {
             get { return myVar; }
             set { myVar = value; }
+        }
+
+        public virtual string Move()
+        {
+            return "Walking along";
+        }
+        public virtual string Move(int times)
+        {
+            return $"Walking along {times} times";
+           
         }
 
 

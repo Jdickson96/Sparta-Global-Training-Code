@@ -6,19 +6,17 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    internal class Airplane : Vehicle
+    public class Airplane : Vehicle
     {
         private string _airline;
         public Airplane(int _capacity, int speed, string airline = "") : base(_capacity, speed) //inherits from Person class
         {
             _airline = airline;
         }
-        public Airplane(int capacity) : base(capacity)
-        {
-            base._capacity = capacity;
-        }
 
-        public int Altitude { get; set; }
+        public Airplane(int capacity) : base (capacity) { }
+
+        public int Altitude { get; private set; }
         public void Ascend(int distance)
         {
             Altitude = Altitude + distance;
@@ -41,6 +39,6 @@ namespace SafariParkApp
             else return $"Moving backwards {Math.Abs(times)} times at an altitude of { Altitude} meters";
         }
 
-        public override string ToString() => $"Thank you for flying {_airline}: " + base.ToString() + $" altitude: { Altitude}";
+        public override string ToString() => $"Thank you for flying {_airline}: " + base.ToString() + $" altitude: { Altitude}.";
     }
 }

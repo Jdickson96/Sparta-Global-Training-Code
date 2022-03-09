@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace SafariParkApp
 {
-    public class Vehicle
+    public class Vehicle : IMoveable
     {
-        public int _capacity = 10;
+        private int _capacity = 10;
         public int _numPassengers;
         public int NumPassengers { get { return _numPassengers; }
                                    set {
@@ -16,7 +16,7 @@ namespace SafariParkApp
                 {
                     _numPassengers = value;
                 } 
-                else throw new ArgumentException($"{value} people cannot be in this {_capacity} person capacity Vehicle"); 
+                else throw new ArgumentException($"{value} people cannot be in this {_capacity} person capacity vehicle"); 
             } 
         }
         public int Position { get; set; }
