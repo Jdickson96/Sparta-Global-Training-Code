@@ -4,6 +4,7 @@ Code and notes created during the OOP section of the Sparta Global Training Cour
 > * [Introduction](#Introduction)
 > * [Safari Park System](#Safari-Park-System)
 > * [Derived Classes](#Derived-Classes)
+> * [Polymorphism](#Polymorphism)
 > * [SOLID Principles](#SOLID-Principles)
 
 ## Introduction
