@@ -354,4 +354,41 @@ public interface IMovable
 * A software module (usually `class`) should represent just one thing.
 * The class members (fields, properties, and methods) should be cohesive:
   * The fields and properties should hold info about the thing
- * 
+  * The methods should manipulate or return this information
+* The class should have only one reason to change
+
+In the safari park code the movement of the camera from within the hunter class to its own individual class was changing the hunter from multiple responsibility to a single responsibility class. This led to both classes becoming more cohesive as they both only have a single reason to change.
+* The hunther changes to add more hunting functionality
+* The camera changes if we want to change how it works (for example change focus, add a filter, etc..)
+
+## Open Closed
+
+* Software entities (methods and classes) should be open for extension but closed for modification
+* The `weapon` class is abstract and once defined should not be changed
+  * It may already be changed
+
+Exception classes and their subclasses in the system namespace are part of the C# library so we can't change it, however we can customise an existing exception instance by providing a meaningful method in its constructor. For more functionality we can also subclass an existing exception
+
+## Liskov Substitution
+
+* Subtypes must be substitutable for their base types without breaking the application.
+```csharp
+public interface IMovable
+{
+  string Move();
+  string Move(int times);
+}
+```
+* We expect any class implemented in this interface to implement these methods
+* We can use them anywhere an IMoveable Object is expected
+* This is the escence of polymorphism
+
+This principle is the concept that all items within the same class should respond in a similar way for a given method. None of their results should be unexcepted, they should work consistently.
+
+## Interface segregation
+
+Many small, specific interfaces are better than one large, general purpose one. `interface` in this context means the public methods and properties of a code module. In the safari park example we considered whether to implement a general-purpose interface or many smaller ones for specific use.
+
+Having small interfaces that only allow one type of behaviour helps enforce the Liskov Substitution principle as the functionality of the system is better defined. 
+
+**Many client-specific interfaces are better than one general-purpose interface**
