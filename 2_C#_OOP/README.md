@@ -342,11 +342,16 @@ public interface IMovable
 
 ## SOLID Principles
 
-> The Solid Principles are as follows:
-> * Single Responsibility
-> * Open Closed
-> * Liskov Substituion
-> * Interface segregation
-> * Dependency Inversion
+> **The Solid Principles are as follows:**
+> * Single Responsibility (SRP)
+> * Open Closed (OCP)
+> * Liskov Substituion (LSP)
+> * Interface segregation (ISP)
+> * Dependency Inversion (DIP)
 
+### Single Responsibility
 
+* A software module (usually `class`) should represent just one thing.
+* The class members (fields, properties, and methods) should be cohesive:
+ * The fields and properties should hold info about the thing
+ * 
