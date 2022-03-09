@@ -268,3 +268,72 @@ These keywords can be applied to either individual methods, or whole classes.
  
 * **Sealed Method** - Prevents a method that overrides a base class virtual or abstract method from being overwritten in a derived class
 * **Sealed class**  - prevents the entire class being derived from (no children allowed)
+
+## Polymorphism
+
+Many forms of the same thing, but they need a way to flexibly interact. 
+
+### ToString()
+
+All classes derive from the `Object` Class which defines a `virtual` ToString() Method. In the code below because the ToString() method is overwritten within the Person class, the system choses at runtime to use this definition rather than the global definition of the phrase.
+
+```csharp
+ { //Main  
+        Person yolanda = new Person("Yolanda", "Young");
+        SpartaWrite(yolanda);
+    }
+
+    public static void SpartaWrite(Object obj)
+    {
+        Console.WriteLine(obj.ToString());  //This is runtime Polymorphism (the commonly understood form of Polymorphism)
+    }
+```
+
+**Method overloading is a type of compile time polymorphism**
+
+### Casting
+
+When casting a class, you cannot cast from a base class to a derived class but you can cast from a derived class to a base class (imagine a family tree, you can work up but not down easily)
+
+The code below shows how items can be cast:
+```csharp
+var a = new Person("Nish", "Mandal") { Age = 32 };
+        var b = new Hunter("Hunter", "McHunty", "Pentax");
+
+        SpartaWrite(a);
+        var c = (Person)b;  //Treat b as though its a person even though its a hunter
+        SpartaWrite(c);
+
+        var d = a as Hunter;    //This will not cast to a hunter as you cannot cast from a base class to a subclass (cannot downcast)
+        SpartaWrite(d);
+```
+
+Code to check if an object has been properly cast:
+```csharp
+ public static void SpartaWrite(Object obj)
+    {
+        Console.WriteLine(obj.ToString());  //This is runtime Polymorphism (the commonly understood form of Polymorphism)
+        if (obj is Hunter)  //The is keyword is used to check if two objects are the same type
+        {
+            var hunterObj = (Hunter)obj;
+            Console.WriteLine(hunterObj.Shoot);
+        }
+    }
+```
+
+### Interface
+
+> * Interfaces are not inherited, they are implemented using the `interface` keyword.
+> * They begin with a capital I by convention
+> * All members are public by default (they can't use access modifiers)
+> * All methods are Abstract (signature only)
+> * Can't include constants, fields or constructors
+> * Can't include property declarations, but they must be implemented in the implementing class
+
+```csharp
+public interface IMovable
+{
+  string Move();
+  string Move(int times);
+}
+```
