@@ -31,7 +31,7 @@ Instead of this procedural method OOP systems combine the data with the code act
 > * Inheritance
 > * Polymorphism
 
-#### Abstraction
+#### 1) Abstraction
 Abstraction is the process of defining an item by a name, its key attributes and operation. For example a car can be broken down into its constituent physical parts as well as its use (drive, open door, etc). The unit of abstraction is the `class` - `blueprint`
 
 The `class` identifier represents abstraction with instances of a class being objects. These instances then can interact with each other via the use of methods and can be combined to make more things.
@@ -55,7 +55,7 @@ public string LastName;
 }
 ```
 
-#### Encapsulation
+#### 2) Encapsulation
 Encapsulation is the process of hiding the detail of how the system works in order to make it easier to use. This provides a simple, consistent interface to use the system where each class has a well defined responsibility. The user only gets a set of simple controls to operate the system.
 
 This makes use of the `private` keyword in order to hide values from the user (with the variables named in the `_variable` notation).
@@ -66,7 +66,7 @@ public string FirstName { get => _firstName; set => _firstName = value; } // thi
 cust.LastName = "Ghosh"; //this will assign this string value to a property
 ```
 
-#### Inheritance
+#### 3) Inheritance
 
 We can chose to create various different versions of an overall type, with these being specialized. For example a car is a specialized type of vehicle with a sports car being a specialized type of car. This means we can create hierarchies of types within a system.
 
@@ -85,7 +85,7 @@ public class Person
 }
 ```
 
-#### Polymorphism
+#### 4) Polymorphism
 
 This is the requirement to perform an action when it recieves a message, so while many different objects may recieve the same message, they each respond differently. 
 
