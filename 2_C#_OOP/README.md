@@ -353,5 +353,5 @@ public interface IMovable
 
 * A software module (usually `class`) should represent just one thing.
 * The class members (fields, properties, and methods) should be cohesive:
- * The fields and properties should hold info about the thing
+  * The fields and properties should hold info about the thing
  * 
