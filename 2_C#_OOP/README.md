@@ -484,6 +484,15 @@ public override int GetHashCode()   //by default this uses the memory address bu
         }
 ```
 
+### GetHashCode()
+
+* A hachcode is a number used to identify an object in a hash-based collection such as a `Dictionary<TKey, TValue>`
+* Two equal objects should have the same hashcode
+* However, it is possible (but not desirable) for two unequal objects to have the same hashcode by coincidence (for example: James Lewis and Lewis James)
+* The default object implementation of GetHashCode() returns the hashcode of the object reference.
+
+** If you override Equals(), you should also override GetHashCode() **
+
 ## Collections
 
 Lists and Arrays have a lot of similarities:
