@@ -432,3 +432,157 @@ But instead, we used **dependency injection**. Where the dependency is injected 
 ### Pain Driven Development
 
 Don't go wild with using all the SOLID principles and design patterns, just use simple techniques until they start to cause pain. Then refactor to solve the problem (which is safe if you already have tests to check the code function).
+
+## Object Equality and Comparison
+
+By default the `object` equality operators compare the positions of the compared classes in memory rather than the data they contain. This means that by default these operators only check if the data is referencing the same position in memory.
+
+This can be changed however, with the use of an override of the Equals and comparison operators within the class.
+
+The comparison code used in our example was:
+
+```csharp
+public int CompareTo(Person? other)
+        {
+            if (other == null) return 1;
+            if (this._lastName != other._lastName) return this._lastName.CompareTo(other._lastName);
+            else if (this._firstName != other._firstName) return this._firstName.CompareTo(other._firstName);
+            else return this._age.CompareTo(other._age);
+        }
+```
+
+With reference after the signatures of:
+
+```csharp
+ IEquatable<Person?>, IComparable<Person> 
+```
+
+With the Equals code being changed to be:
+
+```csharp
+public override bool Equals(object? obj)
+        {
+            return Equals(obj as Person);
+        }
+
+        public bool Equals(Person? other)
+        {
+            return other != null &&
+                   _firstName == other._firstName &&
+                   _lastName == other._lastName &&
+                   _age == other._age;
+        }
+```
+
+And finally the GetHshCode() function was changed to reference the data contained rather than a data address:
+
+```csharp
+public override int GetHashCode()   //by default this uses the memory address but here it is the data
+        {
+            return HashCode.Combine(_firstName, _lastName, _age);
+        }
+```
+
+## Collections
+
+Lists and Arrays have a lot of similarities:
+* Both can be iterated through
+* Both can be indexed
+* Both are typed
+
+However they have some key differences:
+* Arrays are of a fixed size and Lists can change size
+
+Some list operations are shown in the code below:
+
+```csharp
+var numList = new List<int> { 5, 4, 3, 9, 0 };
+
+                //Add 8 to the list
+                numList.Add(8);
+                //Sort the list Ascending
+                numList.Sort();
+                //Remove 2 Digits starting at position 1
+                numList.RemoveRange(1, 2);
+                //insert the number 1 at position 2
+                numList.Insert(2, 1);
+                //reverse the list
+                numList.Reverse();
+                //remove the number 9
+                numList.Remove(9);
+                //Write the list to the console on one line
+                numList.ForEach(x => Console.Write(x));
+```
+
+### Linked Lists
+
+These lists are not organised by their position in memory, rather by a pointer from each element to the nexts location in memory.
+
+They do not have the IList interface, and so you cannot access specific indexes. This means that a list must be iterated through rather than directly accessing data. You can still access the first and last data but any other must be iterated to.
+
+The benefits of linked lists are that they are more memory efficient, they are also better to have memory added and removed from the list. This is due to linked lists being very flexible in memory. However, lists are much faster at accessing individual sections of data as they are indexed.
+
+```csharp
+        LinkedList<Person> thePeopleLinked = new LinkedList<Person>();
+        thePeopleLinked.AddFirst(helen);
+        thePeopleLinked.AddFirst(will);
+        thePeopleLinked.AddLast(new Person("Nish", "Mandal"));
+
+        foreach (var person in thePeopleLinked)
+        {
+            Console.WriteLine(person);
+        }
+```
+
+### Queues
+
+These are fast to access and they can add and remove elements. They are **First In First Out**, and an example is the things sent to a printer to print.This functions similar to how a queue in real life works.
+
+```csharp
+        var myQueue = new Queue<Person>();
+        myQueue.Enqueue(helen);   //This adds to the end of the queue
+        myQueue.Enqueue(will);
+        myQueue.Enqueue(new Person("Nish", "Mandal"));
+
+        foreach(var item in myQueue)
+        {
+            Console.WriteLine(item);
+        }
+
+        var first = myQueue.Peek();     //This looks at who is at the front of the queue
+        var serve = myQueue.Dequeue();  //This removes the person at the front of the queue
+```
+
+### Stacks
+
+This is a **First in, Last Out** data model. An example usage of it is the undo function in word.
+
+```csharp
+        int[] original = new int[] { 1, 2, 3, 4, 5 };
+        int[] reversed = new int[original.Length];
+        var stack = new Stack<int>();
+
+        foreach (var n in original) //This puts the data onto the stack
+        {
+            stack.Push(n);
+        }
+
+        //pop off the stack, which will be 5 and continue until our array is full
+        for(int i = 0; i < original.Length; i++)
+        {
+            reversed[i] = stack.Pop();  //the data comes off the stack in reverse
+        }
+```
+
+### HashSet
+
+No duplicate elements are allowed (eg no two of the same number in an int HashSet).
+
+
+## Dictionaries
+
+A group of key-value sets.
+
+## Advance Unit Testing
+
+
