@@ -6,6 +6,7 @@ Code and notes created during the OOP section of the Sparta Global Training Cour
 > * [Derived Classes](#Derived-Classes)
 > * [Polymorphism](#Polymorphism)
 > * [SOLID Principles](#SOLID-Principles)
+> * [Collections](#Collections)
 
 ## Introduction
 Object Oriented Programming was developed to replace the previous procedural programming structure that had been in place. This is due to weaknesses in this coding setup steming from the practice of having code and data in seperate locations within the program. By having these seperate, it leads to several key issues:
@@ -576,12 +577,59 @@ This is a **First in, Last Out** data model. An example usage of it is the undo 
 
 ### HashSet
 
-No duplicate elements are allowed (eg no two of the same number in an int HashSet).
+No duplicate elements are allowed (eg no two of the same number in an int HashSet). This method uses the hashcodes of the data within it to order them, this leads to a very high speed search.
 
+```csharp
+var peopleSet = new HashSet<Person>
+        {
+            helen, new Person("Jasmin","Mandal"), new Person("Andrei","Aggassi") //internally methods are ordered by their hashcode
+        };
+
+        var successMartin = peopleSet.Add(new Person("Martin","Beard"));
+        var successHelen = peopleSet.Add(new Person("Helen", "Troy") {Age = 22});
+
+        var morePeople = new HashSet<Person> { new Person("Cathy", "French"), new Person("Jasmin", "Mandal") };
+        peopleSet.IntersectWith(morePeople);    //this is an AND statement between the two datasets so if a person exists in both they are left in peopleSet
+
+        foreach (var person in peopleSet)
+        {
+            Console.WriteLine(person);
+        }
+```
 
 ## Dictionaries
 
-A group of key-value sets.
+A group of key-value sets, where the values can be indexed by their keys. An example of a `dictionary` is shown below: 
+
+```csharp
+var personDictionary = new Dictionary<string, Person>
+        {
+            {"helen", helen },
+            {"Sherlock", new Person("Sherlock", "Holmes") {Age = 40} }
+        };
+        
+        Person p = personDictionary["Sherlock"];  //The data is accessed using this
+        
+        string input = "The cat in the hat comes back";
+        input.Trim().ToLower();
+        var countDict = new Dictionary<char, int>();
+        foreach(char character in input)
+        {
+            if (countDict.ContainsKey(character))
+            {
+               countDict[character]++;    //This adds to the value stored in a dictionary pair
+            }
+            else
+            {
+                countDict.Add(character, 1);  //This creates a new dictionary entry
+            }
+        }
+
+        foreach(KeyValuePair<char,int> keyValuePair in countDict)
+        {
+            Console.WriteLine(keyValuePair); //.Key or .Value can be added to access a single part of the pair
+        }
+```
 
 ## Advance Unit Testing
 
