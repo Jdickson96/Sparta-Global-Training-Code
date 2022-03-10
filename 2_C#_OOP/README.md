@@ -351,7 +351,7 @@ public interface IMovable
 
 ### Single Responsibility
 
-* A software module (usually `class`) should represent just one thing.
+* A software module (usually `class`) should **represent just one thing**.
 * The class members (fields, properties, and methods) should be cohesive:
   * The fields and properties should hold info about the thing
   * The methods should manipulate or return this information
@@ -361,15 +361,19 @@ In the safari park code the movement of the camera from within the hunter class 
 * The hunther changes to add more hunting functionality
 * The camera changes if we want to change how it works (for example change focus, add a filter, etc..)
 
-## Open Closed
+**This makes it easier for other devs to read and debug**
+
+### Open Closed
 
 * Software entities (methods and classes) should be open for extension but closed for modification
 * The `weapon` class is abstract and once defined should not be changed
   * It may already be changed
 
-Exception classes and their subclasses in the system namespace are part of the C# library so we can't change it, however we can customise an existing exception instance by providing a meaningful method in its constructor. For more functionality we can also subclass an existing exception
+Exception classes and their subclasses in the system namespace are part of the C# library so we can't change it, however we can customise an existing exception instance by providing a meaningful method in its constructor. For more functionality we can also subclass an existing exception.
 
-## Liskov Substitution
+**As a lot of devs may be using your base class, keeping the software extended reather than edited reduces conflicts**
+
+### Liskov Substitution
 
 * Subtypes must be substitutable for their base types without breaking the application.
 ```csharp
@@ -385,10 +389,46 @@ public interface IMovable
 
 This principle is the concept that all items within the same class should respond in a similar way for a given method. None of their results should be unexcepted, they should work consistently.
 
-## Interface segregation
+### Interface segregation
 
 Many small, specific interfaces are better than one large, general purpose one. `interface` in this context means the public methods and properties of a code module. In the safari park example we considered whether to implement a general-purpose interface or many smaller ones for specific use.
 
 Having small interfaces that only allow one type of behaviour helps enforce the Liskov Substitution principle as the functionality of the system is better defined. 
 
 **Many client-specific interfaces are better than one general-purpose interface**
+
+### Dependency Inversion
+
+* Depends on abstractions rather than concrete instances
+* High level modules should not depend on low-level modules
+  * Both should depend on abstractions
+* High Level
+  * Business rules, processes, guts of the application
+  * Calculator class, Radio class 
+* Low Level 
+  * Plumbing code, particularly for IO
+  * Interaction with GUI, files, database, API calls 
+
+In the safari code, we intially defined that a hunter has a camera but we could have done this by having the hunter constructor run a camera constructor within its code. However, this would cause a high level of coupling and violate the SRP and DIP, SOLID Principles. This makes it harder to test the Hunter and Camera separately.
+
+But instead, we used **dependency injection**. Where the dependency is injected in the constructor, and so the IShootable interface was placed in the constructor. This allows flexibility as any IShootable object can be called.
+
+#### DIP Example
+
+* The GUI code-behind classes are low-level
+  * Handle user interactions with the GUI
+  * Depends on the Calculator class
+  * Ideally we would refactor this so it depends on an ICalculator interface
+
+* The Calculator class is high-level
+  * knows nothing about the GUI 
+
+**This increases the codes maintainability and usability. With TRANSPARENT DEPENDENCY**
+
+### SOLID Relationships
+
+**Single Responsibility** and **Interface Segregation** encourage small, cohesive types, which can then be extended using **Open/Closed**. **Interface Segregation** aids **Liskov Substitution** and **Dependency Inversion**. With **Dependency Inversion** enablinng **Open/Closed** as you can change behaviour using ddependency injection.
+
+### Pain Driven Development
+
+Don't go wild with using all the SOLID principles and design patterns, just use simple techniques until they start to cause pain. Then refactor to solve the problem (which is safe if you already have tests to check the code function).
