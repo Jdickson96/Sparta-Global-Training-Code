@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ObjectComparison_Collections/1.0.0": {
+        "runtime": {
+          "ObjectComparison_Collections.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ObjectComparison_Collections/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
