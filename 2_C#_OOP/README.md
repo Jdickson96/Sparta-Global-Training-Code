@@ -676,4 +676,5 @@ This is the process of:
 Developers on average create 70 bugs per thousand lines of code. TDD encourages good coding practices as the developer only writes code to fit the test. This means the code is increased in cohesion as well as more focused. 
 
 > **Retesting** - Found issue, issue has been fixed. The rest is then re-run to ensure fix has worked.
+> 
 > **Regression Testing** - Checks if any changes to the system has damaged any pre-existing functionality (checks for side-effects of code changes)
