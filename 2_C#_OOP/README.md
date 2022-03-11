@@ -678,3 +678,7 @@ Developers on average create 70 bugs per thousand lines of code. TDD encourages 
 > **Retesting** - Found issue, issue has been fixed. The rest is then re-run to ensure fix has worked.
 > 
 > **Regression Testing** - Checks if any changes to the system has damaged any pre-existing functionality (checks for side-effects of code changes)
+
+For testing 70% of effort should be on Unit Testing, as it is cheapest and easiest to implement. 
+
+Unit tests should be part of the definition of done for a user story within any feature. If given code without tests, write these before making changes or adding further code to ensure original code functionality is not lost.
