@@ -640,6 +640,40 @@ var personDictionary = new Dictionary<string, Person>
         }
 ```
 
-## Advance Unit Testing
+## Advanced NUnit Testing
 
+NUnit tests work using a model based on:
+* Arrange
+* Act
+* Assert
 
+There are two main models for NUnit testing, the Classic model (still supported, but not developed past NUnit 2.0) and the constraint model. With the constraint model being the current model in development and use.
+
+There are many different operators that can be used in NUnit testing
+
+### The characteristics of a good NUnit Test
+
+> **F**ast (Tests should take milliseconds to run)
+> **I**solated (They should be standalone and not rely on outside factors)
+> **R**epeatable (Test Results should be consistent)
+> **S**elf-Checking (Should be able to check if passed or failed without human interaction)
+> **T**imely (Shouldn't take a long time to write compared to code tested)
+
+A Test class should be cohesive, so it should test the same type of output across the class. 
+
+The name of tests should consist of:
+* The method
+* The scenario
+* The expected output
+
+## Test Driven Development
+
+This is the process of:
+* Write a failing test
+* Make the test pass
+* Refactor the code
+
+Developers on average create 70 bugs per thousand lines of code. TDD encourages good coding practices as the developer only writes code to fit the test. This means the code is increased in cohesion as well as more focused. 
+
+> **Retesting** - Found issue, issue has been fixed. The rest is then re-run to ensure fix has worked.
+> **Regression Testing** - Checks if any changes to the system has damaged any pre-existing functionality (checks for side-effects of code changes)
