@@ -1,0 +1,45 @@
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.exe
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.deps.json
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.runtimeconfig.json
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\ref\FizzBuzzApp.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.pdb
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.csproj.AssemblyReference.cache
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.AssemblyInfoInputs.cache
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.AssemblyInfo.cs
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.csproj.CoreCompileInputs.cache
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\ref\FizzBuzzApp.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.pdb
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.genruntimeconfig.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.exe
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.deps.json
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.runtimeconfig.json
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.pdb
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.AssemblyInfo.cs
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\refint\FizzBuzzApp.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.pdb
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.genruntimeconfig.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\ref\FizzBuzzApp.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.exe
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.deps.json
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.runtimeconfig.json
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\bin\Debug\net6.0\FizzBuzzApp.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.AssemblyInfo.cs
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\refint\FizzBuzzApp.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\FizzBuzzApp.genruntimeconfig.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzApp\obj\Debug\net6.0\ref\FizzBuzzApp.dll

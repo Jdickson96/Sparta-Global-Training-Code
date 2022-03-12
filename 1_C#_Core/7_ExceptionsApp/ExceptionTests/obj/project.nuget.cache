@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wHPTKQEccPZEn94Rhd51qqeiRCiANeLllNDDP8psP3kdwiJM8xZvkKDpbES5cfI0u36ECQVi51g4GrxJ9AlG5w==",
+  "dgSpecHash": "1WdGqIlVIpJt6Bu9aCB27U95OQFhHFAnouNpBh6PuVBHOsYow4w1M8EEk0cQqZoNjnPMNb5z+If8Rgi2vNgZGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\7_ExceptionsApp\\ExceptionTests\\ExceptionTests.csproj",
+  "projectFilePath": "C:\\Users\\James\\Desktop\\Sparta Global Training Code\\1_C#_Core\\7_ExceptionsApp\\ExceptionTests\\ExceptionTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\James\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\James\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

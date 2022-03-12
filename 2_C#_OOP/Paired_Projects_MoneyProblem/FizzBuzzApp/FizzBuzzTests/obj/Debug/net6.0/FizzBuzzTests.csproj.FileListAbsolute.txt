@@ -1,0 +1,315 @@
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.AssemblyReference.cache
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfoInputs.cache
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfo.cs
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CoreCompileInputs.cache
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testhost.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.deps.json
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.runtimeconfig.json
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.exe
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testhost.exe
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.api.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.core.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.deps.json
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.runtimeconfig.json
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ref\FizzBuzzTests.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.pdb
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.framework.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.pdb
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CopyComplete
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\ref\FizzBuzzTests.dll
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.pdb
+D:\C#Projects\GitRepo\MD_ENG103_Week3\MD_ENG103_W3\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.genruntimeconfig.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testhost.exe
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testhost.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.deps.json
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.runtimeconfig.json
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.exe
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.deps.json
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.runtimeconfig.json
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.pdb
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.pdb
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfo.cs
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CopyComplete
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\refint\FizzBuzzTests.dll
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.pdb
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.genruntimeconfig.cache
+C:\Users\James\Desktop\FizzBuzzApp\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\ref\FizzBuzzTests.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\CoverletSourceRootsMapping
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testhost.exe
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testhost.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NUnit3.TestAdapter.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NUnit3.TestAdapter.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.api.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.engine.core.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.deps.json
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.runtimeconfig.json
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.exe
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.deps.json
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.runtimeconfig.json
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzTests.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CoreUtilities.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\NuGet.Frameworks.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\nunit.framework.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\bin\Debug\net6.0\FizzBuzzApp.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfoInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.AssemblyInfo.cs
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.csproj.CopyComplete
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\refint\FizzBuzzTests.dll
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.pdb
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\FizzBuzzTests.genruntimeconfig.cache
+C:\Users\James\Desktop\Sparta Global Training Code\2_C#_OOP\Paired_Projects_MoneyProblem\FizzBuzzApp\FizzBuzzTests\obj\Debug\net6.0\ref\FizzBuzzTests.dll
