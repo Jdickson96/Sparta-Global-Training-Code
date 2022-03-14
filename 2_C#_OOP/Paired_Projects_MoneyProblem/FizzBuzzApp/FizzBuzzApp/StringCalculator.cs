@@ -39,8 +39,7 @@ namespace FizzBuzzApp
             StringBuilder negatives = new();
             foreach (string num in nums)
             {
-                bool isDigit = int.TryParse(num, out int digit);
-                if (isDigit)
+                if (int.TryParse(num, out int digit))
                 {
                     if(digit<0) 
                         negatives.Append($"{digit} ");
@@ -56,8 +55,8 @@ namespace FizzBuzzApp
             }
             if(negatives.Length > 0)
                 throw new ArgumentOutOfRangeException(($"negatives not allowed : {negatives}").Trim());
-          
-            return sum;
+            else
+                return sum;
         }
     }
 }
