@@ -74,3 +74,5 @@ The Git strategy for Sparta Group work is:
 * Have a Dev branch from the main branch
 * Both the Dev and Main Branch are protected
 * With all work done being in braches off of the Dev branch
+* Once features that have been worked on are completed,they are merged with the dev branch
+* Other features being worked on then pull the latest dev branch
