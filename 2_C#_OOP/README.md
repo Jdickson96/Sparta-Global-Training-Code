@@ -653,11 +653,11 @@ There are many different operators that can be used in NUnit testing
 
 ### The characteristics of a good NUnit Test
 
-> **F**ast (Tests should take milliseconds to run)
-> **I**solated (They should be standalone and not rely on outside factors)
-> **R**epeatable (Test Results should be consistent)
-> **S**elf-Checking (Should be able to check if passed or failed without human interaction)
-> **T**imely (Shouldn't take a long time to write compared to code tested)
+> * **F**ast (Tests should take milliseconds to run)
+> * **I**solated (They should be standalone and not rely on outside factors)
+> * **R**epeatable (Test Results should be consistent)
+> * **S**elf-Checking (Should be able to check if passed or failed without human interaction)
+> * **T**imely (Shouldn't take a long time to write compared to code tested)
 
 A Test class should be cohesive, so it should test the same type of output across the class. 
 
