@@ -76,3 +76,21 @@ The Git strategy for Sparta Group work is:
 * With all work done being in braches off of the Dev branch
 * Once features that have been worked on are completed,they are merged with the dev branch
 * Other features being worked on then pull the latest dev branch
+
+## Design Patterns
+
+These are based on architecture patterns, and are solutions to commonly encountered problems.
+
+### Singleton
+
+Ensures a class only has one instance while providing global access to that instance.
+
+Problem:
+* Application needs to have **Only one instance** of a particular class
+* But **Many** classes need to be able to access it
+* Potential for a lot of coupling
+  * lots of objects referencing the same object
+
+An example would be a logging system
+
+### Factory Method
