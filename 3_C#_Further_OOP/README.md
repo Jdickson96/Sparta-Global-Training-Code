@@ -93,4 +93,18 @@ Problem:
 
 An example would be a logging system
 
-### Factory Method
+### Factory Pattern
+
+### MVC
+
+### Strategy
+
+### Decorator
+
+## Big-O Notation (Algorithmic Complexity)
+
+
+
+## Recursion
+
+
