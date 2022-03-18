@@ -498,3 +498,7 @@ SELECT SUM(available_stock) AS "Total Stock",
        COUNT(available_stock) AS "Number of Products with non null stock",
 FROM product;
 ```
+
+## GROUP BY
+
+This GROUP BY clause groups info together and is almost always used in conjunction with aggregate functions. Instead of aggregating over 
