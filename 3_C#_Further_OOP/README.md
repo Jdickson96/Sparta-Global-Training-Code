@@ -124,3 +124,16 @@ It is important in every web application as it has Schema definitions, config fi
 ### JSON
 
 
+
+## SQL
+
+SQL Stands for **S**tructured **Q**uery **L**anguage
+
+### SELECT Statements
+
+These are used to query the database and return any data that matches our specified criteria
+
+```sql
+SELECT column
+FROM table;
+```
