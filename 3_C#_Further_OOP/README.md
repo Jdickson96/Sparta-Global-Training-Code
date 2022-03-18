@@ -429,3 +429,45 @@ The data in the tables can be changed using +, -, *, /, % operators.
 SELECT name AS "Name", price AS "Price", available_stock AS "Available Stock", price * available_stock AS "Total Value"
 FROM product;
 ```
+
+## SQL Date Functions
+
+**GETDATE()** Returns the current date
+
+**DATEADD(unit, N, date)** Adds on to the date provided to a number (N) of the unit specified (DAY, MONTH, YEAR)
+
+```sql
+DATEADD(DAY, 5, '1970-01-01')
+```
+
+**DATEDIFF(unit, date1, date2)** Returns the difference between two dates
+
+```sql
+DATEADD(MONTH, '1970-01-01', '1970-01-01')
+```
+
+**YEAR(date)** Extracts the year as an integer from the date
+
+```sql
+YEAR('1952-03-11') -- returns: 1952
+```
+
+**MONTH(date)** Extracts the month as an integer from the date
+
+```sql
+MONTH('1952-03-11') -- returns: 03
+```
+
+**DAY(date)** Extracts the day as an integer from the date
+
+```sql
+DAY('1952-03-11') -- returns: 11
+```
+
+**Code using these date functions can be seen here**
+
+```sql
+SELECT UPPER(firstname) AS "First Name", UPPER(lastname) AS "Last Name",DATEADD(MONTH,165,birth_date) AS "Date"
+FROM customer
+WHERE birth_date IS NOT NULL;
+```
