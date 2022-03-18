@@ -207,16 +207,88 @@ FROM product
 WHERE price < 10 OR available_stock >= 3000
 ```
 
+#### BETWEEN Operator
+
+Instead of using a
+```sql
+WHERE price >= 50 AND price <= 100;
+```
+
+We can use:
+
+```sql
+WHERE price BETWEEN 50 and 100;
+```
+
+This increases the clarity of the code. It can also make multiple variable checks easier, for example:
+
+```sql
+SELECT name, description, price, available_stock
+FROM product
+WHERE available_stock BETWEEN 10 and 20 AND price > 100;
+```
+
+#### IN Operator
+
+```sql
+WHERE firstName = 'James' OR firstName = 'Roger' OR firstName = 'Jean-Claude';
+```
+This can be simplified by using the IN operator:
+```sql
+WHERE firstName IN('James','Roger','Jean-Claude');
+```
+
+#### NULL Operator
+
+Some of the data in the database shows up as NULL, this is SQL's way of showing there is no data. This can be checked for using the code below:
+
+```sql
+SELECT *
+FROM customer
+WHERE birth_date IS NULL; -- IS NOT NULL can also be used
+```
+
 #### WHERE Wildcards
+
+These are used when you are not looking for an exact match but you want to find an item that contains something desired. These use the LIKE keyword, and can be combined.
 
 **_**
 
+This substitutes a single character, for example:
 
+```sql
+SELECT *
+FROM customer
+WHERE firstname LIKE 'Li_a'
+```
 
 **%**
 
+This substitutes for zero or more characters, so a single percentage character can be used to search for a string that begins or ends with an entered string. The code below will return all items that begin with J.
 
+```sql
+SELECT *
+FROM customer
+WHERE firstname LIKE 'J%'
+```
 
 **[ABC]**
 
+This is used to specify multiple possible characters to match. For example the code below would return the 'Kindle Fire 5','Kindle Fire 6' and 'Kindle Fire 7' if these exist in the database being searched.
+
+```sql
+SELECT *
+FROM customer
+WHERE firstname LIKE 'Kindle Fire [567]'
+```
+
+**[^ABC]**
+
+This works similarly to the case above however the ^ works as a NOT Logic operator, and as such the system will return any kindles not including the chars in the square brackets.
+
+```sql
+SELECT *
+FROM customer
+WHERE firstname LIKE 'Kindle Fire [^567]'
+```
 
