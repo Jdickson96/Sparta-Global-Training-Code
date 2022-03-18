@@ -108,3 +108,19 @@ An example would be a logging system
 ## Recursion
 
 
+## XML and JSON
+
+Json is Java Script Object Notation and XML is the precursor for HTML. Both XML and JSON are used for storing and transfering data. They are both human readable, easily parsed and hierarchal.
+
+### XML
+
+XML means Extensible Markup Language.
+* **Extensible** - can add or remove data
+* **Markup** - provides definition to text and symbols
+* **Language** - present info based on certain rules
+
+It is important in every web application as it has Schema definitions, config files and document mapping
+
+### JSON
+
+
