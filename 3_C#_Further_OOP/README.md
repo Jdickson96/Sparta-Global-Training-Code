@@ -127,13 +127,96 @@ It is important in every web application as it has Schema definitions, config fi
 
 ## SQL
 
-SQL Stands for **S**tructured **Q**uery **L**anguage
+SQL Stands for **S**tructured **Q**uery **L**anguage. The majority of SQL engines are case insensitive but common practice is that SQL Keywords (like `SELECT` and `FROM` are typed in upper case while names of things are typed in lower case. SQL also does not care about whitespace, but common practice is to have a new line for each clause. Statements should also be finished with a semicolon to aid visability.
 
 ### SELECT Statements
 
-These are used to query the database and return any data that matches our specified criteria
+These are used to query the database and return any data that matches our specified criteria. For example:
 
 ```sql
 SELECT column
 FROM table;
 ```
+This asks for a single column in a single table in the database, with `column` and `table` replaced with actual names in practice.
+
+Select Statements contain two clauses: `SELECT` and `FROM`
+
+The `AS` keyword assigns column aliases:
+
+```sql
+SELECT firstname AS "First Name", lastname AS "Last Name", birth_date AS "Date of Birth"
+FROM customer
+```
+
+If you want to return all the columns in a table without typing out every column name you can use an astrerisk
+
+```sql
+SELECT *
+FROM customer
+```
+
+
+#### SELECT Statement sequences
+
+When an SQL query is written the various clauses ust be written in a set order. This is know as the **Logical Sequence** or **Syntax Sequence**
+
+* SELECT
+* DISTINCT
+* FROM
+* WHERE
+* GROUP BY
+* HAVING
+* ORDER BY
+
+The sequence above is not the order in which the clauses are processed by SQL however. This is known as the **Processing Sequence** and is shown below:
+
+* FROM
+* WHERE
+* GROUP BY
+* HAVING
+* SELECT
+* DISTINCT
+* ORDER BY
+
+This has important implications for how we write our SQL queries
+
+### WHERE Statement
+
+This is used to only retrieve specific rows from our tables. The code below will only return products where the name is exactly equal to 'Chromecast'. For this to work you need to use single quotes. 
+
+```sql
+SELECT *
+FROM product
+WHERE name = 'Chromecast'
+```
+
+#### WHERE Comparison operators
+
+The WHERE clause can also use other operators than =. These are:
+* < Less than
+* > More than
+* <= Less than or equal to
+* >= More than or equal to
+* != Not equal to
+
+WHERE clauses can also use AND and OR statements to chain clauses.
+
+```sql
+SELECT name, price, available_stock
+FROM product
+WHERE price < 10 OR available_stock >= 3000
+```
+
+#### WHERE Wildcards
+
+**_**
+
+
+
+**%**
+
+
+
+**[ABC]**
+
+
