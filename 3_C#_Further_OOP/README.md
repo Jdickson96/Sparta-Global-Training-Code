@@ -471,3 +471,30 @@ SELECT UPPER(firstname) AS "First Name", UPPER(lastname) AS "Last Name",DATEADD(
 FROM customer
 WHERE birth_date IS NOT NULL;
 ```
+
+## SQL CASE
+
+This is like a case statement in C# it works as below:
+
+```sql
+SELECT name, price,
+     CASE
+         WHEN price < 50 THEN 'Cheap'
+         WHEN price > 100 THEN 'Moderately Priced'
+         ELSE 'EXPENSIVE'
+     END AS 'Price Category'
+FROM product;
+```
+
+## SQL Aggregation
+
+This is bringing things together into groups such as getting the sum value of a column, this can use any of the operators below:
+
+```sql
+SELECT SUM(available_stock) AS "Total Stock",
+       AVG(available_stock) AS "Average Stock",
+       MIN(available_stock) AS "Minimum Stock",
+       MAX(available_stock) AS "Maximum Stock",
+       COUNT(available_stock) AS "Number of Products with non null stock",
+FROM product;
+```
