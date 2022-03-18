@@ -337,3 +337,95 @@ For codingame use:
 SELECT address || ', ' || city AS "Full Address"
 FROM customer;
 ```
+
+## SQL String Functions
+
+**UPPER**(text) returns the content of that text in  UPPERCASE
+
+```sql
+SELECT UPPER(firstname)
+FROM customer;
+```
+
+**LOWER**(text) returns the content of that text in  lowercase
+
+```sql
+SELECT LOWER(firstname)
+FROM customer;
+```
+
+**TRIM**(text) returns the content of that text with whitespace characters at the start and end removed
+
+```sql
+SELECT TRIM(firstname)
+FROM customer;
+```
+
+**LTRIM**(text) returns the content of that text with whitespace characters at the start removed
+
+```sql
+SELECT LTRIM(firstname)
+FROM customer;
+```
+
+**RTRIM**(text) returns the content of that text with whitespace characters at the end removed
+
+```sql
+SELECT RTRIM(firstname)
+FROM customer;
+```
+
+**LENGTH**(text) returns the length of the string
+
+```sql
+SELECT LENGTH(firstname)
+FROM customer;
+```
+
+**LEFT**(text,N) returns the leftmost content of that text up to the Nth char 
+
+```sql
+SELECT LEFT(firstname,6)
+FROM customer;
+```
+
+**RIGHT**(text,N) returns the rightmost content of that text up to the Nth char 
+
+```sql
+SELECT RIGHT(firstname,6)
+FROM customer;
+```
+
+**SUBSTRING**(text,start_index,length) returns a section of the content equal to the length stating at the start_index 
+
+```sql
+SELECT SUBSTRING(firstname,6,4)
+FROM customer;
+```
+
+**POSITION**(substring IN text) returns the position of a substring within the content 
+
+```sql
+SELECT POSITION('G' IN firstname)
+FROM customer;
+```
+
+**The string functions above can also be combined to make more complex operations**
+
+```sql
+SELECT LEFT(firstname,1) || '. ' || UPPER(LEFT(lastname,1)) || LOWER(RIGHT(lastname, LENGTH(lastname) - 1)) AS "Name"
+FROM customer;
+
+SELECT SUBSTRING(name, 1 , POSITION(':' IN name) - 1) AS "Name", price AS "Price"
+FROM product
+WHERE name LIKE '%:%';
+```
+
+## SQL Arithmetic Operators
+
+The data in the tables can be changed using +, -, *, /, % operators.
+
+```sql
+SELECT name AS "Name", price AS "Price", available_stock AS "Available Stock", price * available_stock AS "Total Value"
+FROM product;
+```
