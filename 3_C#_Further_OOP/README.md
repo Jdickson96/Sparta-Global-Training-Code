@@ -292,3 +292,48 @@ FROM customer
 WHERE firstname LIKE 'Kindle Fire [^567]'
 ```
 
+### TOP
+
+This grabs the top few rows of a table rather than checking the entire table as this can take up time and resources.
+
+```sql
+SELECT TOP 5 *
+FROM customer;
+```
+
+### ORDER BY
+
+This orders the rows of a table by the columns specified as well as either ordering in ascending (ASC) or descending (DESC) order:
+
+```sql
+SELECT *
+FROM customer
+ORDER BY lastname ASC, firstname ASC;
+```
+
+### DISTINCT
+
+This keyword works to remove any duplicate rows within a table
+
+```sql
+SELECT DISTINCT city
+FROM customer;
+```
+
+## SQL Data Manipulation
+
+### CONCATENATION
+
+This is combining data in multiple columns to form a single combined column of data
+
+```sql
+SELECT firstname + ' ' + lastname AS 'Full Name'
+FROM customer;
+```
+
+For codingame use:
+
+```sql
+SELECT address || ', ' || city AS "Full Address"
+FROM customer;
+```
