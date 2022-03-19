@@ -501,4 +501,186 @@ FROM product;
 
 ## GROUP BY
 
-This GROUP BY clause groups info together and is almost always used in conjunction with aggregate functions. Instead of aggregating over 
+This GROUP BY clause groups info together and is almost always used in conjunction with aggregate functions. Instead of aggregating over the entire table, we can specify a column with which to group our data.
+
+The code below calculates the average of the price column for each category ID, 
+
+```sql
+SELECT product_category_id AS "Category ID",
+    AVG(price) AS "Average Price",
+    COUNT(name) AS "Number of Products"
+FROM product
+GROUP BY product_category_id;
+```
+
+Or this example:
+
+```sql
+SELECT city AS "City", 
+       COUNT(city) AS "Customer Count"
+FROM customer
+GROUP BY city
+ORDER BY COUNT(city) DESC, city ASC;
+```
+
+## HAVING
+
+This is used when we filter based on the result of aggregation. We have to recalculate the average after the aggregation.
+
+```sql
+SELECT product_category_id AS "Category ID"
+     AVG(price) AS "Average Price"
+FROM product
+GROUP BY product_category_id
+HAVING AVG(price) < 200;
+```
+
+Or
+
+```sql
+SELECT product_category_id AS "Category ID",
+    MAX(price) AS "Maximum Price"
+FROM product
+GROUP BY product_category_id
+HAVING MIN(available_stock) < 100
+ORDER BY product_category_id ASC;
+```
+
+**HAVING and WHERE are different, WHERE is used to filter rows in the original table. HAVING is used to filter based on Aggregation**
+
+## JOIN
+
+This keyword combines tables together by having matching on rows. We specify two tables, and a rule for joining them together. This will usually be that values in a column in table 1 should be the same as values in a column in table 2. Wheneve there's a match in thesecp;imns, we combine these rows. JOIN statements are part of the FROM clause.
+
+Some types of JOIN make it important to understand which is the "Left Table" and the "Right Table", the left table is the first table specificed and then we join the Right table on to the left table. When we join tables we may end up with multiple columns of the same name. To disambiguate in thes esituations, we use a full stop: **table.column**, where **table** is the name of the table the column belongs to and the **column** is the name of the column. This is not strictly necessary when dealing with columns with unique names, but it is good practice.
+
+### Types of Join
+
+#### LEFT JOIN
+
+A **LEFT JOIN** or **LEFT OUTER JOIN** will return ALL rows in the Left Table and only return rows from the right table which match with rows in the left table.
+
+```sql
+SELECT *
+FROM LeftTable
+LEFT JOIN RightTable
+ON LeftTable.KeyColumn = RightTable.KeyColumn
+```
+
+#### RIGHT JOIN
+
+A **RIGHT JOIN** or **RIGHT OUTER JOIN** will return ALL rows in the right Table and only return rows from the left table which match with rows in the right table.
+
+```sql
+SELECT *
+FROM LeftTable
+RIGHT JOIN RightTable
+ON LeftTable.KeyColumn = RightTable.KeyColumn
+```
+
+**Right Join is very uncommon and is usually refactored to a left join as these are more well used**
+
+#### INNER JOIN
+
+A **INNER JOIN** or simply **Join** will return rows from each Table ONLY if there is a match with the other table.
+
+```sql
+SELECT *
+FROM LeftTable
+INNER JOIN RightTable
+ON LeftTable.KeyColumn = RightTable.KeyColumn
+```
+
+#### OUTER JOIN
+
+A **OUTER JOIN** or **FULL OUTER JOIN** will return ALL rows from each table regardless of whether there is a match with the other table.
+
+```sql
+SELECT *
+FROM LeftTable
+OUTER JOIN RightTable
+ON LeftTable.KeyColumn = RightTable.KeyColumn
+```
+
+#### Table Aliases
+
+Table aliases are used in order to reduce the amount of typing required to set up a statement. The aliases are set by simply putting a smaller table name after its declaration.
+
+```sql
+SELECT s.firstname, c.coursename
+FROM student s
+INNER JOIN course c
+ON s.course_id = c.id
+```
+
+#### Multiple JOIN
+
+Some projects require multiple differing tables to be joined, this often requires the use of an Entity Relationship Diagram (ERD). The tables link together via the use of keys.
+
+```sql
+SELECT date AS "Date", UPPER(firstname || ' ' || lastname) AS "Customer", p.name AS "Product", pc.name AS "Product Category"
+FROM customer c
+JOIN purchase_order po
+    ON c.customer_id = po.customer_id --common columns
+JOIN order_product op
+    ON po.order_id = op.order_id
+JOIN product p
+    ON op.product_id = p.product_id
+JOIN product_category pc
+    ON p.product_category_id = pc.product_category_id;
+```
+
+### UNION
+
+JOIN joins rows from different tables horizontally, UNION joins columns vertically. These columns often have the same names but do not need to.
+
+**UNION does not duplicate rows that appear in both tables by default, in order to not remove these duplicates use UNION ALL**
+
+```sql
+SELECT firstname AS "First Name", lastname AS "Last Name"
+FROM customer
+UNION ALL
+SELECT firstname, lastname
+FROM employee;
+```
+
+### Subqueries
+
+This is a query within a query to send data to the outside query. They can be used **SELECT**, **FROM** and **WHERE** clauses.
+
+#### SELECT Subqueries
+
+Because it will always return the same value, SELECT sbuqueries are often used to return a reference value for further calculation.
+
+```sql
+SELECT name AS "Name", price AS "Price",
+        price - (SELECT AVG(price) FROM product) AS "Avg Price Diff" 
+FROM product;
+```
+
+#### FROM Subqueries
+
+These are useful if we want to perform further calculations on top of previous aggregations or calculations. It is possible to join a subquery, but to do so instead of a table name, define the subquery. It is mandatory to use an alias for the subquery.
+
+```sql
+SELECT MIN(average_stock) AS "Minimum Average Category Stock"
+FROM product p
+JOIN (
+    SELECT product_category_id, AVG(available_stock) AS average_stock
+    FROM  product
+    GROUP BY product_category_id
+   ) ms ON p.product_category_id = ms.product_category_id;
+```
+
+#### WHERE Subqueries
+
+Subqueries can be used in the WHERE clause, these subqueries return a single column which can be used as a list of values. We can then filter our results based on this list, most commonly using IN or NOT IN.
+
+```sql
+SELECT firstname AS "First Name", phone_number AS "Phone Number"
+FROM customer
+WHERE phone_number IS NOT NULL AND customer_id NOT IN( --where phone number is filled and the customer doesn't have an id
+    SELECT DISTINCT customer_id
+    FROM purchase_order
+);
+```
