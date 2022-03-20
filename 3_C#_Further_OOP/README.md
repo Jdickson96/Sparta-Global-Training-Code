@@ -68,6 +68,25 @@ This is the same code in multiple places and these should be unified. If you hav
 * For example: `_houseno`, `_street`, `_town` in `Person`
 * Make an Address Class
 
+#### Large Classes
+
+* When a class does too much
+* Single Responsibility principle
+* Should it be split into two associated classes
+
+#### Long Method Parameter Lists
+
+* Long parameter lists are an indication of bloat
+* They are hard to read and understand
+* Is it possible to pass an object instead
+
+#### Feature Envy
+
+* When one class is calling another excessively
+* Assign the functionality might belong to the other class
+* Extract method and move to the other class
+* Remember a class should enncapsulate data and methods that act upon that data
+
 ## Using GitHub Collaberatively
 
 The Git strategy for Sparta Group work is:
