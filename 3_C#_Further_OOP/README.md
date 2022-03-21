@@ -98,7 +98,10 @@ The Git strategy for Sparta Group work is:
 
 ## Design Patterns
 
-These are based on architecture patterns, and are solutions to commonly encountered problems.
+These are based on architecture patterns, and are solutions to commonly encountered problems. There are 3 types:
+* Behavioural
+* Creational
+* Structural
 
 ### Singleton
 
@@ -122,7 +125,27 @@ An example would be a logging system
 
 ## Big-O Notation (Algorithmic Complexity)
 
+This is a method to describe the performance or complexity of any given algorithm. It always assumes the upper limit where the algorithm will perform the maximum number of iterations.
 
+### O(1)
+
+The algorithm always executes in the time or space irrespective of the input data set
+
+### O(N)
+
+The algorithms performance grows linearly and in direct proportion to the size of the input dataset (a foreach loop is a good example of a system with this O notation).
+
+### O(N^2)
+
+The algorithms complexity is in proportion to the square of the number of items in the dataset (a nested for loop is an example of this).
+
+### O2^N
+
+This means the algorithms complexity doubles for each entry added to the input dataset. This is an exponential growth curve as the higher the number the steaper the curve. An example of this is a recursive function with two possible outputs.
+
+### OLog(N)
+
+This is the complexity that describes binary search as it splits the data in halves down and checks a value against it. This is due to the iterative halving of datasets produces a growth curve that peaks at the beginning and slowly flattens out as the sive of the data increases. This means that while a data set containing 100 items may take 2 seconds, a dataset containing 1,000 items takes 3 seconds. Algorithms with this O notation are very good for dealing with larger datasets.
 
 ## Recursion
 
@@ -142,7 +165,7 @@ It is important in every web application as it has Schema definitions, config fi
 
 ### JSON
 
-
+This is a key value pairing with a string for the key, whereas the value can be any type.
 
 ## SQL
 
