@@ -61,31 +61,79 @@ Every value in the list being iterated through is squared.
 
 #### What is an anonymous method?
 
-
+As the name suggests, an anonymous method is a method without a name. Anonymous methods in C# can be defined using the delegate keyword and can be assigned to a variable of delegate type.
 
 #### What is Expression body syntax?
+
+Expression body definitions let you provide a member's implementation in a very concise, readable form. You can use an expression body definition whenever the logic for any supported member, such as a method or property, consists of a single expression. An expression body definition has the following general syntax:
+
+```csharp
+public override string ToString() => $"{fname} {lname}".Trim();
+```
 
 ### Entity Framework
 
 #### NorthwindContext had DbSet (of Customer objects) - what did it do?
 
+A DbSet represents the collection of all entities in the context, or that can be queried from the database, of a given type.
+
 #### What is LINQ?
+
+Language-Integrated Query (LINQ) is the name for a set of technologies based on the integration of query capabilities directly into the C# language.
 
 #### What are the advantages of using EF over raw SQL?
 
+* It gives developers the ability to write SQL "like" syntax within a C# or other .NET environment, but it has the same efficiency of executing SQL through the SQL libraries that already exist in .NET.
+* Entity Framework helps to reduce development time and development cost.
+* It provides auto-generated code and allows developers to visually design models and mapping of databases.
+* It allows easy mapping of Business Objects.
+* It helps to perform fast CRUD operations in .NET Applications.
+
 #### What is a connection string used for – what information does it contain?
+
+ The connection string contains the information that the provider need to know to be able to establish a connection to the database or the data file.
 
 #### In the context of Entity Framework, what does scaffolding mean?
 
+Frameworks are designed to simplify the programmer's work as much as possible, and in particular, reduce the amount of code they need to write. Although they are doing well, there are still situations where a certain amount of stereotypical code is necessary and there's no way the framework could change this.
+
 #### When a class is generated from a database, what does it contain?
+
+contains the model definition and mapping information
 
 #### What does the DbContext class contain?
 
+A DbContext instance represents a combination of the Unit Of Work and Repository patterns such that it can be used to query from a database and group together changes that will then be written back to the store as a unit. DbContext is conceptually similar to ObjectContext.
+
 #### How are 1 to many relationships represented in the code model?
+
+You can establish a one-to-many relationship by using any of the following code first conventions.
+
+```csharp
+public class Author
+{
+    public int AuthorId { get; set; }
+    public string Name { get; set; }
+}
+
+public class Book
+{
+    public int BookId { get; set; }
+    public string Title { get; set; }
+    public Author Author { get; set; }
+}
+```
 
 #### What is the using keyword used for?
 
+The using keyword has two major uses:
+
+* The using statement defines a scope at the end of which an object will be disposed.
+* The using directive creates an alias for a namespace or imports types defined in other namespaces.
+
 #### What is meant by a partial class and why is it useful?
+
+
 
 #### What do we mean by the term model first approach to EF?
 
@@ -164,7 +212,6 @@ Every value in the list being iterated through is squared.
 #### Why is Exception handling normally the outermost layer of the pipeline?
 
 #### Which comes first in the request pipeline - Authorisation or Authentication?
-
 
 
 
