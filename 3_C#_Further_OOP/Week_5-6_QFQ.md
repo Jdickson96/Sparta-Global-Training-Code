@@ -2,25 +2,66 @@
 
 ### Serialisation
 
-#### What is serialisation?
+#### What is Serialisation?
 
 Serialization is the process of converting an object into a stream of bytes to store the object or transmit it to memory, a database, or a file. Its main purpose is to save the state of an object in order to be able to recreate it when needed.
 
 #### What are the advantages and disadvantages of using binary object serialisation? JSON Serialisation? / XML Serialisation?
 
+**Binary Object Serialisation**
+Advantages:
+* Preserves type fidelity
+* Stores all detail
 
+Disadvantages:
+* Dangerous as deserializing the data is never safe when used with an untrusted input
+
+**JSON (JavaScript Object Notation) Serialisation**
+Advantages:
+* Open Standard
+* Popular for sharing data over the web
+
+Disadvantages:
+* Only serialises public properties
+* Does not preserve type fidelity
+
+**XML (Extensible Markup Language) Serialisation**
+Advantages:
+* Open standard so popular for sharing data over the web
+* Only public properties and fields
+
+Disadvantages:
+* Does not preserve type fidelity
 
 ### LINQ and Lambda
 
 #### LINQ uses two syntaxes - Name and describe them
 
+The two syntaxes are Method and Query Syntax:
+
+**Method Syntax**
+
+ Method syntax uses extension methods included in the Enumerable or Queryable static classes and comprises of extension methods and Lambda expression.
+
+**Query Syntax**
+
+Query syntax starts with from keyword and ends with select keyword, it looks like SQL.
+
 #### When is a LINQ query executed?
+
+A LINQ Query is executed when the data is iterated over.
 
 #### What is a Lambda expression?  Why is it used in LINQ queries?
 
+Lambda expressions are anonymous functions that contain expressions or sequence of operators. All lambda expressions use the lambda operator =>, that can be read as “goes to” or “becomes”. The left side of the lambda operator specifies the input parameters and the right side holds an expression or a code block that works with the entry parameters. Usually lambda expressions are used as predicates or instead of delegates (a type that references a method).
+
 #### What does x => x * x mean?
 
+Every value in the list being iterated through is squared.
+
 #### What is an anonymous method?
+
+
 
 #### What is Expression body syntax?
 
@@ -123,6 +164,11 @@ Serialization is the process of converting an object into a stream of bytes to s
 #### Why is Exception handling normally the outermost layer of the pipeline?
 
 #### Which comes first in the request pipeline - Authorisation or Authentication?
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Test Doubles using Fakes and Moq
 
