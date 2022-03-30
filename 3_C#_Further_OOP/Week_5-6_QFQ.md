@@ -248,23 +248,24 @@ REST stands for Representational State Transfer
 
 #### Give some examples of header elements that can be used to control caching?
  
-Request	| Response
-max-age |	max-age
-max-stale |	-
-min-fresh |	-
-- |	s-maxage
-no-cache |	no-cache
-no-store |	no-store
-no-transform |	no-transform
-only-if-cached |	-
-- |	must-revalidate
-- |	proxy-revalidate
-- |	must-understand
--	| private
--	| public
--	| immutable
--	| stale-while-revalidate
-stale-if-error |	stale-if-error
+| Request	| Response |
+----------------------
+| max-age |	max-age |
+| max-stale |	- |
+| min-fresh |	- |
+| - |	s-maxage |
+| no-cache |	no-cache |
+| no-store |	no-store |
+| no-transform |	no-transform |
+| only-if-cached |	- |
+| - |	must-revalidate |
+| - |	proxy-revalidate |
+| - |	must-understand |
+| -	| private |
+| -	| public |
+| -	| immutable |
+| -	| stale-while-revalidate |
+| stale-if-error |	stale-if-error |
 
 ### API Development with ASP.NET
 
