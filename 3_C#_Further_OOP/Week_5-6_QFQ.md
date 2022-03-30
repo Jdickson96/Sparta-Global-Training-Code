@@ -170,12 +170,22 @@ Eager loading refers to objects returned from a query with the related collectio
 
 #### Why do we need to use asynchronous methods?
 
+Asynchronous programming is a form of parallel programming that allows a unit of work to run separately from the primary application thread. When the work is complete, it notifies the main thread (as well as whether the work was completed or failed). 
+
 #### What keywords should an asynchronous method use (and where?)
+
+* Async code uses Task<T> and Task, which are constructs used to model work being done in the background.
+* The async keyword turns a method into an async method, which allows you to use the await keyword in its body.
+* When the await keyword is applied, it suspends the calling method and yields control back to its caller until the awaited task is complete.
+await can only be used inside an async method.
 
 #### What return types are allowed for asynchronous methods?
 
+  Task, Task, and void
+ 
 #### What effect does the await keyword have?
 
+ 
 #### What is the naming convention for asynchronous methods?
 
 ### APIs
