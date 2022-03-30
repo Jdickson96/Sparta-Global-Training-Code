@@ -9,6 +9,7 @@ Serialization is the process of converting an object into a stream of bytes to s
 #### What are the advantages and disadvantages of using binary object serialisation? JSON Serialisation? / XML Serialisation?
 
 **Binary Object Serialisation**
+
 Advantages:
 * Preserves type fidelity
 * Stores all detail
@@ -17,6 +18,7 @@ Disadvantages:
 * Dangerous as deserializing the data is never safe when used with an untrusted input
 
 **JSON (JavaScript Object Notation) Serialisation**
+
 Advantages:
 * Open Standard
 * Popular for sharing data over the web
@@ -26,6 +28,7 @@ Disadvantages:
 * Does not preserve type fidelity
 
 **XML (Extensible Markup Language) Serialisation**
+
 Advantages:
 * Open standard so popular for sharing data over the web
 * Only public properties and fields
