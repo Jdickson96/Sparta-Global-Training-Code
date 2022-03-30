@@ -133,21 +133,38 @@ The using keyword has two major uses:
 
 #### What is meant by a partial class and why is it useful?
 
+you can split the implementation of a class, a struct, a method, or an interface in multiple .cs files using the partial keyword. The compiler will combine all the implementation from multiple .cs files when the program is compiled.
+There are several situations when splitting a class definition is desirable:
 
+* When working on large projects, spreading a class over separate files enables multiple programmers to work on it at the same time.
+* When working with automatically generated source, code can be added to the class without having to recreate the source file. Visual Studio uses this approach when it creates Windows Forms, Web service wrapper code, and so on. You can create code that uses these classes without having to modify the file created by Visual Studio.
+* When using source generators to generate additional functionality in a class.
 
 #### What do we mean by the term model first approach to EF?
 
+In the Model-First approach, you create the entities, relationships, and inheritance hierarchies directly on the design surface and then generate the database from your model.
+
 #### What are EF Migrations?
+
+Migration is a way to keep the database schema in sync with the EF Core model by preserving data.
 
 #### Using EF, how do you update an object’s data in the database?
 
 #### When loading an object from the database, why aren’t all its associated objects loaded by default?
 
+Lazy loading refers to objects are returned from a query without the related objects loaded at first. When the given collection or reference is first accessed on a particular object, an additional SELECT statement is emitted such that the requested collection is loaded.
+
 #### What is the difference between the OO and Relational Approach?
+
+An object-oriented database is a database that represents information in the form of objects as used in object-oriented Programming. An object-relational database, on the other hand, is a database that depends on the relational model and the object-oriented database model. Thus, this is the main difference between object oriented database and object relational database.
 
 #### How do you load associated objects in a query?
 
+Entity Framework supports three ways to load related data - eager loading, lazy loading and explicit loading. 
+
 #### Why isn’t eager loading enabled by default?
+
+Eager loading refers to objects returned from a query with the related collection or scalar reference already loaded up front. The Query achieves this either by augmenting the SELECT statement it would normally emit with a JOIN to load in related rows simultaneously, or by emitting additional SELECT statements after the primary one to load collections or scalar references at once.
 
 ### Asynchronous Programming
 
@@ -165,7 +182,16 @@ The using keyword has two major uses:
 
 #### What does API stand for?
 
+* Application
+* Programming
+* Interface
+
 #### What are the HTTP verbs and what are their CRUD equivalents?
+
+* POST      - Create
+* GET       - Read
+* PUT/PATCH - Update
+* DELETE    - Delete
 
 #### What is the structure of an HTTP request?  An HTTP response?
 
