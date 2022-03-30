@@ -180,7 +180,7 @@ Asynchronous programming is a form of parallel programming that allows a unit of
 * Async code uses Task<T> and Task, which are constructs used to model work being done in the background.
 * The async keyword turns a method into an async method, which allows you to use the await keyword in its body.
 * When the await keyword is applied, it suspends the calling method and yields control back to its caller until the awaited task is complete.
-await can only be used inside an async method.
+* await can only be used inside an async method.
 
 #### What return types are allowed for asynchronous methods?
 
@@ -269,6 +269,16 @@ REST stands for Representational State Transfer
 | -	| immutable |
 | -	| stale-while-revalidate |
 | stale-if-error |	stale-if-error |
+ 
+ #### What is the naming convention for rest APIs?
+ 
+ * Use Nouns for naming URLs
+ * Use intuitive, clear, unabridged names
+ * Use forward slashes to denote URI hierarchy
+ * Separate words with hyphens
+ * Use lowercase letters
+ * Avoid special characters
+ * Avoid file extensions
 
 ### API Development with ASP.NET
 
