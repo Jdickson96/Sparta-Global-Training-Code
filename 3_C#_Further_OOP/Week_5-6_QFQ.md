@@ -292,18 +292,18 @@ REST stands for Representational State Transfer
 #### What are the 3 classes of Service Lifetimes?  What do they mean?
  
  * Transient
-  * New service object constructed each time its requested from the container
-  * Thread safe - no interference from other processes
-  * Need to keep constructing and garbage collecting new objects
-  * register with `AddTransient()`
+   * New service object constructed each time its requested from the container
+   * Thread safe - no interference from other processes
+   * Need to keep constructing and garbage collecting new objects
+   * register with `AddTransient()`
  * Singleton
-  * Created once and persists for lifetime of application (memory expensive)
-  * Only suitable for constant objects or where state is shared by the entire application
-  * Register with `AddSingleton()`
+   * Created once and persists for lifetime of application (memory expensive)
+   * Only suitable for constant objects or where state is shared by the entire application
+   * Register with `AddSingleton()`
  * Scoped
-  * Created once per HTTP request
-  * Default scope for `AddDbContext()` - Each request gets its own `DbContext` object, it's used for all database access and is released when the request finishes
-  * Register with `AddScoped()`
+   * Created once per HTTP request
+   * Default scope for `AddDbContext()` - Each request gets its own `DbContext` object, it's used for all database access and is released when the request finishes
+   * Register with `AddScoped()`
  
 #### What are the advantages/disadvantages of adding a service to the DI container with Singleton lifetime?
 
