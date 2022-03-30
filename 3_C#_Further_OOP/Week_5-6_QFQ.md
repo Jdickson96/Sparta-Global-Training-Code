@@ -272,19 +272,45 @@ REST stands for Representational State Transfer
 #### What do we mean by scaffolding a Controller?  What files are added to the project?
 
 #### What does ASP stand for and how long has it been around?  What makes it active?
+ 
+ Active Server Pages has been around since December 1996 and is active as pages are actively created using data held by the server
 
 #### How does the structure of an ASP.NET application relate to MVC?
 
+ The Data access layer is the model, the webpage is the view and the controller converts the inputs and outputs from data access layer to view and visa versa.
+ 
 #### What actions happen on startup of an ASP.NET application?
 
+ * Create a builder
+ * Add services
+ * Set up a middleware pipeline
+ 
 #### What are the responsibilities of a Dependency injection container?
 
+ The container constructs and returns service objects when required and manages their scope
+ 
 #### What are the 3 classes of Service Lifetimes?  What do they mean?
-
+ 
+ * Transient
+  * New service object constructed each time its requested from the container
+  * Thread safe - no interference from other processes
+  * Need to keep constructing and garbage collecting new objects
+  * register with `AddTransient()`
+ * Singleton
+  * Created once and persists for lifetime of application (memory expensive)
+  * Only suitable for constant objects or where state is shared by the entire application
+  * Register with `AddSingleton()`
+ * Scoped
+  * Created once per HTTP request
+  * Default scope for `AddDbContext()` - Each request gets its own `DbContext` object, it's used for all database access and is released when the request finishes
+  * Register with `AddScoped()`
+ 
 #### What are the advantages/disadvantages of adding a service to the DI container with Singleton lifetime?
 
 #### What happens in the request pipeline?
 
+ The Request Pipeline is the mechanism by which requests are processed beginning with a Request and ending with a Response.
+ 
 #### Name some components of the request pipeline
 
 #### Why is Exception handling normally the outermost layer of the pipeline?
