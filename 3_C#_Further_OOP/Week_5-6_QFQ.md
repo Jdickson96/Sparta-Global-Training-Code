@@ -185,9 +185,12 @@ await can only be used inside an async method.
  
 #### What effect does the await keyword have?
 
+The await operator suspends evaluation of the enclosing async method until the asynchronous operation represented by its operand completes. When the asynchronous operation completes, the await operator returns the result of the operation, if any.
  
 #### What is the naming convention for asynchronous methods?
 
+ The name of an async method, by convention, ends with an "Async" suffix.
+ 
 ### APIs
 
 #### What does API stand for?
@@ -205,25 +208,63 @@ await can only be used inside an async method.
 
 #### What is the structure of an HTTP request?  An HTTP response?
 
+HTTP request consists of 4 fundamental elements: A request line, zero or more header (General|Request|Entity) fields followed by CRLF, and a space preceding the CRLF (indicating the end of the header fields) and optionally a message body.
+ 
+ HTTP response status codes indicate whether a specific HTTP request has been successfully completed.
+ 
 #### What are the categories of HTTP response status code?
+ 
+* Informational responses (100–199)
+* Successful responses (200–299)
+* Redirection messages (300–399)
+* Client error responses (400–499)
+* Server error responses (500–599)
 
 #### What does REST stand for in the context of RESTful APIs?
 
+REST stands for Representational State Transfer
+
 #### What are the characteristics of a REST API?
+ 
+ 1. It is stateless
+ 2. It supports JSON and XML
+ 3. It is simple than SOAP
+ 4. Documentation
+ 5. Error messages
 
 #### For the endpoint myapi.com/api/customers what would you expect a GET request to do?  A POST request?  PUT? DELETE?
 
+ 
+ 
 #### What does REST stand for?
 
+ REST stands for Representational State Transfer
+ 
 #### What do we mean by caching?
-
-#### What is the structure of an HTTP Request?
-
-#### What is the structure of an HTTP Response?
+ 
+ A cache is a temporary storage area. For example, the files you automatically request by looking at a Web page are stored on your hard disk in a cache subdirectory under the directory for your browser. 
 
 #### What should the RESTful endpoint myresource.io/Employees/6/Order/2 GET?
 
 #### Give some examples of header elements that can be used to control caching?
+ 
+Request	| Response
+max-age |	max-age
+max-stale |	-
+min-fresh |	-
+- |	s-maxage
+no-cache |	no-cache
+no-store |	no-store
+no-transform |	no-transform
+only-if-cached |	-
+- |	must-revalidate
+- |	proxy-revalidate
+- |	must-understand
+-	| private
+-	| public
+-	| immutable
+-	| stale-while-revalidate
+stale-if-error |	stale-if-error
 
 ### API Development with ASP.NET
 
