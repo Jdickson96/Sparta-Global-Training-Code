@@ -249,7 +249,7 @@ REST stands for Representational State Transfer
 #### Give some examples of header elements that can be used to control caching?
  
 | Request	| Response |
-----------------------
+|---------|----------|
 | max-age |	max-age |
 | max-stale |	- |
 | min-fresh |	- |
