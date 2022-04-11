@@ -65,7 +65,7 @@ Even the simplest HTML document may have three or more style sheets associated w
 |`[attribute]`	      |   `[target]`              |	Selects all elements with a target attribute|
 |`[attribute=value]`	|   `[target=_blank]`       | Selects all elements with target="_blank"|
 |`[attribute~=value]`|	  `[title~=flower]`       |	Selects all elements with a title attribute containing the word "flower"|
-|`[attribute|=value]`|	  `[lang|=en]`            |	Selects all elements with a lang attribute value equal to "en" or starting with "en-"|
+|`[attribute/=value]`|	  `[lang/=en]`            |	Selects all elements with a lang attribute value equal to "en" or starting with "en-"|
 |`[attribute^=value]`|	  `a[href^="https"]`      |	Selects every `<a>` element whose href attribute value begins with "https"|
 |`[attribute$=value]`|	  `a[href$=".pdf"]`       |	Selects every `<a>` element whose href attribute value ends with ".pdf"|
 |`[attribute*=value]`|	  `a[href*="w3schools"]`  |	Selects every `<a>` element whose href attribute value contains the substring "w3schools"|
@@ -92,7 +92,7 @@ Even the simplest HTML document may have three or more style sheets associated w
 |`:last-of-type`	    |   `p:last-of-type`        |	Selects every `<p>` element that is the last `<p>` element of its parent|
 |`:link`	            |   `a:link`                |	Selects all unvisited links|
 |'::marker`	        |   `::marker`              |	Selects the markers of list items|
-|`:not(selector)`	  |   `:not(p)`               | Selects every element that is not a <p> element|
+|`:not(selector)`	  |   `:not(p)`               | Selects every element that is not a `<p>` element|
 |`:nth-child(n)`     |   `p:nth-child(2)`        |	Selects every `<p>` element that is the second child of its parent|
 |`:nth-last-child(n)`|	  `p:nth-last-child(2)`   |	Selects every `<p>` element that is the second child of its parent, counting from the last child|
 |`:nth-last-of-type(n)`|	`p:nth-last-of-type(2)` |	Selects every `<p>` element that is the second `<p>` element of its parent, counting from the last child|
