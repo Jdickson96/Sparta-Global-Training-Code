@@ -163,36 +163,78 @@ Open up the browsers console and check in there
  
 ### Where is the best place to put your javascript and why?
 
+In HTML, JavaScript code is inserted between <script> and </script> tags.
+ 
 ### What is the difference between a javascript and a c# class declaration?
+ 
+Javascript functions are declared with the keyword function before the function name. C# Method declarations just use the return type, and the method name. The return type is often "void" for common Unity events. Javascript functions are public by default, and you can specify them as private if required.
 
 ### What is the DOM?
 
+ When a web page is loaded, the browser creates a Document Object Model of the page. The HTML DOM model is constructed as a tree of Objects:
+ 
 ### What is Bootstrap?
 
+Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first websites.
+ 
 ### What is JQuery?
 
+jQuery is a fast, small, and feature-rich JavaScript library.
+ 
 ### How can DOM elements be accessed?
 
+The easiest way to find an HTML element in the DOM, is by using the element id. 
+> This example finds the element with id="intro":
+> Example
+> const element = document.getElementById("intro");
+ 
 ## ASP.NET Razor Pages
 
 ### What do ASP.NET API and ASP.NET Razor pages apps have in common?  What are the differences?
 
+ASP.NET Web API is a framework for building HTTP services that can be accessed from any client including browsers and mobile devices. 
+ 
+Razor Pages is a newer, simplified web application programming model. It removes much of the ceremony of ASP.NET MVC by adopting a file-based routing approach. Each Razor Pages file found under the Pages directory equates to an endpoint. Razor Pages have an associated C# objected called the page model, which holds each page's behavior. Additionally, each page works on the limited semantics of HTML, only supporting GET and POST methods.
+ 
 ### Where does dependency injection take place in a Razor Pages application?  Where is the database context registered with the Dependency Injection container?
 
+You can do constructor injection in your page model class. Dependency injection is also possible in the pages by using the `inject` directive. The database context is registered with the Dependency Injection container in Program.cs. It uses the Builder.Services
+ 
+ ```csharp
+ builder.Services.AddDbContext<RazorPagesMovieContext>(options => 
+       options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesMovieContext")));
+ ```
+ 
 ### What are the advantages/disadvantages of adding a service to the DI container with Singleton lifetime?
 
+Singletons are created only once and not destroyed until the end of the Application. Any memory leaks in these services will build up over time. Hence watch out for the memory leaks. Singletons are also memory efficient as they are created once reused everywhere.
+
+Use Singletons where you need to maintain application wide state. Application configuration or parameters, Logging Service, caching of data is some of the examples where you can use singletons.
+ 
 ### What other lifetimes are available?  What is the default lifetime for a database context class?
 
+Transient, Scoped and Singleton. With the default life time for DbContext is scoped.
+ 
 ### What is in the Web folder of an ASP.NET application?
 
+As the name suggests, the App_WebReference folder contain references to any web services. If we added any web services with our web application, they go automatically into the App_WebReference folder, in the same way as in windows applications, if we added any DLLs, they would go under the Reference folder.
+ 
 ### What actions happen on startup of an ASP.NET application?
 
+The Startup class is the entry point to the application, setting up configuration and wiring up services the application will use. Developers configure a request pipeline in the Startup class that is used to handle all requests made to the application.
+ 
 ### Where does data validation take place in Web application?
+ 
+ Data validation is the process of ensuring your web application operates on clean, correct and useful data. The more data you can validate in the browser as the site visitor enters it, the better the chance you have of receiving valid data in the first place.
 
 ### What happens to data validation if javascript is disabled on the client browser?
 
+The Server side should still validate the data. 
+ 
 ### How are the default web pages structured?
 
+They are named _index
+ 
 ### How are requests routed to the correct page and method?
 
 ### How and why do the PageModel classes use asychronous methods?
