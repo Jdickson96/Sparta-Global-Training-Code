@@ -237,34 +237,64 @@ They are named _index
  
 ### How are requests routed to the correct page and method?
 
+Routing is the system that matches URLs to Razor pages. Like most page-centric frameworks, the primary routing system in ASP.NET Razor Pages is based on matching URLs to file paths, starting from the root Razor Pages folder, which is named Pages by default.
+ 
 ### How and why do the PageModel classes use asychronous methods?
 
+If you’re building web applications with ASP.NET Core you’re likely to be looking for ways to make them performant as they scale. Using the asynchronous features of C#, ASP.NET Core, and Entity Framework Core is a good way to do this. Making hot code paths asynchronous is one of Microsoft’s ASP.NET Core Performance Best Practices. A hot code path is one that is “...frequently called and where much of the execution time occurs.”
+ 
+1) Razor Pages controller actions – the entire call stack is asynchronous, so you can benefit from that by making your controller actions asynchronous.
+2) Data access actions – Entity Framework Core includes asynchronous features to improve the performance of code that relies on calls to a persistent data store.
+ 
 ### Why would we want to seed the database?
 
+Database seeding is a simple way to add data into your database. It is especially useful during development where you need to populate the database with sample data that you can develop against, but it is not limited to that. 
+ 
 ## More about Web Frameworks
 
 ### What do Razor Pages, MVC and API applications have in common? 
 
+ 
+ 
 ### What is model binding?
 
+Model Binding in Razor Pages is the process that takes values from HTTP requests and maps them to handler method parameters or PageModel properties. Model binding reduces the need for the developer to manually extract values from the request and then assign them, one by one, to variables or properties for later processing.
+ 
 ### What is the difference between Razor Pages and MVC Web applications?
 
 ### What is Razor markup?
 
+Razor is a markup syntax that lets you embed server-based code (Visual Basic and C#) into web pages.
+ 
 ### Where/when is the C# code in a Razor page executed?
+ 
+This is done server side
 
 ### Where/when is the Javascript code in a Razor page executed?
 
+This is done client side
+ 
 ### How is C# code indicated in Razor pages?
 
 ## Authorisation and Authentication
 
 ### What is the difference between Authorisation and Authentication?
+ 
+Authentication is figuring out who the user is, Authorisation is seeing what they have the right to do.
 
 ### Where do they sit in the Request pipeline and why?
 
-### What are Roles?
+ They are at the end of the pipeline before it moves back down through its self for the returned response.
 
+ ### What are Roles?
+
+ 
+ 
 ### Can a User have more than one Role?
 
+ Yes
+ 
 ### Can an anonymous user have a role?
+
+ yes
+ 
