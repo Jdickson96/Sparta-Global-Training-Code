@@ -254,14 +254,22 @@ Database seeding is a simple way to add data into your database. It is especiall
 
 ### What do Razor Pages, MVC and API applications have in common? 
 
+ Razor Pages follows a much more compact programming model than MVC does. In Razor Pages, each request gets routed directly to a page. This routing paradigm is different in MVC, where requests get routed to a controller who generates a model for a view to data bind.
  
+Just like MVC, Razor Pages uses Razor as it’s templating engine. Razor is shared by several .NET Core web application frameworks and focuses solely on generating HTML markup and rendering data objects.
+ 
+Unlike MVC, which breaks into three separate components, a Razor page is made up of two pieces, a Razor markup file and a C# code file. The Razor markup looks similar to an MVC view; however, there is a unique @page directive placed at the top of the file to give it the features of a Razor Page.
  
 ### What is model binding?
 
 Model Binding in Razor Pages is the process that takes values from HTTP requests and maps them to handler method parameters or PageModel properties. Model binding reduces the need for the developer to manually extract values from the request and then assign them, one by one, to variables or properties for later processing.
  
+One key difference between Razor Pages and MVC is how data gets bound to the Razor markup. With Razor Pages, the page model not only handles requests, but it is also bound directly to the page markup. You can almost think of it like a model and controller combined. Properties exposed in the page model can be accessed directly in the page markup using the @Model syntax.
+ 
 ### What is the difference between Razor Pages and MVC Web applications?
 
+ The key difference between Razor Pages implementation of the MVC pattern and ASP.NET Core MVC is that Razor Pages uses the Page Controller pattern instead of the Front Controller pattern.
+ 
 ### What is Razor markup?
 
 Razor is a markup syntax that lets you embed server-based code (Visual Basic and C#) into web pages.
@@ -275,6 +283,8 @@ This is done server side
 This is done client side
  
 ### How is C# code indicated in Razor pages?
+ 
+ C# files have the extension .cshtml
 
 ## Authorisation and Authentication
 
