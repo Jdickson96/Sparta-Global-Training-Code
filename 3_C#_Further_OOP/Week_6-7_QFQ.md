@@ -113,22 +113,54 @@ Even the simplest HTML document may have three or more style sheets associated w
   
 ### What is the difference between an id and a class?
 
+The difference between an ID and a class is that an ID is only used to identify one single element in our HTML. IDs are only used when one element on the page should have a particular style applied to it. However, a class can be used to identify more than one HTML element.
+ 
 ### What is the prefix for an id?  
 
+They have a pound sign before them 
+ 
 ### A Class?
 
+They have a period before them
+ 
 ### What is the CSS box model?
 
+The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model:
+ 
 ### Why are inline styles not a good idea?
 
+ Inline styles, while they have a purpose, generally are not the best way to maintain your website. They go against every one of the best practices:
+
+* Inline styles don't separate content from design: Inline styles are exactly the same as embedded font and other clunky design tags that modern developers rail against. The styles affect only the particular, individual elements to which they're applied; while that approach might give you more granular control, it also makes other aspects of design and development—such as consistency—more difficult.
+
+* Inline styles cause maintenance headaches: When you're working with stylesheets, figuring out where a style is being set can be difficult. When you're dealing with a mixture of inline, embedded and external styles, you have many locations to check. If you work on a web design team or have to redesign or maintain a site built by someone else, then you're going to have even more trouble. Once you find the style and change it, you'll have to do so on every element on every page where it's been placed. That increases time and work budgets astronomically.
+
+* Inline styles are not as accessible: While a modern screen reader or another assistive device may be able to handle inline attributes and tags effectively, some older devices can't, which can result in some strangely displayed web pages. Extra characters and text can affect how your page is viewed by a search engine robot, too, so your page doesn't do as well in terms of search engine optimization.
+
+* Inline styles make your pages bigger: If you'd like every paragraph on your site to appear a certain way, you can do it once with six lines or so of code in an external stylesheet. If you do it with inline styles, however, you have to add those styles to every paragraph of your site. If you have five lines of CSS, that's five lines multiplied by every paragraph on your site. That bandwidth and load time can add up in a hurry.
+ 
 ## Javascript
 
 ### Is Javascript statically or dynamically typed?  What does that mean?
 
+Javascript is dynamically typed, so the interpreter assigns variables a type at runtime based on the variable's value at the time.
+ 
 ### How do you tell if you have made a javascript error?
 
+Open up the browsers console and check in there
+ 
 ### What are some examples of events that javascript can respond to?
 
+
+| Event|	Description|
+ |-------------|-------------|
+|onchange	|An HTML element has been changed|
+|onclick	|The user clicks an HTML element|
+|onmouseover|	The user moves the mouse over an HTML element|
+|onmouseout	|The user moves the mouse away from an HTML element|
+|onkeydown	|The user pushes a keyboard key|
+|onload	|The browser has finished loading the page|
+ 
 ### Where is the best place to put your javascript and why?
 
 ### What is the difference between a javascript and a c# class declaration?
