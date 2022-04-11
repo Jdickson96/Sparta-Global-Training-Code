@@ -26,13 +26,13 @@
 * Reverse Links
 * Zero Width Images 
 
-### What is the difference between the '<head>' and '<header>' tags?
+### What is the difference between the `<head>` and `<header>` tags?
   
 The head tag is used for holding Meta information, title, links, etc. and is not displayed on the page. The header tag is used within the body of the website and can be used multiple times if required, e.g. to determine the top of an article.
 
-### What is a '<nav>' element?
+### What is a `<nav>` element?
   
-The '<nav>' tag defines a set of navigation links.
+The `<nav>` tag defines a set of navigation links.
   
 ### What does CSS stand for?
   
