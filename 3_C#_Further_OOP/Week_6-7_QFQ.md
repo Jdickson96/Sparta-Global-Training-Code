@@ -91,7 +91,7 @@ Even the simplest HTML document may have three or more style sheets associated w
 |`:last-child`	      |   `p:last-child`          |	Selects every `<p>` element that is the last child of its parent|
 |`:last-of-type`	    |   `p:last-of-type`        |	Selects every `<p>` element that is the last `<p>` element of its parent|
 |`:link`	            |   `a:link`                |	Selects all unvisited links|
-|'::marker`	        |   `::marker`              |	Selects the markers of list items|
+|`::marker`	        |   `::marker`              |	Selects the markers of list items|
 |`:not(selector)`	  |   `:not(p)`               | Selects every element that is not a `<p>` element|
 |`:nth-child(n)`     |   `p:nth-child(2)`        |	Selects every `<p>` element that is the second child of its parent|
 |`:nth-last-child(n)`|	  `p:nth-last-child(2)`   |	Selects every `<p>` element that is the second child of its parent, counting from the last child|
